@@ -1,6 +1,6 @@
 {
-"label":"S.Overlays y Shader ON-OFF",
+"label":"Home Consoles Overlays/Shader ON-OFF",
 "icon":"Sobremesas.png",
 "launch":"launch.sh",
-"description":"ON-OFF de Shader y Overlays para Sobremesas"
+"description":"ON-OFF Overlays/Shader for Home Consoles"
 }

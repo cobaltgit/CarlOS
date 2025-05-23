@@ -1,6 +1,6 @@
 {
-"label":"Añadir juegos a los gamelist.xml",
+"label":"Add games to gamelist.xml",
 "icon":"gamelist.png",
 "launch":"launch.sh",
-"description":"Añade juegos nuevos para poder verlos en los listados"
+"description":"Add new games onto gamelist.xml"
 }

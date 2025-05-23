@@ -1,0 +1,6 @@
+{
+"label":"Gamelist Repair/Compatibility",
+"icon":"gamelist.png",
+"launch":"launch.sh",
+"description":"Gamelist Repair: './' on <path> and codification headers"
+}

@@ -1,6 +1,6 @@
 {
-"label":"P.Overlays y Shader ON-OFF",
+"label":"Handhels Overlays/Shader ON-OFF",
 "icon":"Portatiles.png",
 "launch":"launch.sh",
-"description":"ON-OFF de Shader y Overlays para Portatiles"
+"description":"ON-OFF Overlays/Shader for all Handhels consoles"
 }

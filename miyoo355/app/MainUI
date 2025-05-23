@@ -7,7 +7,10 @@ export PATH="/mnt/SDCARD/miyoo355/bin:/usr/miyoo/bin:/usr/bin:/usr/sbin"
 export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:/usr/miyoo/lib:/usr/lib"
 export USER=root
 
+if [ ! -f /tmp/profilemount ]; then
 mount -o bind /mnt/SDCARD/miyoo355/app/profile /etc/profile
+touch /tmp/profilemount
+fi
 
 #set cores
 #enable core 1, disable 0.
@@ -17,12 +20,15 @@ echo 1 > /sys/devices/system/cpu/cpu3/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 
 # check swap size
+if [ ! -f "/tmp/swapck" ]; then
 if [ -f "${SWAPFILE}" ]; then
 SWAPSIZE=$(ls -l "${SWAPFILE}" | awk '{print $5}')
 MINSIZE=$((512 * 1024 * 1024))
 
 if [ "$SWAPSIZE" -ne "$MINSIZE" ]; then
 	rm "${SWAPFILE}"
+fi
+touch /tmp/swapck
 fi
 fi
 
@@ -40,6 +46,7 @@ if [ ! -f "/tmp/swapfileon" ]; then
 	sync
 fi
 
+if [ ! -f "/tmp/timezone" ]; then
 if [ ! -f "/data/timezone" ]; then
 	touch /data/timezone
 fi
@@ -48,6 +55,8 @@ tz_value=$(grep '"timezone"' /mnt/SDCARD/system.json | sed -E 's/.*"timezone"[[:
 
 if [ -f "/data/timezone" ]; then
     echo "$tz_value" > /data/timezone
+	touch /tmp/timezone
+fi
 fi
 
 runifnecessary(){

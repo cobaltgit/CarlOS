@@ -1,0 +1,314 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (vm_version_linux_aarch64.cpp:168), pid=1854, tid=1855
+#  guarantee(cpu_lines == os::processor_count()) failed: core count should be consistent
+#
+# JRE version:  (11.0.11+9) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.11+9-LTS, mixed mode, sharing, tiered, compressed oops, serial gc, linux-aarch64)
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: 
+
+Host: AArch64, 4 cores, 956M, Buildroot 2021.11
+Time: Sat Nov 23 14:29:38 2024 UTC elapsed time: 0.006564 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000007f94014800):  JavaThread "Unknown thread" [_thread_in_vm, id=1855, stack(0x0000007f9ba70000,0x0000007f9bc70000)]
+
+Stack: [0x0000007f9ba70000,0x0000007f9bc70000],  sp=0x0000007f9bc6d660,  free space=2037k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xc34344]  VMError::report_and_die(int, char const*, char const*, std::__va_list, Thread*, unsigned char*, void*, void*, char const*, int, unsigned long)+0x1dc
+V  [libjvm.so+0xc34fec]  VMError::report_and_die(Thread*, void*, char const*, int, char const*, char const*, std::__va_list)+0x50
+V  [libjvm.so+0x5091e0]  report_vm_error(char const*, int, char const*, char const*, ...)+0x100
+V  [libjvm.so+0xc40dd4]  VM_Version::get_os_cpu_info()+0x164
+V  [libjvm.so+0xc3fab8]  VM_Version::initialize()+0x74
+V  [libjvm.so+0xc3f960]  VM_Version_init()+0x38
+V  [libjvm.so+0x68c1bc]  init_globals()+0x4c
+V  [libjvm.so+0xbd1f6c]  Threads::create_vm(JavaVMInitArgs*, bool*)+0x354
+V  [libjvm.so+0x731644]  JNI_CreateJavaVM+0x80
+C  [libjli.so+0x4a5c]  JavaMain+0x90
+C  [libc.so.6+0x70958]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00000055905ea6a0, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000007f94014800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1855, stack(0x0000007f9ba70000,0x0000007f9bc70000)]
+
+Threads with active compile tasks:
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+
+[error occurred during error reporting (printing compressed oops mode), id 0xb, SIGSEGV (0xb) at pc=0x0000007f9c8f975c]
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (2 events):
+Event: 0.004 Protecting memory [0x0000007f9ba70000,0x0000007f9ba74000] with protection modes 0
+Event: 0.004 Loaded shared library /mnt/sdcard/Emu/JAVA/jdk/lib/libzip.so
+
+
+Dynamic libraries:
+557a110000-557a112000 r-xp 00000000 b3:01 562                            /mnt/sdcard/Emu/JAVA/jdk/bin/java
+557a121000-557a122000 r--p 00001000 b3:01 562                            /mnt/sdcard/Emu/JAVA/jdk/bin/java
+557a122000-557a123000 rw-p 00002000 b3:01 562                            /mnt/sdcard/Emu/JAVA/jdk/bin/java
+55905e6000-5590607000 rw-p 00000000 00:00 0                              [heap]
+7f7c5e0000-7f7c850000 rwxp 00000000 00:00 0 
+7f7c850000-7f7cb6f000 ---p 00000000 00:00 0 
+7f7cb6f000-7f7cddf000 rwxp 00000000 00:00 0 
+7f7cddf000-7f840a7000 ---p 00000000 00:00 0 
+7f840a7000-7f84317000 rwxp 00000000 00:00 0 
+7f84317000-7f8b5e0000 ---p 00000000 00:00 0 
+7f8b5e0000-7f94000000 r--s 00000000 b3:01 570                            /mnt/sdcard/Emu/JAVA/jdk/lib/modules
+7f94000000-7f94049000 rw-p 00000000 00:00 0 
+7f94049000-7f98000000 ---p 00000000 00:00 0 
+7f9b408000-7f9b7bf000 rw-p 00000000 00:00 0 
+7f9b7bf000-7f9b8a5000 ---p 00000000 00:00 0 
+7f9b8a5000-7f9b8aa000 rw-p 00000000 00:00 0 
+7f9b8aa000-7f9b990000 ---p 00000000 00:00 0 
+7f9b990000-7f9b997000 r-xp 00000000 b3:01 573                            /mnt/sdcard/Emu/JAVA/jdk/lib/libzip.so
+7f9b997000-7f9b9a6000 ---p 00007000 b3:01 573                            /mnt/sdcard/Emu/JAVA/jdk/lib/libzip.so
+7f9b9a6000-7f9b9a7000 r--p 00006000 b3:01 573                            /mnt/sdcard/Emu/JAVA/jdk/lib/libzip.so
+7f9b9a7000-7f9b9a8000 rw-p 00007000 b3:01 573                            /mnt/sdcard/Emu/JAVA/jdk/lib/libzip.so
+7f9b9b0000-7f9b9c9000 r-xp 00000000 b3:01 572                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjimage.so
+7f9b9c9000-7f9b9d8000 ---p 00019000 b3:01 572                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjimage.so
+7f9b9d8000-7f9b9da000 r--p 00018000 b3:01 572                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjimage.so
+7f9b9da000-7f9b9db000 rw-p 0001a000 b3:01 572                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjimage.so
+7f9b9db000-7f9b9ec000 rw-p 00000000 00:00 0 
+7f9b9f0000-7f9ba14000 r-xp 00000000 b3:01 566                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjava.so
+7f9ba14000-7f9ba24000 ---p 00024000 b3:01 566                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjava.so
+7f9ba24000-7f9ba25000 r--p 00024000 b3:01 566                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjava.so
+7f9ba25000-7f9ba26000 rw-p 00025000 b3:01 566                            /mnt/sdcard/Emu/JAVA/jdk/lib/libjava.so
+7f9ba26000-7f9ba27000 rw-p 00000000 00:00 0 
+7f9ba30000-7f9ba3c000 r-xp 00000000 b3:01 571                            /mnt/sdcard/Emu/JAVA/jdk/lib/libverify.so
+7f9ba3c000-7f9ba4b000 ---p 0000c000 b3:01 571                            /mnt/sdcard/Emu/JAVA/jdk/lib/libverify.so
+7f9ba4b000-7f9ba4d000 r--p 0000b000 b3:01 571                            /mnt/sdcard/Emu/JAVA/jdk/lib/libverify.so
+7f9ba4d000-7f9ba4e000 rw-p 0000d000 b3:01 571                            /mnt/sdcard/Emu/JAVA/jdk/lib/libverify.so
+7f9ba50000-7f9ba51000 r-xp 00000000 1f:03 785                            /usr/lib/librt.so.1
+7f9ba51000-7f9ba60000 ---p 00001000 1f:03 785                            /usr/lib/librt.so.1
+7f9ba60000-7f9ba61000 r--p 00000000 1f:03 785                            /usr/lib/librt.so.1
+7f9ba61000-7f9ba62000 rw-p 00001000 1f:03 785                            /usr/lib/librt.so.1
+7f9ba70000-7f9ba74000 ---p 00000000 00:00 0 
+7f9ba74000-7f9bc70000 rw-p 00000000 00:00 0 
+7f9bc70000-7f9bce4000 r-xp 00000000 1f:03 703                            /usr/lib/libm.so.6
+7f9bce4000-7f9bcf3000 ---p 00074000 1f:03 703                            /usr/lib/libm.so.6
+7f9bcf3000-7f9bcf4000 r--p 00073000 1f:03 703                            /usr/lib/libm.so.6
+7f9bcf4000-7f9bcf5000 rw-p 00074000 1f:03 703                            /usr/lib/libm.so.6
+7f9bd00000-7f9ca11000 r-xp 00000000 b3:01 569                            /mnt/sdcard/Emu/JAVA/jdk/lib/server/libjvm.so
+7f9ca11000-7f9ca20000 ---p 00d11000 b3:01 569                            /mnt/sdcard/Emu/JAVA/jdk/lib/server/libjvm.so
+7f9ca20000-7f9cac2000 r--p 00d10000 b3:01 569                            /mnt/sdcard/Emu/JAVA/jdk/lib/server/libjvm.so
+7f9cac2000-7f9caf7000 rw-p 00db2000 b3:01 569                            /mnt/sdcard/Emu/JAVA/jdk/lib/server/libjvm.so
+7f9caf7000-7f9cb7d000 rw-p 00000000 00:00 0 
+7f9cb80000-7f9cb81000 r-xp 00000000 1f:03 768                            /usr/lib/libpthread.so.0
+7f9cb81000-7f9cb90000 ---p 00001000 1f:03 768                            /usr/lib/libpthread.so.0
+7f9cb90000-7f9cb91000 r--p 00000000 1f:03 768                            /usr/lib/libpthread.so.0
+7f9cb91000-7f9cb92000 rw-p 00001000 1f:03 768                            /usr/lib/libpthread.so.0
+7f9cba0000-7f9cba1000 r-xp 00000000 1f:03 644                            /usr/lib/libdl.so.2
+7f9cba1000-7f9cbb0000 ---p 00001000 1f:03 644                            /usr/lib/libdl.so.2
+7f9cbb0000-7f9cbb1000 r--p 00000000 1f:03 644                            /usr/lib/libdl.so.2
+7f9cbb1000-7f9cbb2000 rw-p 00001000 1f:03 644                            /usr/lib/libdl.so.2
+7f9cbc0000-7f9cbd3000 r-xp 00000000 1f:03 830                            /usr/lib/libz.so.1.2.11
+7f9cbd3000-7f9cbe2000 ---p 00013000 1f:03 830                            /usr/lib/libz.so.1.2.11
+7f9cbe2000-7f9cbe3000 r--p 00012000 1f:03 830                            /usr/lib/libz.so.1.2.11
+7f9cbe3000-7f9cbe4000 rw-p 00013000 1f:03 830                            /usr/lib/libz.so.1.2.11
+7f9cbe4000-7f9cbe9000 rw-p 00000000 00:00 0 
+7f9cbe9000-7f9cbf0000 ---p 00000000 00:00 0 
+7f9cbf0000-7f9cd3b000 r-xp 00000000 1f:03 630                            /usr/lib/libc.so.6
+7f9cd3b000-7f9cd4b000 ---p 0014b000 1f:03 630                            /usr/lib/libc.so.6
+7f9cd4b000-7f9cd4f000 r--p 0014b000 1f:03 630                            /usr/lib/libc.so.6
+7f9cd4f000-7f9cd51000 rw-p 0014f000 1f:03 630                            /usr/lib/libc.so.6
+7f9cd51000-7f9cd5d000 rw-p 00000000 00:00 0 
+7f9cd60000-7f9cd6e000 r-xp 00000000 b3:01 565                            /mnt/sdcard/Emu/JAVA/jdk/lib/jli/libjli.so
+7f9cd6e000-7f9cd7d000 ---p 0000e000 b3:01 565                            /mnt/sdcard/Emu/JAVA/jdk/lib/jli/libjli.so
+7f9cd7d000-7f9cd7e000 r--p 0000d000 b3:01 565                            /mnt/sdcard/Emu/JAVA/jdk/lib/jli/libjli.so
+7f9cd7e000-7f9cd7f000 rw-p 0000e000 b3:01 565                            /mnt/sdcard/Emu/JAVA/jdk/lib/jli/libjli.so
+7f9cd81000-7f9cd89000 rw-s 00000000 00:11 224                            /tmp/hsperfdata_root/1854
+7f9cd89000-7f9cdab000 r-xp 00000000 1f:03 585                            /usr/lib/ld-linux-aarch64.so.1
+7f9cdb1000-7f9cdb3000 rw-p 00000000 00:00 0 
+7f9cdb3000-7f9cdb4000 ---p 00000000 00:00 0 
+7f9cdb4000-7f9cdb5000 r--p 00000000 00:00 0 
+7f9cdb5000-7f9cdb7000 rw-p 00000000 00:00 0 
+7f9cdb7000-7f9cdb9000 r--p 00000000 00:00 0                              [vvar]
+7f9cdb9000-7f9cdba000 r-xp 00000000 00:00 0                              [vdso]
+7f9cdba000-7f9cdbc000 r--p 00021000 1f:03 585                            /usr/lib/ld-linux-aarch64.so.1
+7f9cdbc000-7f9cdbe000 rw-p 00023000 1f:03 585                            /usr/lib/ld-linux-aarch64.so.1
+7ff3339000-7ff335a000 rw-p 00000000 00:00 0                              [stack]
+
+
+VM Arguments:
+java_command: <unknown>
+java_class_path (initial): <not set>
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 2                                         {product} {ergonomic}
+   size_t InitialHeapSize                          = 15673024                                  {product} {ergonomic}
+   size_t MaxHeapSize                              = 250768384                                 {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5825228                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122916506                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122916506                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseSerialGC                              = true                                      {product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=/mnt/sdcard/Emu/JAVA/jdk/
+PATH=/usr/bin:/usr/sbin
+SHELL=/bin/sh
+LANG=en_US.UTF-8
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xc350a4], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xc350a4], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0xc350a4], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x9b685c], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x9b685c], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0xc350a4], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR2: [libjvm.so+0x9b6718], sa_mask[0]=00000000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGINT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGQUIT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+
+
+---------------  S Y S T E M  ---------------
+
+OS:NAME=Buildroot
+VERSION=2021.11
+ID=buildroot
+VERSION_ID=2021.11
+PRETTY_NAME="Buildroot 2021.11"
+OS="buildroot"
+BUILD_INFO="raymanfeng@nuc Tue Nov 19 16:10:52 CST 2024 - /home3/raymanfeng/miyoo355/miyoo355_linux5.1/buildroot/configs/rockchip_rk3566_defconfig"
+KERNEL="5.10 - rockchip_linux_defconfig"
+uname:Linux 5.10.160 #82 SMP Thu Nov 14 16:45:24 CST 2024 aarch64
+OS uptime: 0 days 0:04 hours
+libc:glibc 2.36 NPTL 2.36 
+rlimit (soft/hard): STACK 8192k/infinity , CORE 0k/infinity , NPROC 3732/3732 , NOFILE 4096/4096 , AS infinity/infinity , CPU infinity/infinity , DATA infinity/infinity , FSIZE infinity/infinity , MEMLOCK 64k/64k
+load average:0.69 0.69 0.32
+
+/proc/meminfo:
+MemTotal:         979564 kB
+MemFree:          729616 kB
+MemAvailable:     825988 kB
+Buffers:            4312 kB
+Cached:            84904 kB
+SwapCached:            0 kB
+Active:            21440 kB
+Inactive:         117648 kB
+Active(anon):        560 kB
+Inactive(anon):    54828 kB
+Active(file):      20880 kB
+Inactive(file):    62820 kB
+Unevictable:        4816 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         54688 kB
+Mapped:            40868 kB
+Shmem:              5516 kB
+KReclaimable:      28428 kB
+Slab:              49140 kB
+SReclaimable:      28428 kB
+SUnreclaim:        20712 kB
+KernelStack:        2784 kB
+PageTables:         1252 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      489780 kB
+Committed_AS:     320964 kB
+VmallocTotal:   263061440 kB
+VmallocUsed:        8552 kB
+VmallocChunk:          0 kB
+Percpu:              624 kB
+CmaTotal:          16384 kB
+CmaAllocated:       1808 kB
+CmaReleased:       14576 kB
+CmaFree:               0 kB
+
+/sys/kernel/mm/transparent_hugepage/enabled:
+<Not Available>
+/sys/kernel/mm/transparent_hugepage/defrag (defrag/compaction efforts parameter):
+<Not Available>
+
+Process Memory:
+Virtual Size: 478984K (peak: 478984K)
+Resident Set Size: 14372K (peak: 14372K) (anon: 5544K, file: 8796K, shmem: 32K)
+Swapped out: 0K
+C-Heap outstanding allocations: 309K
+
+/proc/sys/kernel/threads-max (system-wide limit on the number of threads):
+7464
+/proc/sys/vm/max_map_count (maximum number of memory map areas a process may have):
+65530
+/proc/sys/kernel/pid_max (system-wide limit on number of process identifiers):
+32768
+
+Steal ticks since vm start: 0
+Steal ticks percentage since vm start:  0.000
+
+CPU:total 4 (initial active 2) 
+
+/proc/cpuinfo:
+processor	: 0
+BogoMIPS	: 48.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 1
+BogoMIPS	: 48.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+Serial		: c186bd9120ca1e4c
+Online cpus:
+0-1
+Offline cpus:
+2-3
+
+Memory: 4k page, physical 979564k(729616k free), swap 0k(0k free)
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.11+9-LTS) for linux-aarch64 JRE (Zulu11.48+21-CA) (11.0.11+9-LTS), built on Apr  7 2021 12:53:57 by "embedded" with gcc 4.8.4
+
+END.

@@ -1,0 +1,13 @@
+{
+"label":"MUGEN",
+"icon":"ic-mugen.png",
+"iconsel":"ic-mugen-80-n.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/MUGEN",
+"imgpath":"../../Roms/MUGEN/media/images",
+"gamelist":"../../Roms/MUGEN/gamelist.xml",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"mgn|7z"
+}

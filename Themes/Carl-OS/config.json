@@ -1,0 +1,43 @@
+{
+    "name": "Carl OS Theme",
+    "author": "Alexis Toretto",
+    "description": "Tema editado a partir de Miyoo Mini Milk Black Theme de Segich + Nemi",
+    "batteryPercentage": {
+        "visible": true,
+        "font": "nunwen.ttf",
+        "size": 22,
+        "color": "#ffffff",
+        "offsetX": 8,
+        "offsetY": 2,
+        "onleft": true
+    },
+    "title": {
+        "font": "nunwen.ttf",
+        "size": 28,
+        "color": "#ffffff"
+    },
+    "hint": {
+        "font": "nunwen.ttf",
+        "size": 26,
+        "color": "#99b4bc"
+    },
+    "currentpage": {
+        "color": "#99b4bc"
+    },
+    "total": {
+        "size": 26,
+        "color": "#044062"
+    },
+    "grid": {
+        "font": "nunwen.ttf",
+        "grid1x4": 23,
+        "grid3x4": 19,
+        "color": "#99b4bc",
+        "selectedcolor": "#357493"
+    },
+    "list": {
+        "font": "nunwen.ttf",
+        "size": 23,
+        "color": "#99b4bc"
+    }
+}

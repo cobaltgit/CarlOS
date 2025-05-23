@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 1416000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+echo 1 > /sys/devices/system/cpu/cpu0/online
+echo 1 > /sys/devices/system/cpu/cpu1/online
+echo 1 > /sys/devices/system/cpu/cpu3/online
+echo 1 > /sys/devices/system/cpu/cpu2/online
+
+RA_DIR=$(dirname "$0")/../../RetroArch32
+cd $RA_DIR
+HOME=$RA_DIR
+export LD_LIBRARY_PATH="$HOME/lib:$LD_LIBRARY_PATH"
+$RA_DIR/retroarch -v $NET_PARAM -L $RA_DIR/.config/retroarch/cores/$2_libretro.so "$1" 2>&1 | tee -a ./log.txt
+
+echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo 1008000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+echo 1 > /sys/devices/system/cpu/cpu0/online
+echo 1 > /sys/devices/system/cpu/cpu1/online
+echo 0 > /sys/devices/system/cpu/cpu2/online
+echo 0 > /sys/devices/system/cpu/cpu3/online
+

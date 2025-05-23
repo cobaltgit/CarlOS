@@ -1,0 +1,28 @@
+{
+"label":"AMIGA",
+"icon":"ic-amiga.png",
+"iconsel":"ic-amiga-80-n.png",
+"iconsmall":"ic-amiga-80-n.png",
+"iconlist":"ic-amiga-32-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/AMIGA",
+"imgpath":"../../Roms/AMIGA/media/images",
+"gamelist":"../../Roms/AMIGA/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"adf|uae|ipf|dms|dmz|adz|lha|hdf|exe|m3u|zip|7z",
+"launchlist": [
+        {
+            "name": "PUAE 2021 (Default)",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "PUAE",
+            "launch": "launch1.sh"
+        }		
+	]
+}
+

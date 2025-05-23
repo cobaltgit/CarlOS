@@ -1,0 +1,9 @@
+{
+"package":"com.retroarch.dummy",
+"label":"RetroArch32 by Ninoh-FOX",
+"label.ch.lang":"启动32 Ninoh-FOX 的完整模拟器",
+"icon":"icon.png",
+"iconsel":"icon.png",
+"launch":"launch_32.sh",
+"description":"Boot RetroArch32 v1.20.0 by Ninoh-FOX"
+}

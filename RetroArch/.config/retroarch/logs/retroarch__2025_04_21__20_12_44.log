@@ -1,0 +1,266 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/cores/fbneo_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.cfg".
+[INFO] [Overrides]: Game-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/captcommu.cfg".
+[INFO] [Overrides]: Game-specific overrides stacking on top of previous overrides.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/captcommu.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/FinalBurn Neo/captcommu.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/FinalBurn Neo/captcommu.state".
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/remaps/FinalBurn Neo/captcommu.rmp".
+[INFO] [Environ]: SET_SERIALIZATION_QUIRKS.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/FinalBurn Neo".
+[libretro INFO] Setting save dir to /mnt/SDCARD/Savefiles/FinalBurn Neo
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system".
+[libretro INFO] Setting system dir to /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] Initialize DIP switches.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[libretro INFO] [FBNeo] Searching all possible locations for romset captcommu
+[libretro INFO] [FBNeo] No patched romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/patched/captcommu
+[libretro INFO] [FBNeo] Romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arc/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arcade/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/romdata/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/coleco/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/colecovision/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/gamegear/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadriv/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadrive/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/genesis/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx1/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pce/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pcengine/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sg1000/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sgx/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/supergrafx/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sms/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/mastersystem/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/snes/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/spectrum/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/zxspectrum/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/tg16/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nes/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/fds/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/ngp/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/chf/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/channelf/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arc/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arcade/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/romdata/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/coleco/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/colecovision/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/gamegear/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadriv/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadrive/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/genesis/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx1/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pce/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pcengine/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sg1000/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sgx/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/supergrafx/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sms/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/mastersystem/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/snes/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/spectrum/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/zxspectrum/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/tg16/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nes/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/fds/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/ngp/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/chf/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/channelf/captcommu
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/captcommu
+[libretro INFO] [FBNeo] Searching all possible locations for romset captcomm
+[libretro INFO] [FBNeo] No patched romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/patched/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arc/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arcade/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/romdata/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/coleco/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/colecovision/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/gamegear/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadriv/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadrive/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/genesis/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx1/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pce/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pcengine/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sg1000/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sgx/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/supergrafx/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sms/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/mastersystem/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/snes/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/spectrum/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/zxspectrum/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/tg16/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nes/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/fds/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/ngp/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/chf/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/channelf/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arc/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arcade/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/romdata/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/coleco/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/colecovision/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/gamegear/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadriv/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadrive/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/genesis/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx1/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pce/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pcengine/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sg1000/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sgx/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/supergrafx/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sms/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/mastersystem/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/snes/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/spectrum/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/zxspectrum/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/tg16/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nes/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/fds/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/ngp/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/chf/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/channelf/captcomm
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/captcomm
+[libretro INFO] [FBNeo] Using ROM with known crc 0x03da44fd and name ccu_23b.8f from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x9b82a052 and name ccu_22c.7f from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x84ff99b2 and name ccu_24b.9e from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xfbcec223 and name ccu_28b.9f from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x7261d8ba and name cc-5m.3a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x6a60f949 and name cc-7m.5a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x00637302 and name cc-1m.4a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xcc87cf61 and name cc-3m.6a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x28718bed and name cc-6m.7a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xd4acc53a and name cc-8m.9a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x0c69f151 and name cc-2m.8a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x1f9ebb97 and name cc-4m.10a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x698e8b58 and name ccu_09.11a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x6de2c2db and name ccu_18.11c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xb99091ae and name ccu_19.12c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xeb122de7 and name buf1 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x59c7ee3b and name ioa1 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xf1129744 and name prg1 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x41dc73b9 and name rom1 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x84f4b2fe and name sou1 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xcae8f0f9 and name cc63b.1a from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x3abc0700 and name iob1.12d from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0xe1c225c4 and name ccprg1.11d from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] Using ROM with known crc 0x0fbd9270 and name c632.ic1 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/captcommu
+[libretro INFO] [FBNeo] No missing files, proceeding
+[libretro INFO] [FBNeo] Samplerate set to 48000
+[libretro INFO] [FBNeo] Applied dipswitches from core options
+[libretro INFO] [FBNeo] Initialized driver for captcommu
+[libretro INFO] [FBNeo] Adjusted audio buffer to match driver's refresh rate (59.630000 Hz)
+[libretro INFO] [Cheevos] System RAM set to 0x55873983e0, size is 65536
+[INFO] [Environ]: SET_PIXEL_FORMAT: XRGB8888.
+[libretro INFO] [FBNeo] Driver captcommu was successfully started : game's full name is Captain Commando (USA 910928)
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[libretro INFO] [FBNeo] Timing set to 59.630000 Hz
+[INFO] [Core]: Geometry: 384x224, Aspect: 1.333, FPS: 59.63, Sample rate: 48002.15 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f780abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48300.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[libretro INFO] [FBNeo] Unknown device type for port 0, forcing "Classic" instead
+[libretro INFO] [FBNeo] Unknown device type for port 1, forcing "Classic" instead
+[libretro INFO] [FBNeo] Unknown device type for port 2, forcing "Classic" instead
+[libretro INFO] [FBNeo] Unknown device type for port 3, forcing "Classic" instead
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 02 minutes, 29 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/FinalBurn Neo.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 8920, Frames dropped: 22.

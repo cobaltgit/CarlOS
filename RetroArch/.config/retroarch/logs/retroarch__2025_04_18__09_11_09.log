@@ -1,0 +1,317 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/cores/fbalpha2012_libretro.so"
+[INFO] [Overrides]: Core-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/FB Alpha 2012.cfg".
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/ARCADE.cfg".
+[INFO] [Overrides]: Content dir-specific overrides stacking on top of previous overrides.
+[INFO] [Overrides]: Game-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.cfg".
+[INFO] [Overrides]: Game-specific overrides stacking on top of previous overrides.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/FB Alpha 2012.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/ARCADE.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/FB Alpha 2012/outzone.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/FB Alpha 2012/outzone.state".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/FB Alpha 2012".
+[libretro INFO] Setting save dir to /mnt/SDCARD/Savefiles/FB Alpha 2012
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system".
+[libretro INFO] Setting system dir to /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.opt".
+[libretro INFO] [FBA] Archive: outzone
+[libretro INFO] [FBA] Parsing archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/outzone.
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.opt".
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.opt".
+[libretro INFO] Initialize DIP switches.
+[libretro WARN] Error in outzoneDIPList : The DIPSWITCH '1' has no name. 'DIPSWITCH 1' name has been generated
+[libretro INFO] 'DIPSWITCH 1' (2)
+[libretro INFO]    '(Default) Normal screen'
+[libretro INFO]    'Normal screen'
+[libretro INFO]    'Invert screen'
+[libretro WARN] Error in outzoneDIPList : The DIPSWITCH '2' has no name. 'DIPSWITCH 2' name has been generated
+[libretro INFO] 'DIPSWITCH 2' (2)
+[libretro INFO]    '(Default) Normal mode'
+[libretro INFO]    'Normal mode'
+[libretro INFO]    'Screen test mode'
+[libretro INFO] 'Advertise sound' (2)
+[libretro INFO]    '(Default) On'
+[libretro INFO]    'On'
+[libretro INFO]    'Off'
+[libretro INFO] 'Coin A' (4)
+[libretro INFO]    '(Default) 1 coin 1 play'
+[libretro INFO]    '1 coin 1 play'
+[libretro INFO]    '2 coin 1 play'
+[libretro INFO]    '3 coin 1 play'
+[libretro INFO]    '4 coin 1 play'
+[libretro INFO] 'Coin B' (4)
+[libretro INFO]    '(Default) 1 coin 1 play'
+[libretro INFO]    '1 coin 1 play'
+[libretro INFO]    '1 coin 3 play'
+[libretro INFO]    '1 coin 4 play'
+[libretro INFO]    '1 coin 6 play'
+[libretro INFO] 'Game difficulty' (4)
+[libretro INFO]    '(Default) B'
+[libretro INFO]    'B'
+[libretro INFO]    'A'
+[libretro INFO]    'C'
+[libretro INFO]    'D'
+[libretro INFO] 'Extend bonus' (4)
+[libretro INFO]    '(Default) 300000 pts every'
+[libretro INFO]    '300000 pts every'
+[libretro INFO]    '200000 & 500000 pts'
+[libretro INFO]    '300000 only'
+[libretro INFO]    'No extend'
+[libretro INFO] 'Number of heros' (4)
+[libretro INFO]    '(Default) 3'
+[libretro INFO]    '3'
+[libretro INFO]    '5'
+[libretro INFO]    '2'
+[libretro INFO]    '1'
+[libretro INFO] 'No death & stop mode' (2)
+[libretro INFO]    '(Default) Off'
+[libretro INFO]    'Off'
+[libretro INFO]    'On'
+[libretro INFO] 'Region' (9)
+[libretro INFO]    '(Default) Europe'
+[libretro INFO]    'Japan'
+[libretro INFO]    'U.S.A.'
+[libretro INFO]    'Europe'
+[libretro INFO]    'Hong Kong'
+[libretro INFO]    'Korea'
+[libretro INFO]    'Taiwan'
+[libretro INFO]    'Taiwan (Spacy License)'
+[libretro INFO]    'US (Romstar License)'
+[libretro INFO]    'Hong Kong (Honest Trading License)'
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.opt".
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.opt".
+[libretro INFO] Apply DIP switches value from core options.
+[libretro INFO] DIP switch at PTR: [-2088579974] [0x00] -> [0x00] - No change - 'DIPSWITCH 1' '(Default) Normal screen' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579974] [0x00] -> [0x00] - No change - 'DIPSWITCH 2' '(Default) Normal mode' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579974] [0x00] -> [0x00] - No change - 'Advertise sound' '(Default) On' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579974] [0x00] -> [0x00] - No change - 'Coin A' '(Default) 1 coin 1 play' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579974] [0x00] -> [0x00] - No change - 'Coin B' '(Default) 1 coin 1 play' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579973] [0x00] -> [0x00] - No change - 'Game difficulty' '(Default) B' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579973] [0x00] -> [0x00] - No change - 'Extend bonus' '(Default) 300000 pts every' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579973] [0x00] -> [0x00] - No change - 'Number of heros' '(Default) 3' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579973] [0x00] -> [0x00] - No change - 'No death & stop mode' '(Default) Off' [0x00]
+[libretro INFO] DIP switch at PTR: [-2088579971] [0x02] -> [0x02] - No change - 'Region' '(Default) Europe' [0x02]
+[libretro INFO] Game: outzone
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] Frontend supports RGB565 - will use that instead of XRGB1555.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[libretro INFO] retro_get_system_av_info: base_width: 240, base_height: 320, max_width: 320, max_height: 320, aspect_ratio: (3/4) = 0.750000 (bVerticalMode: 0)
+[INFO] [Core]: Geometry: 240x320, Aspect: 0.750, FPS: 55.16, Sample rate: 29455.44 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f7c0abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/ARCADE.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Video]: Frecuencia de actualización de vídeo cambiada a 59.940 Hz.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f7c928198.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Autoconf]: Se ha desconectado sdl2 del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 0, Frames dropped: 0.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f7cb7b430.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 29455.44 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 59.94 Hz, Game = 55.16 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Input]: Game Focus => OFF
+[INFO] [Audio]: Set audio input rate to: 29455.44 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 59.94 Hz, Game = 55.16 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[ERROR] [ALSA]: Failed to open PLAYBACK stream on device "default": Device or resource busy
+[ERROR] [ALSA]: Failed to initialize...
+[INFO] [Audio]: Started synchronous audio driver.
+[ERROR] Failed to initialize audio driver. Will continue without audio.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [Video]: Frecuencia de actualización de vídeo cambiada a 60.000 Hz.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f7c32cf60.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 3957, Frames dropped: 7.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f7d4cd4e0.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 29455.44 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 55.16 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[ERROR] [ALSA]: Failed to open PLAYBACK stream on device "default": Device or resource busy
+[ERROR] [ALSA]: Failed to initialize...
+[INFO] [Audio]: Started synchronous audio driver.
+[ERROR] Failed to initialize audio driver. Will continue without audio.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Input]: Game Focus => OFF
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [Core]: Content ran for a total of: 00 hours, 01 minutes, 09 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FB Alpha 2012/outzone.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 0, Frames dropped: 0.

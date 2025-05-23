@@ -1,0 +1,17 @@
+{
+    "label":"SUPERV",
+    "icon":"ic-supervision.png",
+	"iconsel":"ic-supervision-80-n.png",
+    "iconsmall":"ic-supervision-80-n.png",
+    "iconlist":"ic-supervision-32-n.png",
+    "background":"bg.png",
+    "themecolor":"00FF00",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/SUPERVISION",
+    "imgpath":"../../Roms/SUPERVISION/media/images",
+	"gamelist":"../../Roms/SUPERVISION/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"sv|zip|7z"
+}

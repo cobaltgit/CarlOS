@@ -1,0 +1,13 @@
+{
+"label":"PGM",
+"icon":"ic-pgm.png",
+"iconsel":"ic-pgm-80-n.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/PGM",
+"imgpath":"../../Roms/PGM/media/images",
+"gamelist":"../../Roms/PGM/gamelist.xml",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip|7z"
+}

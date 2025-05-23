@@ -1,0 +1,16 @@
+{
+"label":"X68000",
+"icon":"ic-x68000.png",
+"iconsel":"ic-x68000-80-n.png",
+"iconsmall":"ic-x68000-80-n.png",
+"iconlist":"ic-x68000-32-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/X68000",
+"imgpath":"../../Roms/X68000/media/images",
+"gamelist":"../../Roms/X68000/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0
+}

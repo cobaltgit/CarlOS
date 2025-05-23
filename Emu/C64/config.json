@@ -1,0 +1,28 @@
+{
+"label":"C64",
+"icon":"ic-c64.png",
+"iconsel":"ic-c64-80-n.png",
+"iconsmall":"ic-c64-80-n.png",
+"iconlist":"ic-c64-32-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/C64",
+"imgpath":"../../Roms/C64/media/images",
+"gamelist":"../../Roms/C64/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"d64|d81|crt|prg|tap|t64|m3u|zip|7z",
+"launchlist": [
+        {
+            "name": "VICE_X64 (Default)",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "VICE_X64SC",
+            "launch": "launch1.sh"
+        }		
+	]
+}
+

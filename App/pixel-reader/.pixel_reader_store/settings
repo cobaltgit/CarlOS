@@ -1,0 +1,6 @@
+progress_reporting=global
+show_title_bar=false
+color_theme=Terminal
+font_name=resources/fonts/方正新楷体_GB18030.ttf
+font_size=28
+shoulder_keymap=LR

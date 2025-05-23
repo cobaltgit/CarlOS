@@ -1,0 +1,18 @@
+{
+    "label":"ARDUBOY",
+    "icon":"ic-arduboy.png",
+	"iconsel":"ic-arduboy-80-n.png",
+    "iconsmall":"ic-arduboy-80-n.png",
+    "iconlist":"ic-arduboy-32-n.png",
+    "background":"bg.png",
+    "themecolor":"00FF00",
+    "effectsh":"effect.sh",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/ARDUBOY",
+    "imgpath":"../../Roms/ARDUBOY/media/images",
+	"gamelist":"../../Roms/ARDUBOY/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"hex"
+}

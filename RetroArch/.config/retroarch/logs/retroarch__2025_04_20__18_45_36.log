@@ -1,0 +1,213 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/cores/swanstation_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/SwanStation/PS.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/SwanStation/PS.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/SwanStation/Crash Bandicoot 3 - Warped.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/SwanStation/Crash Bandicoot 3 - Warped.state".
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V1, providing V3.
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/remaps/SwanStation/Crash Bandicoot 3 - Warped.rmp".
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [System] Loading CD image '/media/sdcard0/Emu/PS/../../Roms/PS/Crash Bandicoot 3 - Warped.chd'...
+[libretro INFO] [System] Auto-detected console PAL region for '/media/sdcard0/Emu/PS/../../Roms/PS/Crash Bandicoot 3 - Warped.chd' (region PAL)
+[libretro INFO] [System] Console Region: PAL (Europe, Australia)
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system".
+[libretro INFO] [LibretroHostInterface] Game settings found for SCES-01420
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[libretro INFO] [Common::MemoryArena] File mapping name: swanstation_1248_0x7fb282e290
+[libretro INFO] [CDROMAsyncReader] Read thread started with readahead of 8 sectors
+[INFO] [Environ]: GET_PREFERRED_HW_RENDER, video driver name: gl.
+[INFO] [Environ]: GET_PREFERRED_HW_RENDER - Context callback set to RETRO_HW_CONTEXT_OPENGL.
+[libretro INFO] [LibretroHostInterface] Renderer = OpenGL
+[libretro INFO] [LibretroHostInterface] Requesting hardware renderer context for OpenGL
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[ERROR] Requesting OpenGL context, but RetroArch is compiled against OpenGLES. Cannot use HW context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[INFO] Requesting unknown context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[INFO] Requesting unknown context.
+[ERROR] [Environ]: SET_HW_RENDER - Dynamic request HW context failed.
+[INFO] [Environ]: SET_HW_RENDER, context type: gl.
+[INFO] Requesting OpenGLES3 context.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 512x470, Aspect: 1.333, FPS: 49.75, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Using HW render, OpenGL driver forced.
+[INFO] [Video]: Using configured "gl" driver for GL HW render.
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x55a0237120.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/SwanStation/PS.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 1 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [GL]: Initializing HW render (2048x2048).
+[INFO] [GL]: Max texture size: 16383 px, renderbuffer size: 16383 px.
+[INFO] [GL]: Supports FBO (render-to-texture).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[libretro INFO] [LibretroHostInterface] Hardware context reset, type = 4
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system".
+[libretro INFO] [LibretroHostInterface] Shader cache directory: '/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system/swanstation/'
+[libretro INFO] [GPU_HW_OpenGL] Max texture size: 16383x16383
+[libretro INFO] [GPU_HW_OpenGL] Per-sample shading: supported
+[libretro INFO] [GPU_HW_OpenGL] Max multisamples: 4
+[libretro INFO] [GPU_HW_OpenGL] Uniform buffer offset alignment: 16
+[libretro INFO] [GPU_HW_OpenGL] Max texel buffer size: 65536
+[libretro WARN] [SetCapabilities] Maximum texture buffer size is less than VRAM size, not using texel buffers.
+[libretro INFO] [GPU_HW_OpenGL] Max fragment shader storage blocks: 35
+[libretro INFO] [GPU_HW_OpenGL] Max shader storage buffer size: 268435456
+[libretro INFO] [GPU_HW_OpenGL] Using shader storage buffers for VRAM writes.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system".
+[libretro INFO] [LibretroHostInterface] Shader cache directory: '/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system/swanstation/'
+[libretro INFO] [GL::ShaderCache] 1 program binary formats supported by driver
+[libretro INFO] [GL::ShaderCache] Read 252 entries from '/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system/swanstation/gl_programs.idx'
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 49.75 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[libretro INFO] [MemoryCard] Writing memory card sector 63
+[INFO] [Environ]: SET_MESSAGE: Controller 1 switched to analog mode.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [SRAM]: Guardando tipo de RAM #0 en "/mnt/SDCARD/Savefiles/SwanStation/Crash Bandicoot 3 - Warped.srm".
+[INFO] [SRAM]: Se han guardado los datos en "/mnt/SDCARD/Savefiles/SwanStation/Crash Bandicoot 3 - Warped.srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 11 seconds.
+[libretro INFO] [LibretroHostInterface] Hardware context destroyed
+[libretro INFO] [LibretroHostInterface] Switching to software renderer
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Core]: Unloading game..
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/SwanStation".
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/SwanStation/SwanStation.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.

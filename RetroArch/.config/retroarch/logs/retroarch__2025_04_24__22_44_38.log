@@ -1,0 +1,199 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/cores/fbneo_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.cfg".
+[INFO] [Overrides]: Game-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/roadf.cfg".
+[INFO] [Overrides]: Game-specific overrides stacking on top of previous overrides.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/roadf.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/FinalBurn Neo/roadf.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/FinalBurn Neo/roadf.state".
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/remaps/FinalBurn Neo/roadf.rmp".
+[INFO] [Environ]: SET_SERIALIZATION_QUIRKS.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/FinalBurn Neo".
+[libretro INFO] Setting save dir to /mnt/SDCARD/Savefiles/FinalBurn Neo
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system".
+[libretro INFO] Setting system dir to /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] Initialize DIP switches.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/roadf.opt".
+[libretro INFO] [FBNeo] Searching all possible locations for romset roadf
+[libretro INFO] [FBNeo] No patched romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/patched/roadf
+[libretro INFO] [FBNeo] Romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arc/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arcade/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/romdata/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/coleco/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/colecovision/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/gamegear/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadriv/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadrive/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/genesis/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx1/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pce/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pcengine/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sg1000/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sgx/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/supergrafx/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sms/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/mastersystem/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/snes/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/spectrum/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/zxspectrum/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/tg16/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nes/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/fds/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/ngp/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/chf/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/channelf/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arc/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arcade/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/romdata/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/coleco/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/colecovision/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/gamegear/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadriv/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadrive/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/genesis/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx1/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pce/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pcengine/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sg1000/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sgx/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/supergrafx/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sms/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/mastersystem/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/snes/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/spectrum/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/zxspectrum/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/tg16/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nes/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/fds/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/ngp/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/chf/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/channelf/roadf
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xe2492a06 and name g05_g01.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x0bf75165 and name g07_f02.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xdde401f8 and name g09_g03.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xb1283c77 and name g11_f04.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x0ad4d796 and name g13_f05.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xfa42e0ed and name g15_f06.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xc33c927e and name a17_d10.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x16d2bcff and name j19_e14.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x490685ff and name g19_e18.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xf5c738e2 and name a14_e26.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x2d82c930 and name a12_d24.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0xfbcfbeb9 and name c14_e22.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x5e0cf994 and name c12_d20.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x45d5e352 and name c03_c27.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x2955e01f and name j12_c28.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] Using ROM with known crc 0x5b3b5f2a and name a09_c29.bin from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/roadf
+[libretro INFO] [FBNeo] No missing files, proceeding
+[libretro INFO] [FBNeo] Samplerate set to 48000
+[libretro INFO] [FBNeo] Applied dipswitches from core options
+[libretro INFO] [FBNeo] Initialized driver for roadf
+[libretro INFO] [FBNeo] Adjusted audio buffer to match driver's refresh rate (60.000000 Hz)
+[libretro INFO] [Cheevos] System RAM set to 0x55c6518070, size is 10496
+[libretro INFO] [FBNeo] EEPROM successfully loaded from /mnt/SDCARD/Savefiles/FinalBurn Neo/fbneo/roadf.fs
+[INFO] [Environ]: SET_PIXEL_FORMAT: XRGB8888.
+[libretro INFO] [FBNeo] Driver roadf was successfully started : game's full name is Road Fighter (set 1)
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[libretro INFO] [FBNeo] Timing set to 60.000000 Hz
+[INFO] [Core]: Geometry: 256x224, Aspect: 0.750, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa40abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[libretro INFO] [FBNeo] Unknown device type for port 0, forcing "Classic" instead
+[libretro INFO] [FBNeo] Unknown device type for port 1, forcing "Classic" instead
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 02 minutes, 23 seconds.
+[INFO] [Core]: Unloading game..
+[libretro INFO] [FBNeo] EEPROM succesfully saved to /mnt/SDCARD/Savefiles/FinalBurn Neo/fbneo/roadf.fs
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/roadf.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 8581, Frames dropped: 38.

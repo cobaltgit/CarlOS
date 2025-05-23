@@ -1,0 +1,42 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/cores/mame2010_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/MAME 2010/ARCADE.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/MAME 2010/ARCADE.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/MAME 2010/crzcross.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/MAME 2010/crzcross.state".
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/remaps/MAME 2010/MAME 2010.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/MAME 2010".
+[libretro INFO] [MAME 2010] mame.ini found at: /mnt/SDCARD/Savefiles/MAME 2010/mame2010/ini/mame.ini
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[libretro INFO] [MAME 2010] libretro_content_directory: /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/
+[libretro INFO] [MAME 2010] libretro_system_directory: /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/mame2010
+[libretro INFO] [MAME 2010] libretro_save directory: /mnt/SDCARD/Savefiles/MAME 2010/mame2010
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [MAME 2010] mouse_mode value: mouse
+[libretro INFO] [MAME 2010] skip_nagscreen value: enabled
+[libretro INFO] [MAME 2010] skip_gameinfo value: enabled
+[libretro INFO] [MAME 2010] skip_warnings value: enabled
+[libretro INFO] [MAME 2010] videoapproach1_enable value: disabled
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] [MAME 2010] path=/media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/crzcross.zip gamePath=/media/sdcard0/Emu/ARCADE/../../Roms/ARCADE gameName=crzcross
+[libretro ERROR] [MAME 2010] Game not found: crzcross
+[libretro ERROR] [MAME 2010] MAME returned an error!
+[ERROR] [Content]: Error al cargar contenido
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[libretro INFO] [MAME 2010] retro_deinit called
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/MAME 2010/MAME 2010.opt".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.

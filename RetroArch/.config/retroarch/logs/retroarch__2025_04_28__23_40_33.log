@@ -1,0 +1,135 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/cores/cap32_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/CPC.cfg".
+[INFO] [Overrides]: Game-specific overrides found at "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/Angel Nieto Pole 500.cfg".
+[INFO] [Overrides]: Game-specific overrides stacking on top of previous overrides.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/CPC.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/Angel Nieto Pole 500.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/cap32/Angel Nieto Pole 500.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/cap32/Angel Nieto Pole 500.state".
+[INFO] [Environ]: SET_SUPPORT_NO_GAME: yes.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Core]: Se han encontrado opciones personalizadas según directorio en "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/CPC.opt".
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/remaps/cap32/Angel Nieto Pole 500.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SET_SUPPORT_ACHIEVEMENTS: yes.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/system".
+[INFO] [Environ]: CORE_ASSETS_DIRECTORY: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/downloads".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/cap32".
+[libretro INFO] Retro SYSTEM_DIRECTORY /media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/system
+[libretro INFO] Retro SAVE_DIRECTORY /mnt/SDCARD/Savefiles/cap32
+[libretro INFO] Retro CONTENT_DIRECTORY /media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/downloads
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_KEYBOARD_CALLBACK.
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[libretro INFO] getAudioBuffer: 4096
+[libretro INFO]  0  x64
+[libretro INFO]  1  
+[libretro INFO] getBPP: 16
+[libretro INFO] getStyle: 4
+[libretro INFO] getBPS: 768
+[libretro INFO] lightgun_prepare => 1 
+[INFO] [Content]: Core requires uncompressed content - extracting archive to temporary directory.
+[INFO] [Content]: Content successfully extracted to: "/media/sdcard0/Roms/CPC/Angel Nieto Pole 500.dsk".
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [retro_load_game] PIXEL FORMAT selected (2).
+[libretro INFO] [retro_load_game] detected file type, using slot [2]
+[libretro INFO] >>> dc added int /media/sdcard0/Roms/CPC/Angel Nieto Pole 500.dsk - [Angel Nieto Pole 500]
+[libretro INFO] >>> dc added /media/sdcard0/Roms/CPC/Angel Nieto Pole 500.dsk - [Angel Nieto Pole 500] [unit 1]
+[libretro INFO] [computer_hash_file][DB] >>> file hash: 0xbd4200c [ b=0, l=0, f=0, c=0 ]
+[libretro INFO] [computer_load_file] Disk (1) inserted into drive A: /media/sdcard0/Roms/CPC/Angel Nieto Pole 500.dsk
+[libretro INFO] [computer_autoload] DSK autorun: RUN"NIETO.BAS
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[libretro INFO] [retro_get_system_av_info] 640x240 snd: 44100
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.412, FPS: 50.01, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f7c0abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/CPC.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 50.01 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[libretro INFO] retro_set_controller_port_device: (0)=259
+[libretro INFO] retro_set_controller_port_device: (1)=259
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 02 minutes, 22 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[libretro INFO] Retro DeInit
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved folder-specific core options to "/media/sdcard0/Emu/CPC/../../RetroArch/.config/retroarch/config/cap32/CPC.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 7691, Frames dropped: 4.
+[INFO] [Content]: Eliminando el contenido temporal: "/media/sdcard0/Roms/CPC/Angel Nieto Pole 500.dsk".

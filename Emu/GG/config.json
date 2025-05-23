@@ -1,0 +1,14 @@
+{
+"label":"GAME GEAR",
+"icon":"ic-GG.png",
+"iconsel":"ic-gg-80-n.png",
+"background":"bg.png",
+"themecolor":"FFFFFF",
+"launch":"launch.sh",
+"rompath":"../../Roms/GG",
+"imgpath":"../../Roms/GG/media/images",
+"gamelist":"../../Roms/GG/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1
+}

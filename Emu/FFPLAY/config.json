@@ -1,0 +1,24 @@
+{
+"label":"FFPLAY",
+"label.ch.lang":"FFPLAY视频播放",
+"icon":"ic-ffplay.png",
+"iconsel":"ic-ffplay-80-n.png",
+"iconlist":"ic-ffplay-32-n.png",
+"background":"bg.png",
+"themecolor":"DDEEFF",
+"launch":"ffplayhw.sh",
+"rompathlist":[
+        {
+            "rompath":"../../Video",
+            "imgpath":"../../Video"
+        },
+        {
+            "rompath":"../../../../media/sdcard1/Video",
+            "imgpath":"../../../../media/sdcard1/Video"
+        }
+    ],
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"mp4|mkv|avi|mpg|mpeg|wmv|asf|rm|rmvb|m4v|ts|mp3|wma|jpg|png|bmp|m3u"
+}

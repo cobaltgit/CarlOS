@@ -1,0 +1,1 @@
+This system is compatible with roms in these filetypes: d64, d81, crt, prg, tap, t64, m3u, zip, 7z

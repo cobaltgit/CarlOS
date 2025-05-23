@@ -1,0 +1,141 @@
+[INFO] RetroArch 1.20.0 (Git a7acbf37d0)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: a7acbf37d0
+[INFO] Built: May 20 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/cores/gpsp_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/config/gpSP/GBA.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/config/gpSP/GBA.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/GBA/Pokemon - Edicion Zafiro (Spain) (Rev 1).srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/GBA/Pokemon - Edicion Zafiro (Spain) (Rev 1).state".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_PERF_INTERFACE.
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V2, providing V3.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_INTL.
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/config/remaps/gpSP/gpSP.rmp".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_NETPACKET_INTERFACE.
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/GBA/Pokemon - Edicion Zafiro (Spain) (Rev 1).srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/GBA/Pokemon - Edicion Zafiro (Spain) (Rev 1).state".
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/system".
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: SET_MEMORY_MAPS.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 240x160, Aspect: 1.500, FPS: 59.73, Sample rate: 65536.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: yes
+[INFO] [DRM]: Connector 0 has 41 modes.
+[INFO] [DRM]: Connector 0 assigned to monitor index: #1.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #2.
+[INFO] [DRM]: Mode 0: (1920x1080) 1920 x 1080, 60.000000 Hz
+[INFO] [DRM]: Mode 1: (1920x1080) 1920 x 1080, 59.940201 Hz
+[INFO] [DRM]: Mode 2: (1920x1080i) 1920 x 1080, 60.000000 Hz
+[INFO] [DRM]: Mode 3: (1920x1080i) 1920 x 1080, 59.940201 Hz
+[INFO] [DRM]: Mode 4: (1920x1080) 1920 x 1080, 50.000000 Hz
+[INFO] [DRM]: Mode 5: (1920x1080i) 1920 x 1080, 50.000000 Hz
+[INFO] [DRM]: Mode 6: (1920x1080) 1920 x 1080, 30.000000 Hz
+[INFO] [DRM]: Mode 7: (1920x1080) 1920 x 1080, 29.970100 Hz
+[INFO] [DRM]: Mode 8: (1920x1080) 1920 x 1080, 25.000000 Hz
+[INFO] [DRM]: Mode 9: (1920x1080) 1920 x 1080, 24.000000 Hz
+[INFO] [DRM]: Mode 10: (1920x1080) 1920 x 1080, 23.976080 Hz
+[INFO] [DRM]: Mode 11: (1680x1050) 1680 x 1050, 59.883251 Hz
+[INFO] [DRM]: Mode 12: (1600x900) 1600 x 900, 60.000000 Hz
+[INFO] [DRM]: Mode 13: (1280x1024) 1280 x 1024, 75.024673 Hz
+[INFO] [DRM]: Mode 14: (1280x1024) 1280 x 1024, 60.019741 Hz
+[INFO] [DRM]: Mode 15: (1440x900) 1440 x 900, 59.901459 Hz
+[INFO] [DRM]: Mode 16: (1366x768) 1366 x 768, 59.789539 Hz
+[INFO] [DRM]: Mode 17: (1280x800) 1280 x 800, 59.909546 Hz
+[INFO] [DRM]: Mode 18: (1152x864) 1152 x 864, 75.000000 Hz
+[INFO] [DRM]: Mode 19: (1280x720) 1280 x 720, 60.000000 Hz
+[INFO] [DRM]: Mode 20: (1280x720) 1280 x 720, 59.940201 Hz
+[INFO] [DRM]: Mode 21: (1280x720) 1280 x 720, 50.000000 Hz
+[INFO] [DRM]: Mode 22: (1024x768) 1024 x 768, 75.028580 Hz
+[INFO] [DRM]: Mode 23: (1024x768) 1024 x 768, 70.069359 Hz
+[INFO] [DRM]: Mode 24: (1024x768) 1024 x 768, 60.003841 Hz
+[INFO] [DRM]: Mode 25: (832x624) 832 x 624, 74.551270 Hz
+[INFO] [DRM]: Mode 26: (800x600) 800 x 600, 75.000000 Hz
+[INFO] [DRM]: Mode 27: (800x600) 800 x 600, 72.187569 Hz
+[INFO] [DRM]: Mode 28: (800x600) 800 x 600, 60.316540 Hz
+[INFO] [DRM]: Mode 29: (720x576) 720 x 576, 50.000000 Hz
+[INFO] [DRM]: Mode 30: (720x576i) 720 x 576, 50.000000 Hz
+[INFO] [DRM]: Mode 31: (720x480) 720 x 480, 60.000000 Hz
+[INFO] [DRM]: Mode 32: (720x480) 720 x 480, 59.940060 Hz
+[INFO] [DRM]: Mode 33: (720x480i) 720 x 480, 60.002220 Hz
+[INFO] [DRM]: Mode 34: (720x480i) 720 x 480, 59.940060 Hz
+[INFO] [DRM]: Mode 35: (640x480) 640 x 480, 75.000000 Hz
+[INFO] [DRM]: Mode 36: (640x480) 640 x 480, 72.808800 Hz
+[INFO] [DRM]: Mode 37: (640x480) 640 x 480, 66.666664 Hz
+[INFO] [DRM]: Mode 38: (640x480) 640 x 480, 60.000000 Hz
+[INFO] [DRM]: Mode 39: (640x480) 640 x 480, 59.940475 Hz
+[INFO] [DRM]: Mode 40: (720x400) 720 x 400, 70.081665 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 1920x1080.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa40ab410.
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 1920x1080.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/config/gpSP/GBA.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[INFO] [udev]: Keyboard #5: "8Bitdo SN30 Pro" (/dev/input/event6).
+[INFO] [udev]: Keyboard #6: "" (/dev/input/js1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[WARN] [SDL]: Couldn't open haptic device of the joypad #1: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 65835.00 Hz.
+[INFO] [Audio]: Started synchronous audio driver.
+[ERROR] Failed to initialize audio driver. Will continue without audio.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[WARN] [SDL]: Couldn't open haptic device of the joypad #1: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).

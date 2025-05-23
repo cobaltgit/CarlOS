@@ -1,0 +1,15 @@
+{
+"label":"ATARI 5200",
+"icon":"ic-atari5200.png",
+"iconsel":"ic-atari5200-80.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/ATARI5200",
+"imgpath":"../../Roms/ATARI5200/media/images",
+"gamelist":"../../Roms/ATARI5200/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"extlist":"rom|xfd|atr|atx|cdm|cas|car|bin|a52|xex|zip|7z",
+"hidebios":0
+}

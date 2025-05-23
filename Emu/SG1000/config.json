@@ -1,0 +1,17 @@
+{
+    "label":"SG1000",
+    "icon":"ic-segasgone.png",
+    "iconsmall":"ic-segasgone-80-n.png",
+	"iconsel":"ic-segasgone-80-n.png",
+    "iconlist":"ic-segasgone-32-n.png",
+    "background":"bg.png",
+    "themecolor":"0088CF",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/SG1000",
+    "imgpath":"../../Roms/SG1000/media/images",
+	"gamelist":"../../Roms/SG1000/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"bin|sg|zip|7z"
+}

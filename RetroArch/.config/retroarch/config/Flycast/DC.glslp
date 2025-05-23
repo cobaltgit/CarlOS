@@ -1,0 +1,3 @@
+#reference "/media/sdcard0/RetroArch/.config/retroarch/shaders/00_pixel.glslp"
+shadowMask = "3.000000"
+SCANLINE_SINE_COMP_B = "0.000000"

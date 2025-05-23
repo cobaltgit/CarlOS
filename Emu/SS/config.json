@@ -1,0 +1,37 @@
+{
+  "label": "SATURN",
+  "icon": "ic-ss.png",
+  "iconsel":"ic-ss-80-n.png",
+  "background":"bg.png",
+  "themecolor":"E4007F",
+  "launch":"standalone_bios.sh",
+  "rompath":"../../Roms/SS",
+  "imgpath":"../../Roms/SS/media/images",
+  "gamelist":"../../Roms/SS/gamelist.xml",
+  "useswap":1,
+  "shortname":0,
+  "hidebios": 1,
+  "extlist":"cue|chd|iso|7z",
+  "launchlist": [
+    {
+      "name": "-----------  RETROARCH  -----------",
+      "launch": ""
+    },
+    {
+      "name": "Yabasanshiro",
+      "launch": "launch.sh"
+    },
+    {
+      "name": "-----------  STANDALONE  -----------",
+      "launch": ""
+    },
+    {
+      "name": "Yabasanshiro (Real BIOS)",
+      "launch": "standalone_bios.sh"
+    },
+    {
+      "name": "Yabasanshiro (HLE BIOS)",
+      "launch": "standalone_HLE.sh"
+    }
+  ] 
+}

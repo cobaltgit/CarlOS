@@ -1,0 +1,17 @@
+{
+"label":"CPS1",
+"icon":"ic-cps1.png",
+"iconsel":"ic-cps1-80-n.png",
+"iconsmall":"ic-cps1-80-n.png",
+"iconlist":"ic-cps1-32-n.png",
+"background":"bg.png",
+"themecolor":"CD6155",
+"launch":"launch.sh",
+"rompath":"../../Roms/CPS1",
+"imgpath":"../../Roms/CPS1/media/images",
+"gamelist":"../../Roms/CPS1/gamelist.xml",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip|7z"
+}

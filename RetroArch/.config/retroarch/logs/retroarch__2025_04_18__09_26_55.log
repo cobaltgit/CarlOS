@@ -1,0 +1,4157 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f780abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/mnt/SDCARD/RetroArch/.config/retroarch/content_favorites.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Core]: Using content: "/mnt/sdcard/Roms/ARCADE/polepos.zip".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 201, Frames dropped: 0.
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/mnt/SDCARD/RetroArch/.config/retroarch/cores/mame2010_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2010/ARCADE.cfg".
+[INFO] [Overrides]: Game-specific overrides found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2010/polepos.cfg".
+[INFO] [Overrides]: Game-specific overrides stacking on top of previous overrides.
+[INFO] [Config]: Loading config: "/mnt/SDCARD/RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2010/ARCADE.cfg".
+[INFO] [Config]: Appending override config: "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2010/polepos.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/MAME 2010/polepos.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/MAME 2010/polepos.state".
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Remaps]: Game-specific remap found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/remaps/MAME 2010/polepos.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/mnt/SDCARD/RetroArch/.config/retroarch/system".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/MAME 2010".
+[libretro INFO] [MAME 2010] mame.ini found at: /mnt/SDCARD/Savefiles/MAME 2010/mame2010/ini/mame.ini
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[libretro INFO] [MAME 2010] libretro_content_directory: /mnt/sdcard/Roms/ARCADE/
+[libretro INFO] [MAME 2010] libretro_system_directory: /mnt/SDCARD/RetroArch/.config/retroarch/system/mame2010
+[libretro INFO] [MAME 2010] libretro_save directory: /mnt/SDCARD/Savefiles/MAME 2010/mame2010
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [MAME 2010] mouse_mode value: mouse
+[libretro INFO] [MAME 2010] skip_nagscreen value: enabled
+[libretro INFO] [MAME 2010] skip_gameinfo value: disabled
+[libretro INFO] [MAME 2010] skip_warnings value: disabled
+[libretro INFO] [MAME 2010] videoapproach1_enable value: disabled
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] [MAME 2010] path=/mnt/sdcard/Roms/ARCADE/polepos.zip gamePath=/mnt/sdcard/Roms/ARCADE gameName=polepos
+[libretro INFO] [MAME 2010] polepos           "Pole Position" rot=0 
+[libretro INFO] [MAME 2010] Creating frontend... game=polepos
+[libretro INFO] [MAME 2010] Invoking MAME2010 CLI frontend. Parameter count: 17
+[libretro INFO] [MAME 2010] Parameter list: polepos 
+[libretro INFO] [MAME 2010] osd_init starting
+[libretro INFO] [MAME 2010] SOURCE FILE: src/mame/drivers/polepos.c
+[libretro INFO] [MAME 2010] PARENT: 0
+[libretro INFO] [MAME 2010] NAME: polepos
+[libretro INFO] [MAME 2010] DESCRIPTION: Pole Position
+[libretro INFO] [MAME 2010] YEAR: 1982
+[libretro INFO] [MAME 2010] MANUFACTURER: Namco
+[libretro INFO] [MAME 2010] Machine screen orientation: HORIZONTAL 
+[libretro INFO] [MAME 2010] Rotation:0
+[libretro INFO] [MAME 2010] osd_init done
+[libretro INFO] [MAME 2010] game screen w=256 h=224  rowPixels=256
+[libretro INFO] [MAME 2010] Rotation:0
+[libretro INFO] [MAME 2010] Device 'sub' did not register any state to save!
+[libretro INFO] [MAME 2010] Device 'sub2' did not register any state to save!
+[libretro INFO] [MAME 2010] Namco: freq fractional bits = 17: internal freq = 192000, output freq = 192000
+[libretro INFO] [MAME 2010] Searching for polepos in internal hiscore data.
+[libretro INFO] [MAME 2010] Soft reset now.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 256x224, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f6c0a6760.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2010/ARCADE.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/mnt/SDCARD/RetroArch/.config/retroarch/content_favorites.lpl".
+[libretro INFO] [MAME 2010] ROM @ 0020
+[INFO] [Environ]: SET_GEOMETRY.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[libretro INFO] [MAME 2010] 'maincpu' (0DD8)[libretro INFO] [MAME 2010] : 06XX '06xx' write in read mode 10
+[libretro INFO] [MAME 2010] 'maincpu' (0E69)[libretro INFO] [MAME 2010] : 06XX '06xx' write in read mode 10
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0000
+[libretro INFO] [MAME 2010] ROM @ 0000
+[libretro INFO] [MAME 2010] ROM @ 0010
+[libretro INFO] [MAME 2010] ROM @ 0010
+[libretro INFO] [MAME 2010] ROM @ 0011
+[libretro INFO] [MAME 2010] ROM @ 0011
+[libretro INFO] [MAME 2010] ROM @ 0001
+[libretro INFO] [MAME 2010] ROM @ 0001
+[libretro INFO] [MAME 2010] ROM @ 0021
+[libretro INFO] [MAME 2010] ROM @ 0021
+[libretro INFO] [MAME 2010] ROM @ 0022
+[libretro INFO] [MAME 2010] ROM @ 0022
+[libretro INFO] [MAME 2010] ROM @ 0023
+[libretro INFO] [MAME 2010] ROM @ 0023
+[libretro INFO] [MAME 2010] ROM @ 0024
+[libretro INFO] [MAME 2010] ROM @ 0024
+[libretro INFO] [MAME 2010] ROM @ 0025
+[libretro INFO] [MAME 2010] ROM @ 0025
+[libretro INFO] [MAME 2010] ROM @ 0026
+[libretro INFO] [MAME 2010] ROM @ 0026
+[libretro INFO] [MAME 2010] ROM @ 0027
+[libretro INFO] [MAME 2010] ROM @ 0027
+[libretro INFO] [MAME 2010] ROM @ 0028
+[libretro INFO] [MAME 2010] ROM @ 0028
+[libretro INFO] [MAME 2010] ROM @ 0029
+[libretro INFO] [MAME 2010] ROM @ 0029
+[libretro INFO] [MAME 2010] ROM @ 002A
+[libretro INFO] [MAME 2010] ROM @ 002A
+[libretro INFO] [MAME 2010] ROM @ 002B
+[libretro INFO] [MAME 2010] ROM @ 002B
+[libretro INFO] [MAME 2010] ROM @ 002C
+[libretro INFO] [MAME 2010] ROM @ 002C
+[libretro INFO] [MAME 2010] ROM @ 002D
+[libretro INFO] [MAME 2010] ROM @ 002D
+[libretro INFO] [MAME 2010] ROM @ 002E
+[libretro INFO] [MAME 2010] ROM @ 002E
+[libretro INFO] [MAME 2010] ROM @ 002F
+[libretro INFO] [MAME 2010] ROM @ 002F
+[libretro INFO] [MAME 2010] ROM @ 0030
+[libretro INFO] [MAME 2010] ROM @ 0030
+[libretro INFO] [MAME 2010] ROM @ 0031
+[libretro INFO] [MAME 2010] ROM @ 0031
+[libretro INFO] [MAME 2010] ROM @ 0032
+[libretro INFO] [MAME 2010] ROM @ 0032
+[libretro INFO] [MAME 2010] ROM @ 0033
+[libretro INFO] [MAME 2010] ROM @ 0033
+[libretro INFO] [MAME 2010] ROM @ 0034
+[libretro INFO] [MAME 2010] ROM @ 0034
+[libretro INFO] [MAME 2010] ROM @ 0035
+[libretro INFO] [MAME 2010] ROM @ 0035
+[libretro INFO] [MAME 2010] ROM @ 0036
+[libretro INFO] [MAME 2010] ROM @ 0036
+[libretro INFO] [MAME 2010] ROM @ 0037
+[libretro INFO] [MAME 2010] ROM @ 0037
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0038
+[libretro INFO] [MAME 2010] ROM @ 0038
+[libretro INFO] [MAME 2010] ROM @ 0039
+[libretro INFO] [MAME 2010] ROM @ 0039
+[libretro INFO] [MAME 2010] ROM @ 003A
+[libretro INFO] [MAME 2010] ROM @ 003A
+[libretro INFO] [MAME 2010] ROM @ 003B
+[libretro INFO] [MAME 2010] ROM @ 003B
+[libretro INFO] [MAME 2010] ROM @ 003C
+[libretro INFO] [MAME 2010] ROM @ 003C
+[libretro INFO] [MAME 2010] ROM @ 003D
+[libretro INFO] [MAME 2010] ROM @ 003D
+[libretro INFO] [MAME 2010] ROM @ 003E
+[libretro INFO] [MAME 2010] ROM @ 003E
+[libretro INFO] [MAME 2010] ROM @ 003F
+[libretro INFO] [MAME 2010] ROM @ 003F
+[libretro INFO] [MAME 2010] ROM @ 0040
+[libretro INFO] [MAME 2010] ROM @ 0040
+[libretro INFO] [MAME 2010] ROM @ 0041
+[libretro INFO] [MAME 2010] ROM @ 0041
+[libretro INFO] [MAME 2010] ROM @ 0042
+[libretro INFO] [MAME 2010] ROM @ 0042
+[libretro INFO] [MAME 2010] ROM @ 0043
+[libretro INFO] [MAME 2010] ROM @ 0043
+[libretro INFO] [MAME 2010] ROM @ 0044
+[libretro INFO] [MAME 2010] ROM @ 0044
+[libretro INFO] [MAME 2010] ROM @ 0045
+[libretro INFO] [MAME 2010] ROM @ 0045
+[libretro INFO] [MAME 2010] ROM @ 0046
+[libretro INFO] [MAME 2010] ROM @ 0046
+[libretro INFO] [MAME 2010] ROM @ 0047
+[libretro INFO] [MAME 2010] ROM @ 0047
+[libretro INFO] [MAME 2010] ROM @ 0048
+[libretro INFO] [MAME 2010] ROM @ 0048
+[libretro INFO] [MAME 2010] ROM @ 0049
+[libretro INFO] [MAME 2010] ROM @ 0049
+[libretro INFO] [MAME 2010] ROM @ 004A
+[libretro INFO] [MAME 2010] ROM @ 004A
+[libretro INFO] [MAME 2010] ROM @ 004B
+[libretro INFO] [MAME 2010] ROM @ 004B
+[libretro INFO] [MAME 2010] ROM @ 004C
+[libretro INFO] [MAME 2010] ROM @ 004C
+[libretro INFO] [MAME 2010] ROM @ 004D
+[libretro INFO] [MAME 2010] ROM @ 004D
+[libretro INFO] [MAME 2010] ROM @ 004E
+[libretro INFO] [MAME 2010] ROM @ 004E
+[libretro INFO] [MAME 2010] ROM @ 004F
+[libretro INFO] [MAME 2010] ROM @ 004F
+[libretro INFO] [MAME 2010] ROM @ 0050
+[libretro INFO] [MAME 2010] ROM @ 0050
+[libretro INFO] [MAME 2010] ROM @ 0051
+[libretro INFO] [MAME 2010] ROM @ 0051
+[libretro INFO] [MAME 2010] ROM @ 0052
+[libretro INFO] [MAME 2010] ROM @ 0052
+[libretro INFO] [MAME 2010] ROM @ 0053
+[libretro INFO] [MAME 2010] ROM @ 0053
+[libretro INFO] [MAME 2010] ROM @ 0054
+[libretro INFO] [MAME 2010] ROM @ 0054
+[libretro INFO] [MAME 2010] ROM @ 0055
+[libretro INFO] [MAME 2010] ROM @ 0055
+[libretro INFO] [MAME 2010] ROM @ 0056
+[libretro INFO] [MAME 2010] ROM @ 0056
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0057
+[libretro INFO] [MAME 2010] ROM @ 0057
+[libretro INFO] [MAME 2010] ROM @ 0058
+[libretro INFO] [MAME 2010] ROM @ 0058
+[libretro INFO] [MAME 2010] ROM @ 0059
+[libretro INFO] [MAME 2010] ROM @ 0059
+[libretro INFO] [MAME 2010] ROM @ 005A
+[libretro INFO] [MAME 2010] ROM @ 005A
+[libretro INFO] [MAME 2010] ROM @ 005B
+[libretro INFO] [MAME 2010] ROM @ 005B
+[libretro INFO] [MAME 2010] ROM @ 005C
+[libretro INFO] [MAME 2010] ROM @ 005C
+[libretro INFO] [MAME 2010] ROM @ 005D
+[libretro INFO] [MAME 2010] ROM @ 005D
+[libretro INFO] [MAME 2010] ROM @ 005E
+[libretro INFO] [MAME 2010] ROM @ 005E
+[libretro INFO] [MAME 2010] ROM @ 005F
+[libretro INFO] [MAME 2010] ROM @ 005F
+[libretro INFO] [MAME 2010] ROM @ 0060
+[libretro INFO] [MAME 2010] ROM @ 0060
+[libretro INFO] [MAME 2010] ROM @ 0061
+[libretro INFO] [MAME 2010] ROM @ 0061
+[libretro INFO] [MAME 2010] ROM @ 0062
+[libretro INFO] [MAME 2010] ROM @ 0062
+[libretro INFO] [MAME 2010] ROM @ 0063
+[libretro INFO] [MAME 2010] ROM @ 0063
+[libretro INFO] [MAME 2010] ROM @ 0064
+[libretro INFO] [MAME 2010] ROM @ 0064
+[libretro INFO] [MAME 2010] ROM @ 0065
+[libretro INFO] [MAME 2010] ROM @ 0065
+[libretro INFO] [MAME 2010] ROM @ 0066
+[libretro INFO] [MAME 2010] ROM @ 0066
+[libretro INFO] [MAME 2010] ROM @ 0067
+[libretro INFO] [MAME 2010] ROM @ 0067
+[libretro INFO] [MAME 2010] ROM @ 0068
+[libretro INFO] [MAME 2010] ROM @ 0068
+[libretro INFO] [MAME 2010] ROM @ 0069
+[libretro INFO] [MAME 2010] ROM @ 0069
+[libretro INFO] [MAME 2010] ROM @ 006A
+[libretro INFO] [MAME 2010] ROM @ 006A
+[libretro INFO] [MAME 2010] ROM @ 006B
+[libretro INFO] [MAME 2010] ROM @ 006B
+[libretro INFO] [MAME 2010] ROM @ 006C
+[libretro INFO] [MAME 2010] ROM @ 006C
+[libretro INFO] [MAME 2010] ROM @ 006D
+[libretro INFO] [MAME 2010] ROM @ 006D
+[libretro INFO] [MAME 2010] ROM @ 006E
+[libretro INFO] [MAME 2010] ROM @ 006E
+[libretro INFO] [MAME 2010] ROM @ 006F
+[libretro INFO] [MAME 2010] ROM @ 006F
+[libretro INFO] [MAME 2010] ROM @ 0070
+[libretro INFO] [MAME 2010] ROM @ 0070
+[libretro INFO] [MAME 2010] ROM @ 0071
+[libretro INFO] [MAME 2010] ROM @ 0071
+[libretro INFO] [MAME 2010] ROM @ 0072
+[libretro INFO] [MAME 2010] ROM @ 0072
+[libretro INFO] [MAME 2010] ROM @ 0073
+[libretro INFO] [MAME 2010] ROM @ 0073
+[libretro INFO] [MAME 2010] ROM @ 0074
+[libretro INFO] [MAME 2010] ROM @ 0074
+[libretro INFO] [MAME 2010] ROM @ 0075
+[libretro INFO] [MAME 2010] ROM @ 0075
+[libretro INFO] [MAME 2010] ROM @ 0076
+[libretro INFO] [MAME 2010] ROM @ 0076
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0077
+[libretro INFO] [MAME 2010] ROM @ 0077
+[libretro INFO] [MAME 2010] ROM @ 0078
+[libretro INFO] [MAME 2010] ROM @ 0078
+[libretro INFO] [MAME 2010] ROM @ 0079
+[libretro INFO] [MAME 2010] ROM @ 0079
+[libretro INFO] [MAME 2010] ROM @ 007A
+[libretro INFO] [MAME 2010] ROM @ 007A
+[libretro INFO] [MAME 2010] ROM @ 007B
+[libretro INFO] [MAME 2010] ROM @ 007B
+[libretro INFO] [MAME 2010] ROM @ 007C
+[libretro INFO] [MAME 2010] ROM @ 007C
+[libretro INFO] [MAME 2010] ROM @ 007D
+[libretro INFO] [MAME 2010] ROM @ 007D
+[libretro INFO] [MAME 2010] ROM @ 007E
+[libretro INFO] [MAME 2010] ROM @ 007E
+[libretro INFO] [MAME 2010] ROM @ 007F
+[libretro INFO] [MAME 2010] ROM @ 007F
+[libretro INFO] [MAME 2010] ROM @ 0080
+[libretro INFO] [MAME 2010] ROM @ 0080
+[libretro INFO] [MAME 2010] ROM @ 0081
+[libretro INFO] [MAME 2010] ROM @ 0081
+[libretro INFO] [MAME 2010] ROM @ 0082
+[libretro INFO] [MAME 2010] ROM @ 0082
+[libretro INFO] [MAME 2010] ROM @ 0083
+[libretro INFO] [MAME 2010] ROM @ 0083
+[libretro INFO] [MAME 2010] ROM @ 0084
+[libretro INFO] [MAME 2010] ROM @ 0084
+[libretro INFO] [MAME 2010] ROM @ 0085
+[libretro INFO] [MAME 2010] ROM @ 0085
+[libretro INFO] [MAME 2010] ROM @ 0086
+[libretro INFO] [MAME 2010] ROM @ 0086
+[libretro INFO] [MAME 2010] ROM @ 0087
+[libretro INFO] [MAME 2010] ROM @ 0087
+[libretro INFO] [MAME 2010] ROM @ 0088
+[libretro INFO] [MAME 2010] ROM @ 0088
+[libretro INFO] [MAME 2010] ROM @ 0089
+[libretro INFO] [MAME 2010] ROM @ 0089
+[libretro INFO] [MAME 2010] ROM @ 008A
+[libretro INFO] [MAME 2010] ROM @ 008A
+[libretro INFO] [MAME 2010] ROM @ 008B
+[libretro INFO] [MAME 2010] ROM @ 008B
+[libretro INFO] [MAME 2010] ROM @ 008C
+[libretro INFO] [MAME 2010] ROM @ 008C
+[libretro INFO] [MAME 2010] ROM @ 008D
+[libretro INFO] [MAME 2010] ROM @ 008D
+[libretro INFO] [MAME 2010] ROM @ 008E
+[libretro INFO] [MAME 2010] ROM @ 008E
+[libretro INFO] [MAME 2010] ROM @ 008F
+[libretro INFO] [MAME 2010] ROM @ 008F
+[libretro INFO] [MAME 2010] ROM @ 0090
+[libretro INFO] [MAME 2010] ROM @ 0090
+[libretro INFO] [MAME 2010] ROM @ 0091
+[libretro INFO] [MAME 2010] ROM @ 0091
+[libretro INFO] [MAME 2010] ROM @ 0092
+[libretro INFO] [MAME 2010] ROM @ 0092
+[libretro INFO] [MAME 2010] ROM @ 0093
+[libretro INFO] [MAME 2010] ROM @ 0093
+[libretro INFO] [MAME 2010] ROM @ 0094
+[libretro INFO] [MAME 2010] ROM @ 0094
+[libretro INFO] [MAME 2010] ROM @ 0095
+[libretro INFO] [MAME 2010] ROM @ 0095
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0096
+[libretro INFO] [MAME 2010] ROM @ 0096
+[libretro INFO] [MAME 2010] ROM @ 0097
+[libretro INFO] [MAME 2010] ROM @ 0097
+[libretro INFO] [MAME 2010] ROM @ 0098
+[libretro INFO] [MAME 2010] ROM @ 0098
+[libretro INFO] [MAME 2010] ROM @ 0099
+[libretro INFO] [MAME 2010] ROM @ 0099
+[libretro INFO] [MAME 2010] ROM @ 009A
+[libretro INFO] [MAME 2010] ROM @ 009A
+[libretro INFO] [MAME 2010] ROM @ 009B
+[libretro INFO] [MAME 2010] ROM @ 009B
+[libretro INFO] [MAME 2010] ROM @ 009C
+[libretro INFO] [MAME 2010] ROM @ 009C
+[libretro INFO] [MAME 2010] ROM @ 009D
+[libretro INFO] [MAME 2010] ROM @ 009D
+[libretro INFO] [MAME 2010] ROM @ 009E
+[libretro INFO] [MAME 2010] ROM @ 009E
+[libretro INFO] [MAME 2010] ROM @ 009F
+[libretro INFO] [MAME 2010] ROM @ 009F
+[libretro INFO] [MAME 2010] ROM @ 00A0
+[libretro INFO] [MAME 2010] ROM @ 00A0
+[libretro INFO] [MAME 2010] ROM @ 00A1
+[libretro INFO] [MAME 2010] ROM @ 00A1
+[libretro INFO] [MAME 2010] ROM @ 00A2
+[libretro INFO] [MAME 2010] ROM @ 00A2
+[libretro INFO] [MAME 2010] ROM @ 00A3
+[libretro INFO] [MAME 2010] ROM @ 00A3
+[libretro INFO] [MAME 2010] ROM @ 00A4
+[libretro INFO] [MAME 2010] ROM @ 00A4
+[libretro INFO] [MAME 2010] ROM @ 00A5
+[libretro INFO] [MAME 2010] ROM @ 00A5
+[libretro INFO] [MAME 2010] ROM @ 00A6
+[libretro INFO] [MAME 2010] ROM @ 00A6
+[libretro INFO] [MAME 2010] ROM @ 00A7
+[libretro INFO] [MAME 2010] ROM @ 00A7
+[libretro INFO] [MAME 2010] ROM @ 00A8
+[libretro INFO] [MAME 2010] ROM @ 00A8
+[libretro INFO] [MAME 2010] ROM @ 00A9
+[libretro INFO] [MAME 2010] ROM @ 00A9
+[libretro INFO] [MAME 2010] ROM @ 00AA
+[libretro INFO] [MAME 2010] ROM @ 00AA
+[libretro INFO] [MAME 2010] ROM @ 00AB
+[libretro INFO] [MAME 2010] ROM @ 00AB
+[libretro INFO] [MAME 2010] ROM @ 00AC
+[libretro INFO] [MAME 2010] ROM @ 00AC
+[libretro INFO] [MAME 2010] ROM @ 00AD
+[libretro INFO] [MAME 2010] ROM @ 00AD
+[libretro INFO] [MAME 2010] ROM @ 00AE
+[libretro INFO] [MAME 2010] ROM @ 00AE
+[libretro INFO] [MAME 2010] ROM @ 00AF
+[libretro INFO] [MAME 2010] ROM @ 00AF
+[libretro INFO] [MAME 2010] ROM @ 00B0
+[libretro INFO] [MAME 2010] ROM @ 00B0
+[libretro INFO] [MAME 2010] ROM @ 00B1
+[libretro INFO] [MAME 2010] ROM @ 00B1
+[libretro INFO] [MAME 2010] ROM @ 00B2
+[libretro INFO] [MAME 2010] ROM @ 00B2
+[libretro INFO] [MAME 2010] ROM @ 00B3
+[libretro INFO] [MAME 2010] ROM @ 00B3
+[libretro INFO] [MAME 2010] ROM @ 00B4
+[libretro INFO] [MAME 2010] ROM @ 00B4
+[libretro INFO] [MAME 2010] ROM @ 00B5
+[libretro INFO] [MAME 2010] ROM @ 00B5
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 00B6
+[libretro INFO] [MAME 2010] ROM @ 00B6
+[libretro INFO] [MAME 2010] ROM @ 00B7
+[libretro INFO] [MAME 2010] ROM @ 00B7
+[libretro INFO] [MAME 2010] ROM @ 00B8
+[libretro INFO] [MAME 2010] ROM @ 00B8
+[libretro INFO] [MAME 2010] ROM @ 00B9
+[libretro INFO] [MAME 2010] ROM @ 00B9
+[libretro INFO] [MAME 2010] ROM @ 00BA
+[libretro INFO] [MAME 2010] ROM @ 00BA
+[libretro INFO] [MAME 2010] ROM @ 00BB
+[libretro INFO] [MAME 2010] ROM @ 00BB
+[libretro INFO] [MAME 2010] ROM @ 00BC
+[libretro INFO] [MAME 2010] ROM @ 00BC
+[libretro INFO] [MAME 2010] ROM @ 00BD
+[libretro INFO] [MAME 2010] ROM @ 00BD
+[libretro INFO] [MAME 2010] ROM @ 00BE
+[libretro INFO] [MAME 2010] ROM @ 00BE
+[libretro INFO] [MAME 2010] ROM @ 00BF
+[libretro INFO] [MAME 2010] ROM @ 00BF
+[libretro INFO] [MAME 2010] ROM @ 00C0
+[libretro INFO] [MAME 2010] ROM @ 00C0
+[libretro INFO] [MAME 2010] ROM @ 00C1
+[libretro INFO] [MAME 2010] ROM @ 00C1
+[libretro INFO] [MAME 2010] ROM @ 00C2
+[libretro INFO] [MAME 2010] ROM @ 00C2
+[libretro INFO] [MAME 2010] ROM @ 00C3
+[libretro INFO] [MAME 2010] ROM @ 00C3
+[libretro INFO] [MAME 2010] ROM @ 00C4
+[libretro INFO] [MAME 2010] ROM @ 00C4
+[libretro INFO] [MAME 2010] ROM @ 00C5
+[libretro INFO] [MAME 2010] ROM @ 00C5
+[libretro INFO] [MAME 2010] ROM @ 00C6
+[libretro INFO] [MAME 2010] ROM @ 00C6
+[libretro INFO] [MAME 2010] ROM @ 00C7
+[libretro INFO] [MAME 2010] ROM @ 00C7
+[libretro INFO] [MAME 2010] ROM @ 00C8
+[libretro INFO] [MAME 2010] ROM @ 00C8
+[libretro INFO] [MAME 2010] ROM @ 00C9
+[libretro INFO] [MAME 2010] ROM @ 00C9
+[libretro INFO] [MAME 2010] ROM @ 00CA
+[libretro INFO] [MAME 2010] ROM @ 00CA
+[libretro INFO] [MAME 2010] ROM @ 00CB
+[libretro INFO] [MAME 2010] ROM @ 00CB
+[libretro INFO] [MAME 2010] ROM @ 00CC
+[libretro INFO] [MAME 2010] ROM @ 00CC
+[libretro INFO] [MAME 2010] ROM @ 00CD
+[libretro INFO] [MAME 2010] ROM @ 00CD
+[libretro INFO] [MAME 2010] ROM @ 00CE
+[libretro INFO] [MAME 2010] ROM @ 00CE
+[libretro INFO] [MAME 2010] ROM @ 00CF
+[libretro INFO] [MAME 2010] ROM @ 00CF
+[libretro INFO] [MAME 2010] ROM @ 00D0
+[libretro INFO] [MAME 2010] ROM @ 00D0
+[libretro INFO] [MAME 2010] ROM @ 00D1
+[libretro INFO] [MAME 2010] ROM @ 00D1
+[libretro INFO] [MAME 2010] ROM @ 00D2
+[libretro INFO] [MAME 2010] ROM @ 00D2
+[libretro INFO] [MAME 2010] ROM @ 00D3
+[libretro INFO] [MAME 2010] ROM @ 00D3
+[libretro INFO] [MAME 2010] ROM @ 00D4
+[libretro INFO] [MAME 2010] ROM @ 00D4
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 00D5
+[libretro INFO] [MAME 2010] ROM @ 00D5
+[libretro INFO] [MAME 2010] ROM @ 00D6
+[libretro INFO] [MAME 2010] ROM @ 00D6
+[libretro INFO] [MAME 2010] ROM @ 00D7
+[libretro INFO] [MAME 2010] ROM @ 00D7
+[libretro INFO] [MAME 2010] ROM @ 00D8
+[libretro INFO] [MAME 2010] ROM @ 00D8
+[libretro INFO] [MAME 2010] ROM @ 00D9
+[libretro INFO] [MAME 2010] ROM @ 00D9
+[libretro INFO] [MAME 2010] ROM @ 00DA
+[libretro INFO] [MAME 2010] ROM @ 00DA
+[libretro INFO] [MAME 2010] ROM @ 00DB
+[libretro INFO] [MAME 2010] ROM @ 00DB
+[libretro INFO] [MAME 2010] ROM @ 00DC
+[libretro INFO] [MAME 2010] ROM @ 00DC
+[libretro INFO] [MAME 2010] ROM @ 00DD
+[libretro INFO] [MAME 2010] ROM @ 00DD
+[libretro INFO] [MAME 2010] ROM @ 00DE
+[libretro INFO] [MAME 2010] ROM @ 00DE
+[libretro INFO] [MAME 2010] ROM @ 00DF
+[libretro INFO] [MAME 2010] ROM @ 00DF
+[libretro INFO] [MAME 2010] ROM @ 00E0
+[libretro INFO] [MAME 2010] ROM @ 00E0
+[libretro INFO] [MAME 2010] ROM @ 00E1
+[libretro INFO] [MAME 2010] ROM @ 00E1
+[libretro INFO] [MAME 2010] ROM @ 00E2
+[libretro INFO] [MAME 2010] ROM @ 00E2
+[libretro INFO] [MAME 2010] ROM @ 00E3
+[libretro INFO] [MAME 2010] ROM @ 00E3
+[libretro INFO] [MAME 2010] ROM @ 00E4
+[libretro INFO] [MAME 2010] ROM @ 00E4
+[libretro INFO] [MAME 2010] ROM @ 00E5
+[libretro INFO] [MAME 2010] ROM @ 00E5
+[libretro INFO] [MAME 2010] ROM @ 00E6
+[libretro INFO] [MAME 2010] ROM @ 00E6
+[libretro INFO] [MAME 2010] ROM @ 00E7
+[libretro INFO] [MAME 2010] ROM @ 00E7
+[libretro INFO] [MAME 2010] ROM @ 00E8
+[libretro INFO] [MAME 2010] ROM @ 00E8
+[libretro INFO] [MAME 2010] ROM @ 00E9
+[libretro INFO] [MAME 2010] ROM @ 00E9
+[libretro INFO] [MAME 2010] ROM @ 00EA
+[libretro INFO] [MAME 2010] ROM @ 00EA
+[libretro INFO] [MAME 2010] ROM @ 00EB
+[libretro INFO] [MAME 2010] ROM @ 00EB
+[libretro INFO] [MAME 2010] ROM @ 00EC
+[libretro INFO] [MAME 2010] ROM @ 00EC
+[libretro INFO] [MAME 2010] ROM @ 00ED
+[libretro INFO] [MAME 2010] ROM @ 00ED
+[libretro INFO] [MAME 2010] ROM @ 00EE
+[libretro INFO] [MAME 2010] ROM @ 00EE
+[libretro INFO] [MAME 2010] ROM @ 00EF
+[libretro INFO] [MAME 2010] ROM @ 00EF
+[libretro INFO] [MAME 2010] ROM @ 00F0
+[libretro INFO] [MAME 2010] ROM @ 00F0
+[libretro INFO] [MAME 2010] ROM @ 00F1
+[libretro INFO] [MAME 2010] ROM @ 00F1
+[libretro INFO] [MAME 2010] ROM @ 00F2
+[libretro INFO] [MAME 2010] ROM @ 00F2
+[libretro INFO] [MAME 2010] ROM @ 00F3
+[libretro INFO] [MAME 2010] ROM @ 00F3
+[libretro INFO] [MAME 2010] ROM @ 00F4
+[libretro INFO] [MAME 2010] ROM @ 00F4
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 00F5
+[libretro INFO] [MAME 2010] ROM @ 00F5
+[libretro INFO] [MAME 2010] ROM @ 00F6
+[libretro INFO] [MAME 2010] ROM @ 00F6
+[libretro INFO] [MAME 2010] ROM @ 00F7
+[libretro INFO] [MAME 2010] ROM @ 00F7
+[libretro INFO] [MAME 2010] ROM @ 00F8
+[libretro INFO] [MAME 2010] ROM @ 00F8
+[libretro INFO] [MAME 2010] ROM @ 00F9
+[libretro INFO] [MAME 2010] ROM @ 00F9
+[libretro INFO] [MAME 2010] ROM @ 00FA
+[libretro INFO] [MAME 2010] ROM @ 00FA
+[libretro INFO] [MAME 2010] ROM @ 00FB
+[libretro INFO] [MAME 2010] ROM @ 00FB
+[libretro INFO] [MAME 2010] ROM @ 00FC
+[libretro INFO] [MAME 2010] ROM @ 00FC
+[libretro INFO] [MAME 2010] ROM @ 00FD
+[libretro INFO] [MAME 2010] ROM @ 00FD
+[libretro INFO] [MAME 2010] ROM @ 00FE
+[libretro INFO] [MAME 2010] ROM @ 00FE
+[libretro INFO] [MAME 2010] ROM @ 00FF
+[libretro INFO] [MAME 2010] ROM @ 00FF
+[libretro INFO] [MAME 2010] ROM @ 0100
+[libretro INFO] [MAME 2010] ROM @ 0100
+[libretro INFO] [MAME 2010] ROM @ 0101
+[libretro INFO] [MAME 2010] ROM @ 0101
+[libretro INFO] [MAME 2010] ROM @ 0102
+[libretro INFO] [MAME 2010] ROM @ 0102
+[libretro INFO] [MAME 2010] ROM @ 0103
+[libretro INFO] [MAME 2010] ROM @ 0103
+[libretro INFO] [MAME 2010] ROM @ 0104
+[libretro INFO] [MAME 2010] ROM @ 0104
+[libretro INFO] [MAME 2010] ROM @ 0105
+[libretro INFO] [MAME 2010] ROM @ 0105
+[libretro INFO] [MAME 2010] ROM @ 0106
+[libretro INFO] [MAME 2010] ROM @ 0106
+[libretro INFO] [MAME 2010] ROM @ 0107
+[libretro INFO] [MAME 2010] ROM @ 0107
+[libretro INFO] [MAME 2010] ROM @ 0108
+[libretro INFO] [MAME 2010] ROM @ 0108
+[libretro INFO] [MAME 2010] ROM @ 0109
+[libretro INFO] [MAME 2010] ROM @ 0109
+[libretro INFO] [MAME 2010] ROM @ 010A
+[libretro INFO] [MAME 2010] ROM @ 010A
+[libretro INFO] [MAME 2010] ROM @ 010B
+[libretro INFO] [MAME 2010] ROM @ 010B
+[libretro INFO] [MAME 2010] ROM @ 010C
+[libretro INFO] [MAME 2010] ROM @ 010C
+[libretro INFO] [MAME 2010] ROM @ 010D
+[libretro INFO] [MAME 2010] ROM @ 010D
+[libretro INFO] [MAME 2010] ROM @ 010E
+[libretro INFO] [MAME 2010] ROM @ 010E
+[libretro INFO] [MAME 2010] ROM @ 010F
+[libretro INFO] [MAME 2010] ROM @ 010F
+[libretro INFO] [MAME 2010] ROM @ 0110
+[libretro INFO] [MAME 2010] ROM @ 0110
+[libretro INFO] [MAME 2010] ROM @ 0111
+[libretro INFO] [MAME 2010] ROM @ 0111
+[libretro INFO] [MAME 2010] ROM @ 0112
+[libretro INFO] [MAME 2010] ROM @ 0112
+[libretro INFO] [MAME 2010] ROM @ 0113
+[libretro INFO] [MAME 2010] ROM @ 0113
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0114
+[libretro INFO] [MAME 2010] ROM @ 0114
+[libretro INFO] [MAME 2010] ROM @ 0115
+[libretro INFO] [MAME 2010] ROM @ 0115
+[libretro INFO] [MAME 2010] ROM @ 0116
+[libretro INFO] [MAME 2010] ROM @ 0116
+[libretro INFO] [MAME 2010] ROM @ 0117
+[libretro INFO] [MAME 2010] ROM @ 0117
+[libretro INFO] [MAME 2010] ROM @ 0118
+[libretro INFO] [MAME 2010] ROM @ 0118
+[libretro INFO] [MAME 2010] ROM @ 0119
+[libretro INFO] [MAME 2010] ROM @ 0119
+[libretro INFO] [MAME 2010] ROM @ 011A
+[libretro INFO] [MAME 2010] ROM @ 011A
+[libretro INFO] [MAME 2010] ROM @ 011B
+[libretro INFO] [MAME 2010] ROM @ 011B
+[libretro INFO] [MAME 2010] ROM @ 011C
+[libretro INFO] [MAME 2010] ROM @ 011C
+[libretro INFO] [MAME 2010] ROM @ 011D
+[libretro INFO] [MAME 2010] ROM @ 011D
+[libretro INFO] [MAME 2010] ROM @ 011E
+[libretro INFO] [MAME 2010] ROM @ 011E
+[libretro INFO] [MAME 2010] ROM @ 011F
+[libretro INFO] [MAME 2010] ROM @ 011F
+[libretro INFO] [MAME 2010] ROM @ 0120
+[libretro INFO] [MAME 2010] ROM @ 0120
+[libretro INFO] [MAME 2010] ROM @ 0121
+[libretro INFO] [MAME 2010] ROM @ 0121
+[libretro INFO] [MAME 2010] ROM @ 0122
+[libretro INFO] [MAME 2010] ROM @ 0122
+[libretro INFO] [MAME 2010] ROM @ 0123
+[libretro INFO] [MAME 2010] ROM @ 0123
+[libretro INFO] [MAME 2010] ROM @ 0124
+[libretro INFO] [MAME 2010] ROM @ 0124
+[libretro INFO] [MAME 2010] ROM @ 0125
+[libretro INFO] [MAME 2010] ROM @ 0125
+[libretro INFO] [MAME 2010] ROM @ 0126
+[libretro INFO] [MAME 2010] ROM @ 0126
+[libretro INFO] [MAME 2010] ROM @ 0127
+[libretro INFO] [MAME 2010] ROM @ 0127
+[libretro INFO] [MAME 2010] ROM @ 0128
+[libretro INFO] [MAME 2010] ROM @ 0128
+[libretro INFO] [MAME 2010] ROM @ 0129
+[libretro INFO] [MAME 2010] ROM @ 0129
+[libretro INFO] [MAME 2010] ROM @ 012A
+[libretro INFO] [MAME 2010] ROM @ 012A
+[libretro INFO] [MAME 2010] ROM @ 012B
+[libretro INFO] [MAME 2010] ROM @ 012B
+[libretro INFO] [MAME 2010] ROM @ 012C
+[libretro INFO] [MAME 2010] ROM @ 012C
+[libretro INFO] [MAME 2010] ROM @ 012D
+[libretro INFO] [MAME 2010] ROM @ 012D
+[libretro INFO] [MAME 2010] ROM @ 012E
+[libretro INFO] [MAME 2010] ROM @ 012E
+[libretro INFO] [MAME 2010] ROM @ 012F
+[libretro INFO] [MAME 2010] ROM @ 012F
+[libretro INFO] [MAME 2010] ROM @ 0130
+[libretro INFO] [MAME 2010] ROM @ 0130
+[libretro INFO] [MAME 2010] ROM @ 0131
+[libretro INFO] [MAME 2010] ROM @ 0131
+[libretro INFO] [MAME 2010] ROM @ 0132
+[libretro INFO] [MAME 2010] ROM @ 0132
+[libretro INFO] [MAME 2010] ROM @ 0133
+[libretro INFO] [MAME 2010] ROM @ 0133
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0134
+[libretro INFO] [MAME 2010] ROM @ 0134
+[libretro INFO] [MAME 2010] ROM @ 0135
+[libretro INFO] [MAME 2010] ROM @ 0135
+[libretro INFO] [MAME 2010] ROM @ 0136
+[libretro INFO] [MAME 2010] ROM @ 0136
+[libretro INFO] [MAME 2010] ROM @ 0137
+[libretro INFO] [MAME 2010] ROM @ 0137
+[libretro INFO] [MAME 2010] ROM @ 0138
+[libretro INFO] [MAME 2010] ROM @ 0138
+[libretro INFO] [MAME 2010] ROM @ 0139
+[libretro INFO] [MAME 2010] ROM @ 0139
+[libretro INFO] [MAME 2010] ROM @ 013A
+[libretro INFO] [MAME 2010] ROM @ 013A
+[libretro INFO] [MAME 2010] ROM @ 013B
+[libretro INFO] [MAME 2010] ROM @ 013B
+[libretro INFO] [MAME 2010] ROM @ 013C
+[libretro INFO] [MAME 2010] ROM @ 013C
+[libretro INFO] [MAME 2010] ROM @ 013D
+[libretro INFO] [MAME 2010] ROM @ 013D
+[libretro INFO] [MAME 2010] ROM @ 013E
+[libretro INFO] [MAME 2010] ROM @ 013E
+[libretro INFO] [MAME 2010] ROM @ 013F
+[libretro INFO] [MAME 2010] ROM @ 013F
+[libretro INFO] [MAME 2010] ROM @ 0140
+[libretro INFO] [MAME 2010] ROM @ 0140
+[libretro INFO] [MAME 2010] ROM @ 0141
+[libretro INFO] [MAME 2010] ROM @ 0141
+[libretro INFO] [MAME 2010] ROM @ 0142
+[libretro INFO] [MAME 2010] ROM @ 0142
+[libretro INFO] [MAME 2010] ROM @ 0143
+[libretro INFO] [MAME 2010] ROM @ 0143
+[libretro INFO] [MAME 2010] ROM @ 0144
+[libretro INFO] [MAME 2010] ROM @ 0144
+[libretro INFO] [MAME 2010] ROM @ 0145
+[libretro INFO] [MAME 2010] ROM @ 0145
+[libretro INFO] [MAME 2010] ROM @ 0146
+[libretro INFO] [MAME 2010] ROM @ 0146
+[libretro INFO] [MAME 2010] ROM @ 0147
+[libretro INFO] [MAME 2010] ROM @ 0147
+[libretro INFO] [MAME 2010] ROM @ 0148
+[libretro INFO] [MAME 2010] ROM @ 0148
+[libretro INFO] [MAME 2010] ROM @ 0149
+[libretro INFO] [MAME 2010] ROM @ 0149
+[libretro INFO] [MAME 2010] ROM @ 014A
+[libretro INFO] [MAME 2010] ROM @ 014A
+[libretro INFO] [MAME 2010] ROM @ 014B
+[libretro INFO] [MAME 2010] ROM @ 014B
+[libretro INFO] [MAME 2010] ROM @ 014C
+[libretro INFO] [MAME 2010] ROM @ 014C
+[libretro INFO] [MAME 2010] ROM @ 014D
+[libretro INFO] [MAME 2010] ROM @ 014D
+[libretro INFO] [MAME 2010] ROM @ 014E
+[libretro INFO] [MAME 2010] ROM @ 014E
+[libretro INFO] [MAME 2010] ROM @ 014F
+[libretro INFO] [MAME 2010] ROM @ 014F
+[libretro INFO] [MAME 2010] ROM @ 0150
+[libretro INFO] [MAME 2010] ROM @ 0150
+[libretro INFO] [MAME 2010] ROM @ 0151
+[libretro INFO] [MAME 2010] ROM @ 0151
+[libretro INFO] [MAME 2010] ROM @ 0152
+[libretro INFO] [MAME 2010] ROM @ 0152
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0153
+[libretro INFO] [MAME 2010] ROM @ 0153
+[libretro INFO] [MAME 2010] ROM @ 0154
+[libretro INFO] [MAME 2010] ROM @ 0154
+[libretro INFO] [MAME 2010] ROM @ 0155
+[libretro INFO] [MAME 2010] ROM @ 0155
+[libretro INFO] [MAME 2010] ROM @ 0156
+[libretro INFO] [MAME 2010] ROM @ 0156
+[libretro INFO] [MAME 2010] ROM @ 0157
+[libretro INFO] [MAME 2010] ROM @ 0157
+[libretro INFO] [MAME 2010] ROM @ 0158
+[libretro INFO] [MAME 2010] ROM @ 0158
+[libretro INFO] [MAME 2010] ROM @ 0159
+[libretro INFO] [MAME 2010] ROM @ 0159
+[libretro INFO] [MAME 2010] ROM @ 015A
+[libretro INFO] [MAME 2010] ROM @ 015A
+[libretro INFO] [MAME 2010] ROM @ 015B
+[libretro INFO] [MAME 2010] ROM @ 015B
+[libretro INFO] [MAME 2010] ROM @ 015C
+[libretro INFO] [MAME 2010] ROM @ 015C
+[libretro INFO] [MAME 2010] ROM @ 015D
+[libretro INFO] [MAME 2010] ROM @ 015D
+[libretro INFO] [MAME 2010] ROM @ 015E
+[libretro INFO] [MAME 2010] ROM @ 015E
+[libretro INFO] [MAME 2010] ROM @ 015F
+[libretro INFO] [MAME 2010] ROM @ 015F
+[libretro INFO] [MAME 2010] ROM @ 0160
+[libretro INFO] [MAME 2010] ROM @ 0160
+[libretro INFO] [MAME 2010] ROM @ 0161
+[libretro INFO] [MAME 2010] ROM @ 0161
+[libretro INFO] [MAME 2010] ROM @ 0162
+[libretro INFO] [MAME 2010] ROM @ 0162
+[libretro INFO] [MAME 2010] ROM @ 0163
+[libretro INFO] [MAME 2010] ROM @ 0163
+[libretro INFO] [MAME 2010] ROM @ 0164
+[libretro INFO] [MAME 2010] ROM @ 0164
+[libretro INFO] [MAME 2010] ROM @ 0165
+[libretro INFO] [MAME 2010] ROM @ 0165
+[libretro INFO] [MAME 2010] ROM @ 0166
+[libretro INFO] [MAME 2010] ROM @ 0166
+[libretro INFO] [MAME 2010] ROM @ 0167
+[libretro INFO] [MAME 2010] ROM @ 0167
+[libretro INFO] [MAME 2010] ROM @ 0168
+[libretro INFO] [MAME 2010] ROM @ 0168
+[libretro INFO] [MAME 2010] ROM @ 0169
+[libretro INFO] [MAME 2010] ROM @ 0169
+[libretro INFO] [MAME 2010] ROM @ 016A
+[libretro INFO] [MAME 2010] ROM @ 016A
+[libretro INFO] [MAME 2010] ROM @ 016B
+[libretro INFO] [MAME 2010] ROM @ 016B
+[libretro INFO] [MAME 2010] ROM @ 016C
+[libretro INFO] [MAME 2010] ROM @ 016C
+[libretro INFO] [MAME 2010] ROM @ 016D
+[libretro INFO] [MAME 2010] ROM @ 016D
+[libretro INFO] [MAME 2010] ROM @ 016E
+[libretro INFO] [MAME 2010] ROM @ 016E
+[libretro INFO] [MAME 2010] ROM @ 016F
+[libretro INFO] [MAME 2010] ROM @ 016F
+[libretro INFO] [MAME 2010] ROM @ 0170
+[libretro INFO] [MAME 2010] ROM @ 0170
+[libretro INFO] [MAME 2010] ROM @ 0171
+[libretro INFO] [MAME 2010] ROM @ 0171
+[libretro INFO] [MAME 2010] ROM @ 0172
+[libretro INFO] [MAME 2010] ROM @ 0172
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0173
+[libretro INFO] [MAME 2010] ROM @ 0173
+[libretro INFO] [MAME 2010] ROM @ 0174
+[libretro INFO] [MAME 2010] ROM @ 0174
+[libretro INFO] [MAME 2010] ROM @ 0175
+[libretro INFO] [MAME 2010] ROM @ 0175
+[libretro INFO] [MAME 2010] ROM @ 0176
+[libretro INFO] [MAME 2010] ROM @ 0176
+[libretro INFO] [MAME 2010] ROM @ 0177
+[libretro INFO] [MAME 2010] ROM @ 0177
+[libretro INFO] [MAME 2010] ROM @ 0178
+[libretro INFO] [MAME 2010] ROM @ 0178
+[libretro INFO] [MAME 2010] ROM @ 0179
+[libretro INFO] [MAME 2010] ROM @ 0179
+[libretro INFO] [MAME 2010] ROM @ 017A
+[libretro INFO] [MAME 2010] ROM @ 017A
+[libretro INFO] [MAME 2010] ROM @ 017B
+[libretro INFO] [MAME 2010] ROM @ 017B
+[libretro INFO] [MAME 2010] ROM @ 017C
+[libretro INFO] [MAME 2010] ROM @ 017C
+[libretro INFO] [MAME 2010] ROM @ 017D
+[libretro INFO] [MAME 2010] ROM @ 017D
+[libretro INFO] [MAME 2010] ROM @ 017E
+[libretro INFO] [MAME 2010] ROM @ 017E
+[libretro INFO] [MAME 2010] ROM @ 017F
+[libretro INFO] [MAME 2010] ROM @ 017F
+[libretro INFO] [MAME 2010] ROM @ 0180
+[libretro INFO] [MAME 2010] ROM @ 0180
+[libretro INFO] [MAME 2010] ROM @ 0181
+[libretro INFO] [MAME 2010] ROM @ 0181
+[libretro INFO] [MAME 2010] ROM @ 0182
+[libretro INFO] [MAME 2010] ROM @ 0182
+[libretro INFO] [MAME 2010] ROM @ 0183
+[libretro INFO] [MAME 2010] ROM @ 0183
+[libretro INFO] [MAME 2010] ROM @ 0184
+[libretro INFO] [MAME 2010] ROM @ 0184
+[libretro INFO] [MAME 2010] ROM @ 0185
+[libretro INFO] [MAME 2010] ROM @ 0185
+[libretro INFO] [MAME 2010] ROM @ 0186
+[libretro INFO] [MAME 2010] ROM @ 0186
+[libretro INFO] [MAME 2010] ROM @ 0187
+[libretro INFO] [MAME 2010] ROM @ 0187
+[libretro INFO] [MAME 2010] ROM @ 0188
+[libretro INFO] [MAME 2010] ROM @ 0188
+[libretro INFO] [MAME 2010] ROM @ 0189
+[libretro INFO] [MAME 2010] ROM @ 0189
+[libretro INFO] [MAME 2010] ROM @ 018A
+[libretro INFO] [MAME 2010] ROM @ 018A
+[libretro INFO] [MAME 2010] ROM @ 018B
+[libretro INFO] [MAME 2010] ROM @ 018B
+[libretro INFO] [MAME 2010] ROM @ 018C
+[libretro INFO] [MAME 2010] ROM @ 018C
+[libretro INFO] [MAME 2010] ROM @ 018D
+[libretro INFO] [MAME 2010] ROM @ 018D
+[libretro INFO] [MAME 2010] ROM @ 018E
+[libretro INFO] [MAME 2010] ROM @ 018E
+[libretro INFO] [MAME 2010] ROM @ 018F
+[libretro INFO] [MAME 2010] ROM @ 018F
+[libretro INFO] [MAME 2010] ROM @ 0190
+[libretro INFO] [MAME 2010] ROM @ 0190
+[libretro INFO] [MAME 2010] ROM @ 0191
+[libretro INFO] [MAME 2010] ROM @ 0191
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0192
+[libretro INFO] [MAME 2010] ROM @ 0192
+[libretro INFO] [MAME 2010] ROM @ 0193
+[libretro INFO] [MAME 2010] ROM @ 0193
+[libretro INFO] [MAME 2010] ROM @ 0194
+[libretro INFO] [MAME 2010] ROM @ 0194
+[libretro INFO] [MAME 2010] ROM @ 0195
+[libretro INFO] [MAME 2010] ROM @ 0195
+[libretro INFO] [MAME 2010] ROM @ 0196
+[libretro INFO] [MAME 2010] ROM @ 0196
+[libretro INFO] [MAME 2010] ROM @ 0197
+[libretro INFO] [MAME 2010] ROM @ 0197
+[libretro INFO] [MAME 2010] ROM @ 0198
+[libretro INFO] [MAME 2010] ROM @ 0198
+[libretro INFO] [MAME 2010] ROM @ 0199
+[libretro INFO] [MAME 2010] ROM @ 0199
+[libretro INFO] [MAME 2010] ROM @ 019A
+[libretro INFO] [MAME 2010] ROM @ 019A
+[libretro INFO] [MAME 2010] ROM @ 019B
+[libretro INFO] [MAME 2010] ROM @ 019B
+[libretro INFO] [MAME 2010] ROM @ 019C
+[libretro INFO] [MAME 2010] ROM @ 019C
+[libretro INFO] [MAME 2010] ROM @ 019D
+[libretro INFO] [MAME 2010] ROM @ 019D
+[libretro INFO] [MAME 2010] ROM @ 019E
+[libretro INFO] [MAME 2010] ROM @ 019E
+[libretro INFO] [MAME 2010] ROM @ 019F
+[libretro INFO] [MAME 2010] ROM @ 019F
+[libretro INFO] [MAME 2010] ROM @ 01A0
+[libretro INFO] [MAME 2010] ROM @ 01A0
+[libretro INFO] [MAME 2010] ROM @ 01A1
+[libretro INFO] [MAME 2010] ROM @ 01A1
+[libretro INFO] [MAME 2010] ROM @ 01A2
+[libretro INFO] [MAME 2010] ROM @ 01A2
+[libretro INFO] [MAME 2010] ROM @ 01A3
+[libretro INFO] [MAME 2010] ROM @ 01A3
+[libretro INFO] [MAME 2010] ROM @ 01A4
+[libretro INFO] [MAME 2010] ROM @ 01A4
+[libretro INFO] [MAME 2010] ROM @ 01A5
+[libretro INFO] [MAME 2010] ROM @ 01A5
+[libretro INFO] [MAME 2010] ROM @ 01A6
+[libretro INFO] [MAME 2010] ROM @ 01A6
+[libretro INFO] [MAME 2010] ROM @ 01A7
+[libretro INFO] [MAME 2010] ROM @ 01A7
+[libretro INFO] [MAME 2010] ROM @ 01A8
+[libretro INFO] [MAME 2010] ROM @ 01A8
+[libretro INFO] [MAME 2010] ROM @ 01A9
+[libretro INFO] [MAME 2010] ROM @ 01A9
+[libretro INFO] [MAME 2010] ROM @ 01AA
+[libretro INFO] [MAME 2010] ROM @ 01AA
+[libretro INFO] [MAME 2010] ROM @ 01AB
+[libretro INFO] [MAME 2010] ROM @ 01AB
+[libretro INFO] [MAME 2010] ROM @ 01AC
+[libretro INFO] [MAME 2010] ROM @ 01AC
+[libretro INFO] [MAME 2010] ROM @ 01AD
+[libretro INFO] [MAME 2010] ROM @ 01AD
+[libretro INFO] [MAME 2010] ROM @ 01AE
+[libretro INFO] [MAME 2010] ROM @ 01AE
+[libretro INFO] [MAME 2010] ROM @ 01AF
+[libretro INFO] [MAME 2010] ROM @ 01AF
+[libretro INFO] [MAME 2010] ROM @ 01B0
+[libretro INFO] [MAME 2010] ROM @ 01B0
+[libretro INFO] [MAME 2010] ROM @ 01B1
+[libretro INFO] [MAME 2010] ROM @ 01B1
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 01B2
+[libretro INFO] [MAME 2010] ROM @ 01B2
+[libretro INFO] [MAME 2010] ROM @ 01B3
+[libretro INFO] [MAME 2010] ROM @ 01B3
+[libretro INFO] [MAME 2010] ROM @ 01B4
+[libretro INFO] [MAME 2010] ROM @ 01B4
+[libretro INFO] [MAME 2010] ROM @ 01B5
+[libretro INFO] [MAME 2010] ROM @ 01B5
+[libretro INFO] [MAME 2010] ROM @ 01B6
+[libretro INFO] [MAME 2010] ROM @ 01B6
+[libretro INFO] [MAME 2010] ROM @ 01B7
+[libretro INFO] [MAME 2010] ROM @ 01B7
+[libretro INFO] [MAME 2010] ROM @ 01B8
+[libretro INFO] [MAME 2010] ROM @ 01B8
+[libretro INFO] [MAME 2010] ROM @ 01B9
+[libretro INFO] [MAME 2010] ROM @ 01B9
+[libretro INFO] [MAME 2010] ROM @ 01BA
+[libretro INFO] [MAME 2010] ROM @ 01BA
+[libretro INFO] [MAME 2010] ROM @ 01BB
+[libretro INFO] [MAME 2010] ROM @ 01BB
+[libretro INFO] [MAME 2010] ROM @ 01BC
+[libretro INFO] [MAME 2010] ROM @ 01BC
+[libretro INFO] [MAME 2010] ROM @ 01BD
+[libretro INFO] [MAME 2010] ROM @ 01BD
+[libretro INFO] [MAME 2010] ROM @ 01BE
+[libretro INFO] [MAME 2010] ROM @ 01BE
+[libretro INFO] [MAME 2010] ROM @ 01BF
+[libretro INFO] [MAME 2010] ROM @ 01BF
+[libretro INFO] [MAME 2010] ROM @ 01C0
+[libretro INFO] [MAME 2010] ROM @ 01C0
+[libretro INFO] [MAME 2010] ROM @ 01C1
+[libretro INFO] [MAME 2010] ROM @ 01C1
+[libretro INFO] [MAME 2010] ROM @ 01C2
+[libretro INFO] [MAME 2010] ROM @ 01C2
+[libretro INFO] [MAME 2010] ROM @ 01C3
+[libretro INFO] [MAME 2010] ROM @ 01C3
+[libretro INFO] [MAME 2010] ROM @ 01C4
+[libretro INFO] [MAME 2010] ROM @ 01C4
+[libretro INFO] [MAME 2010] ROM @ 01C5
+[libretro INFO] [MAME 2010] ROM @ 01C5
+[libretro INFO] [MAME 2010] ROM @ 01C6
+[libretro INFO] [MAME 2010] ROM @ 01C6
+[libretro INFO] [MAME 2010] ROM @ 01C7
+[libretro INFO] [MAME 2010] ROM @ 01C7
+[libretro INFO] [MAME 2010] ROM @ 01C8
+[libretro INFO] [MAME 2010] ROM @ 01C8
+[libretro INFO] [MAME 2010] ROM @ 01C9
+[libretro INFO] [MAME 2010] ROM @ 01C9
+[libretro INFO] [MAME 2010] ROM @ 01CA
+[libretro INFO] [MAME 2010] ROM @ 01CA
+[libretro INFO] [MAME 2010] ROM @ 01CB
+[libretro INFO] [MAME 2010] ROM @ 01CB
+[libretro INFO] [MAME 2010] ROM @ 01CC
+[libretro INFO] [MAME 2010] ROM @ 01CC
+[libretro INFO] [MAME 2010] ROM @ 01CD
+[libretro INFO] [MAME 2010] ROM @ 01CD
+[libretro INFO] [MAME 2010] ROM @ 01CE
+[libretro INFO] [MAME 2010] ROM @ 01CE
+[libretro INFO] [MAME 2010] ROM @ 01CF
+[libretro INFO] [MAME 2010] ROM @ 01CF
+[libretro INFO] [MAME 2010] ROM @ 01D0
+[libretro INFO] [MAME 2010] ROM @ 01D0
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 01D1
+[libretro INFO] [MAME 2010] ROM @ 01D1
+[libretro INFO] [MAME 2010] ROM @ 01D2
+[libretro INFO] [MAME 2010] ROM @ 01D2
+[libretro INFO] [MAME 2010] ROM @ 01D3
+[libretro INFO] [MAME 2010] ROM @ 01D3
+[libretro INFO] [MAME 2010] ROM @ 01D4
+[libretro INFO] [MAME 2010] ROM @ 01D4
+[libretro INFO] [MAME 2010] ROM @ 01D5
+[libretro INFO] [MAME 2010] ROM @ 01D5
+[libretro INFO] [MAME 2010] ROM @ 01D6
+[libretro INFO] [MAME 2010] ROM @ 01D6
+[libretro INFO] [MAME 2010] ROM @ 01D7
+[libretro INFO] [MAME 2010] ROM @ 01D7
+[libretro INFO] [MAME 2010] ROM @ 01D8
+[libretro INFO] [MAME 2010] ROM @ 01D8
+[libretro INFO] [MAME 2010] ROM @ 01D9
+[libretro INFO] [MAME 2010] ROM @ 01D9
+[libretro INFO] [MAME 2010] ROM @ 01DA
+[libretro INFO] [MAME 2010] ROM @ 01DA
+[libretro INFO] [MAME 2010] ROM @ 01DB
+[libretro INFO] [MAME 2010] ROM @ 01DB
+[libretro INFO] [MAME 2010] ROM @ 01DC
+[libretro INFO] [MAME 2010] ROM @ 01DC
+[libretro INFO] [MAME 2010] ROM @ 01DD
+[libretro INFO] [MAME 2010] ROM @ 01DD
+[libretro INFO] [MAME 2010] ROM @ 01DE
+[libretro INFO] [MAME 2010] ROM @ 01DE
+[libretro INFO] [MAME 2010] ROM @ 01DF
+[libretro INFO] [MAME 2010] ROM @ 01DF
+[libretro INFO] [MAME 2010] ROM @ 01E0
+[libretro INFO] [MAME 2010] ROM @ 01E0
+[libretro INFO] [MAME 2010] ROM @ 01E1
+[libretro INFO] [MAME 2010] ROM @ 01E1
+[libretro INFO] [MAME 2010] ROM @ 01E2
+[libretro INFO] [MAME 2010] ROM @ 01E2
+[libretro INFO] [MAME 2010] ROM @ 01E3
+[libretro INFO] [MAME 2010] ROM @ 01E3
+[libretro INFO] [MAME 2010] ROM @ 01E4
+[libretro INFO] [MAME 2010] ROM @ 01E4
+[libretro INFO] [MAME 2010] ROM @ 01E5
+[libretro INFO] [MAME 2010] ROM @ 01E5
+[libretro INFO] [MAME 2010] ROM @ 01E6
+[libretro INFO] [MAME 2010] ROM @ 01E6
+[libretro INFO] [MAME 2010] ROM @ 01E7
+[libretro INFO] [MAME 2010] ROM @ 01E7
+[libretro INFO] [MAME 2010] ROM @ 01E8
+[libretro INFO] [MAME 2010] ROM @ 01E8
+[libretro INFO] [MAME 2010] ROM @ 01E9
+[libretro INFO] [MAME 2010] ROM @ 01E9
+[libretro INFO] [MAME 2010] ROM @ 01EA
+[libretro INFO] [MAME 2010] ROM @ 01EA
+[libretro INFO] [MAME 2010] ROM @ 01EB
+[libretro INFO] [MAME 2010] ROM @ 01EB
+[libretro INFO] [MAME 2010] ROM @ 01EC
+[libretro INFO] [MAME 2010] ROM @ 01EC
+[libretro INFO] [MAME 2010] ROM @ 01ED
+[libretro INFO] [MAME 2010] ROM @ 01ED
+[libretro INFO] [MAME 2010] ROM @ 01EE
+[libretro INFO] [MAME 2010] ROM @ 01EE
+[libretro INFO] [MAME 2010] ROM @ 01EF
+[libretro INFO] [MAME 2010] ROM @ 01EF
+[libretro INFO] [MAME 2010] ROM @ 01F0
+[libretro INFO] [MAME 2010] ROM @ 01F0
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 01F1
+[libretro INFO] [MAME 2010] ROM @ 01F1
+[libretro INFO] [MAME 2010] ROM @ 01F2
+[libretro INFO] [MAME 2010] ROM @ 01F2
+[libretro INFO] [MAME 2010] ROM @ 01F3
+[libretro INFO] [MAME 2010] ROM @ 01F3
+[libretro INFO] [MAME 2010] ROM @ 01F4
+[libretro INFO] [MAME 2010] ROM @ 01F4
+[libretro INFO] [MAME 2010] ROM @ 01F5
+[libretro INFO] [MAME 2010] ROM @ 01F5
+[libretro INFO] [MAME 2010] ROM @ 01F6
+[libretro INFO] [MAME 2010] ROM @ 01F6
+[libretro INFO] [MAME 2010] ROM @ 01F7
+[libretro INFO] [MAME 2010] ROM @ 01F7
+[libretro INFO] [MAME 2010] ROM @ 01F8
+[libretro INFO] [MAME 2010] ROM @ 01F8
+[libretro INFO] [MAME 2010] ROM @ 01F9
+[libretro INFO] [MAME 2010] ROM @ 01F9
+[libretro INFO] [MAME 2010] ROM @ 01FA
+[libretro INFO] [MAME 2010] ROM @ 01FA
+[libretro INFO] [MAME 2010] ROM @ 01FB
+[libretro INFO] [MAME 2010] ROM @ 01FB
+[libretro INFO] [MAME 2010] ROM @ 01FC
+[libretro INFO] [MAME 2010] ROM @ 01FC
+[libretro INFO] [MAME 2010] ROM @ 01FD
+[libretro INFO] [MAME 2010] ROM @ 01FD
+[libretro INFO] [MAME 2010] ROM @ 01FE
+[libretro INFO] [MAME 2010] ROM @ 01FE
+[libretro INFO] [MAME 2010] ROM @ 01FF
+[libretro INFO] [MAME 2010] ROM @ 01FF
+[libretro INFO] [MAME 2010] ROM @ 0200
+[libretro INFO] [MAME 2010] ROM @ 0200
+[libretro INFO] [MAME 2010] ROM @ 0201
+[libretro INFO] [MAME 2010] ROM @ 0201
+[libretro INFO] [MAME 2010] ROM @ 0202
+[libretro INFO] [MAME 2010] ROM @ 0202
+[libretro INFO] [MAME 2010] ROM @ 0203
+[libretro INFO] [MAME 2010] ROM @ 0203
+[libretro INFO] [MAME 2010] ROM @ 0204
+[libretro INFO] [MAME 2010] ROM @ 0204
+[libretro INFO] [MAME 2010] ROM @ 0205
+[libretro INFO] [MAME 2010] ROM @ 0205
+[libretro INFO] [MAME 2010] ROM @ 0206
+[libretro INFO] [MAME 2010] ROM @ 0206
+[libretro INFO] [MAME 2010] ROM @ 0207
+[libretro INFO] [MAME 2010] ROM @ 0207
+[libretro INFO] [MAME 2010] ROM @ 0208
+[libretro INFO] [MAME 2010] ROM @ 0208
+[libretro INFO] [MAME 2010] ROM @ 0209
+[libretro INFO] [MAME 2010] ROM @ 0209
+[libretro INFO] [MAME 2010] ROM @ 020A
+[libretro INFO] [MAME 2010] ROM @ 020A
+[libretro INFO] [MAME 2010] ROM @ 020B
+[libretro INFO] [MAME 2010] ROM @ 020B
+[libretro INFO] [MAME 2010] ROM @ 020C
+[libretro INFO] [MAME 2010] ROM @ 020C
+[libretro INFO] [MAME 2010] ROM @ 020D
+[libretro INFO] [MAME 2010] ROM @ 020D
+[libretro INFO] [MAME 2010] ROM @ 020E
+[libretro INFO] [MAME 2010] ROM @ 020E
+[libretro INFO] [MAME 2010] ROM @ 020F
+[libretro INFO] [MAME 2010] ROM @ 020F
+[libretro INFO] [MAME 2010] ROM @ 0210
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0210
+[libretro INFO] [MAME 2010] ROM @ 0211
+[libretro INFO] [MAME 2010] ROM @ 0211
+[libretro INFO] [MAME 2010] ROM @ 0212
+[libretro INFO] [MAME 2010] ROM @ 0212
+[libretro INFO] [MAME 2010] ROM @ 0213
+[libretro INFO] [MAME 2010] ROM @ 0213
+[libretro INFO] [MAME 2010] ROM @ 0214
+[libretro INFO] [MAME 2010] ROM @ 0214
+[libretro INFO] [MAME 2010] ROM @ 0215
+[libretro INFO] [MAME 2010] ROM @ 0215
+[libretro INFO] [MAME 2010] ROM @ 0216
+[libretro INFO] [MAME 2010] ROM @ 0216
+[libretro INFO] [MAME 2010] ROM @ 0217
+[libretro INFO] [MAME 2010] ROM @ 0217
+[libretro INFO] [MAME 2010] ROM @ 0218
+[libretro INFO] [MAME 2010] ROM @ 0218
+[libretro INFO] [MAME 2010] ROM @ 0219
+[libretro INFO] [MAME 2010] ROM @ 0219
+[libretro INFO] [MAME 2010] ROM @ 021A
+[libretro INFO] [MAME 2010] ROM @ 021A
+[libretro INFO] [MAME 2010] ROM @ 021B
+[libretro INFO] [MAME 2010] ROM @ 021B
+[libretro INFO] [MAME 2010] ROM @ 021C
+[libretro INFO] [MAME 2010] ROM @ 021C
+[libretro INFO] [MAME 2010] ROM @ 021D
+[libretro INFO] [MAME 2010] ROM @ 021D
+[libretro INFO] [MAME 2010] ROM @ 021E
+[libretro INFO] [MAME 2010] ROM @ 021E
+[libretro INFO] [MAME 2010] ROM @ 021F
+[libretro INFO] [MAME 2010] ROM @ 021F
+[libretro INFO] [MAME 2010] ROM @ 0220
+[libretro INFO] [MAME 2010] ROM @ 0220
+[libretro INFO] [MAME 2010] ROM @ 0221
+[libretro INFO] [MAME 2010] ROM @ 0221
+[libretro INFO] [MAME 2010] ROM @ 0222
+[libretro INFO] [MAME 2010] ROM @ 0222
+[libretro INFO] [MAME 2010] ROM @ 0223
+[libretro INFO] [MAME 2010] ROM @ 0223
+[libretro INFO] [MAME 2010] ROM @ 0224
+[libretro INFO] [MAME 2010] ROM @ 0224
+[libretro INFO] [MAME 2010] ROM @ 0225
+[libretro INFO] [MAME 2010] ROM @ 0225
+[libretro INFO] [MAME 2010] ROM @ 0226
+[libretro INFO] [MAME 2010] ROM @ 0226
+[libretro INFO] [MAME 2010] ROM @ 0227
+[libretro INFO] [MAME 2010] ROM @ 0227
+[libretro INFO] [MAME 2010] ROM @ 0228
+[libretro INFO] [MAME 2010] ROM @ 0228
+[libretro INFO] [MAME 2010] ROM @ 0229
+[libretro INFO] [MAME 2010] ROM @ 0229
+[libretro INFO] [MAME 2010] ROM @ 022A
+[libretro INFO] [MAME 2010] ROM @ 022A
+[libretro INFO] [MAME 2010] ROM @ 022B
+[libretro INFO] [MAME 2010] ROM @ 022B
+[libretro INFO] [MAME 2010] ROM @ 022C
+[libretro INFO] [MAME 2010] ROM @ 022C
+[libretro INFO] [MAME 2010] ROM @ 022D
+[libretro INFO] [MAME 2010] ROM @ 022D
+[libretro INFO] [MAME 2010] ROM @ 022E
+[libretro INFO] [MAME 2010] ROM @ 022E
+[libretro INFO] [MAME 2010] ROM @ 022F
+[libretro INFO] [MAME 2010] ROM @ 022F
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0230
+[libretro INFO] [MAME 2010] ROM @ 0230
+[libretro INFO] [MAME 2010] ROM @ 0231
+[libretro INFO] [MAME 2010] ROM @ 0231
+[libretro INFO] [MAME 2010] ROM @ 0232
+[libretro INFO] [MAME 2010] ROM @ 0232
+[libretro INFO] [MAME 2010] ROM @ 0233
+[libretro INFO] [MAME 2010] ROM @ 0233
+[libretro INFO] [MAME 2010] ROM @ 0234
+[libretro INFO] [MAME 2010] ROM @ 0234
+[libretro INFO] [MAME 2010] ROM @ 0235
+[libretro INFO] [MAME 2010] ROM @ 0235
+[libretro INFO] [MAME 2010] ROM @ 0236
+[libretro INFO] [MAME 2010] ROM @ 0236
+[libretro INFO] [MAME 2010] ROM @ 0237
+[libretro INFO] [MAME 2010] ROM @ 0237
+[libretro INFO] [MAME 2010] ROM @ 0238
+[libretro INFO] [MAME 2010] ROM @ 0238
+[libretro INFO] [MAME 2010] ROM @ 0239
+[libretro INFO] [MAME 2010] ROM @ 0239
+[libretro INFO] [MAME 2010] ROM @ 023A
+[libretro INFO] [MAME 2010] ROM @ 023A
+[libretro INFO] [MAME 2010] ROM @ 023B
+[libretro INFO] [MAME 2010] ROM @ 023B
+[libretro INFO] [MAME 2010] ROM @ 023C
+[libretro INFO] [MAME 2010] ROM @ 023C
+[libretro INFO] [MAME 2010] ROM @ 023D
+[libretro INFO] [MAME 2010] ROM @ 023D
+[libretro INFO] [MAME 2010] ROM @ 023E
+[libretro INFO] [MAME 2010] ROM @ 023E
+[libretro INFO] [MAME 2010] ROM @ 023F
+[libretro INFO] [MAME 2010] ROM @ 023F
+[libretro INFO] [MAME 2010] ROM @ 0240
+[libretro INFO] [MAME 2010] ROM @ 0240
+[libretro INFO] [MAME 2010] ROM @ 0241
+[libretro INFO] [MAME 2010] ROM @ 0241
+[libretro INFO] [MAME 2010] ROM @ 0242
+[libretro INFO] [MAME 2010] ROM @ 0242
+[libretro INFO] [MAME 2010] ROM @ 0243
+[libretro INFO] [MAME 2010] ROM @ 0243
+[libretro INFO] [MAME 2010] ROM @ 0244
+[libretro INFO] [MAME 2010] ROM @ 0244
+[libretro INFO] [MAME 2010] ROM @ 0245
+[libretro INFO] [MAME 2010] ROM @ 0245
+[libretro INFO] [MAME 2010] ROM @ 0246
+[libretro INFO] [MAME 2010] ROM @ 0246
+[libretro INFO] [MAME 2010] ROM @ 0247
+[libretro INFO] [MAME 2010] ROM @ 0247
+[libretro INFO] [MAME 2010] ROM @ 0248
+[libretro INFO] [MAME 2010] ROM @ 0248
+[libretro INFO] [MAME 2010] ROM @ 0249
+[libretro INFO] [MAME 2010] ROM @ 0249
+[libretro INFO] [MAME 2010] ROM @ 024A
+[libretro INFO] [MAME 2010] ROM @ 024A
+[libretro INFO] [MAME 2010] ROM @ 024B
+[libretro INFO] [MAME 2010] ROM @ 024B
+[libretro INFO] [MAME 2010] ROM @ 024C
+[libretro INFO] [MAME 2010] ROM @ 024C
+[libretro INFO] [MAME 2010] ROM @ 024D
+[libretro INFO] [MAME 2010] ROM @ 024D
+[libretro INFO] [MAME 2010] ROM @ 024E
+[libretro INFO] [MAME 2010] ROM @ 024E
+[libretro INFO] [MAME 2010] ROM @ 024F
+[libretro INFO] [MAME 2010] ROM @ 024F
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0250
+[libretro INFO] [MAME 2010] ROM @ 0250
+[libretro INFO] [MAME 2010] ROM @ 0251
+[libretro INFO] [MAME 2010] ROM @ 0251
+[libretro INFO] [MAME 2010] ROM @ 0252
+[libretro INFO] [MAME 2010] ROM @ 0252
+[libretro INFO] [MAME 2010] ROM @ 0253
+[libretro INFO] [MAME 2010] ROM @ 0253
+[libretro INFO] [MAME 2010] ROM @ 0254
+[libretro INFO] [MAME 2010] ROM @ 0254
+[libretro INFO] [MAME 2010] ROM @ 0255
+[libretro INFO] [MAME 2010] ROM @ 0255
+[libretro INFO] [MAME 2010] ROM @ 0256
+[libretro INFO] [MAME 2010] ROM @ 0256
+[libretro INFO] [MAME 2010] ROM @ 0257
+[libretro INFO] [MAME 2010] ROM @ 0257
+[libretro INFO] [MAME 2010] ROM @ 0258
+[libretro INFO] [MAME 2010] ROM @ 0258
+[libretro INFO] [MAME 2010] ROM @ 0259
+[libretro INFO] [MAME 2010] ROM @ 0259
+[libretro INFO] [MAME 2010] ROM @ 025A
+[libretro INFO] [MAME 2010] ROM @ 025A
+[libretro INFO] [MAME 2010] ROM @ 025B
+[libretro INFO] [MAME 2010] ROM @ 025B
+[libretro INFO] [MAME 2010] ROM @ 025C
+[libretro INFO] [MAME 2010] ROM @ 025C
+[libretro INFO] [MAME 2010] ROM @ 025D
+[libretro INFO] [MAME 2010] ROM @ 025D
+[libretro INFO] [MAME 2010] ROM @ 025E
+[libretro INFO] [MAME 2010] ROM @ 025E
+[libretro INFO] [MAME 2010] ROM @ 025F
+[libretro INFO] [MAME 2010] ROM @ 025F
+[libretro INFO] [MAME 2010] ROM @ 0260
+[libretro INFO] [MAME 2010] ROM @ 0260
+[libretro INFO] [MAME 2010] ROM @ 0261
+[libretro INFO] [MAME 2010] ROM @ 0261
+[libretro INFO] [MAME 2010] ROM @ 0262
+[libretro INFO] [MAME 2010] ROM @ 0262
+[libretro INFO] [MAME 2010] ROM @ 0263
+[libretro INFO] [MAME 2010] ROM @ 0263
+[libretro INFO] [MAME 2010] ROM @ 0264
+[libretro INFO] [MAME 2010] ROM @ 0264
+[libretro INFO] [MAME 2010] ROM @ 0265
+[libretro INFO] [MAME 2010] ROM @ 0265
+[libretro INFO] [MAME 2010] ROM @ 0266
+[libretro INFO] [MAME 2010] ROM @ 0266
+[libretro INFO] [MAME 2010] ROM @ 0267
+[libretro INFO] [MAME 2010] ROM @ 0267
+[libretro INFO] [MAME 2010] ROM @ 0268
+[libretro INFO] [MAME 2010] ROM @ 0268
+[libretro INFO] [MAME 2010] ROM @ 0269
+[libretro INFO] [MAME 2010] ROM @ 0269
+[libretro INFO] [MAME 2010] ROM @ 026A
+[libretro INFO] [MAME 2010] ROM @ 026A
+[libretro INFO] [MAME 2010] ROM @ 026B
+[libretro INFO] [MAME 2010] ROM @ 026B
+[libretro INFO] [MAME 2010] ROM @ 026C
+[libretro INFO] [MAME 2010] ROM @ 026C
+[libretro INFO] [MAME 2010] ROM @ 026D
+[libretro INFO] [MAME 2010] ROM @ 026D
+[libretro INFO] [MAME 2010] ROM @ 026E
+[libretro INFO] [MAME 2010] ROM @ 026E
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 026F
+[libretro INFO] [MAME 2010] ROM @ 026F
+[libretro INFO] [MAME 2010] ROM @ 0270
+[libretro INFO] [MAME 2010] ROM @ 0270
+[libretro INFO] [MAME 2010] ROM @ 0271
+[libretro INFO] [MAME 2010] ROM @ 0271
+[libretro INFO] [MAME 2010] ROM @ 0272
+[libretro INFO] [MAME 2010] ROM @ 0272
+[libretro INFO] [MAME 2010] ROM @ 0273
+[libretro INFO] [MAME 2010] ROM @ 0273
+[libretro INFO] [MAME 2010] ROM @ 0274
+[libretro INFO] [MAME 2010] ROM @ 0274
+[libretro INFO] [MAME 2010] ROM @ 0275
+[libretro INFO] [MAME 2010] ROM @ 0275
+[libretro INFO] [MAME 2010] ROM @ 0276
+[libretro INFO] [MAME 2010] ROM @ 0276
+[libretro INFO] [MAME 2010] ROM @ 0277
+[libretro INFO] [MAME 2010] ROM @ 0277
+[libretro INFO] [MAME 2010] ROM @ 0278
+[libretro INFO] [MAME 2010] ROM @ 0278
+[libretro INFO] [MAME 2010] ROM @ 0279
+[libretro INFO] [MAME 2010] ROM @ 0279
+[libretro INFO] [MAME 2010] ROM @ 027A
+[libretro INFO] [MAME 2010] ROM @ 027A
+[libretro INFO] [MAME 2010] ROM @ 027B
+[libretro INFO] [MAME 2010] ROM @ 027B
+[libretro INFO] [MAME 2010] ROM @ 027C
+[libretro INFO] [MAME 2010] ROM @ 027C
+[libretro INFO] [MAME 2010] ROM @ 027D
+[libretro INFO] [MAME 2010] ROM @ 027D
+[libretro INFO] [MAME 2010] ROM @ 027E
+[libretro INFO] [MAME 2010] ROM @ 027E
+[libretro INFO] [MAME 2010] ROM @ 027F
+[libretro INFO] [MAME 2010] ROM @ 027F
+[libretro INFO] [MAME 2010] ROM @ 0280
+[libretro INFO] [MAME 2010] ROM @ 0280
+[libretro INFO] [MAME 2010] ROM @ 0281
+[libretro INFO] [MAME 2010] ROM @ 0281
+[libretro INFO] [MAME 2010] ROM @ 0282
+[libretro INFO] [MAME 2010] ROM @ 0282
+[libretro INFO] [MAME 2010] ROM @ 0283
+[libretro INFO] [MAME 2010] ROM @ 0283
+[libretro INFO] [MAME 2010] ROM @ 0284
+[libretro INFO] [MAME 2010] ROM @ 0284
+[libretro INFO] [MAME 2010] ROM @ 0285
+[libretro INFO] [MAME 2010] ROM @ 0285
+[libretro INFO] [MAME 2010] ROM @ 0286
+[libretro INFO] [MAME 2010] ROM @ 0286
+[libretro INFO] [MAME 2010] ROM @ 0287
+[libretro INFO] [MAME 2010] ROM @ 0287
+[libretro INFO] [MAME 2010] ROM @ 0288
+[libretro INFO] [MAME 2010] ROM @ 0288
+[libretro INFO] [MAME 2010] ROM @ 0289
+[libretro INFO] [MAME 2010] ROM @ 0289
+[libretro INFO] [MAME 2010] ROM @ 028A
+[libretro INFO] [MAME 2010] ROM @ 028A
+[libretro INFO] [MAME 2010] ROM @ 028B
+[libretro INFO] [MAME 2010] ROM @ 028B
+[libretro INFO] [MAME 2010] ROM @ 028C
+[libretro INFO] [MAME 2010] ROM @ 028C
+[libretro INFO] [MAME 2010] ROM @ 028D
+[libretro INFO] [MAME 2010] ROM @ 028D
+[libretro INFO] [MAME 2010] ROM @ 028E
+[libretro INFO] [MAME 2010] ROM @ 028E
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 028F
+[libretro INFO] [MAME 2010] ROM @ 028F
+[libretro INFO] [MAME 2010] ROM @ 0290
+[libretro INFO] [MAME 2010] ROM @ 0290
+[libretro INFO] [MAME 2010] ROM @ 0291
+[libretro INFO] [MAME 2010] ROM @ 0291
+[libretro INFO] [MAME 2010] ROM @ 0292
+[libretro INFO] [MAME 2010] ROM @ 0292
+[libretro INFO] [MAME 2010] ROM @ 0293
+[libretro INFO] [MAME 2010] ROM @ 0293
+[libretro INFO] [MAME 2010] ROM @ 0294
+[libretro INFO] [MAME 2010] ROM @ 0294
+[libretro INFO] [MAME 2010] ROM @ 0295
+[libretro INFO] [MAME 2010] ROM @ 0295
+[libretro INFO] [MAME 2010] ROM @ 0296
+[libretro INFO] [MAME 2010] ROM @ 0296
+[libretro INFO] [MAME 2010] ROM @ 0297
+[libretro INFO] [MAME 2010] ROM @ 0297
+[libretro INFO] [MAME 2010] ROM @ 0298
+[libretro INFO] [MAME 2010] ROM @ 0298
+[libretro INFO] [MAME 2010] ROM @ 0299
+[libretro INFO] [MAME 2010] ROM @ 0299
+[libretro INFO] [MAME 2010] ROM @ 029A
+[libretro INFO] [MAME 2010] ROM @ 029A
+[libretro INFO] [MAME 2010] ROM @ 029B
+[libretro INFO] [MAME 2010] ROM @ 029B
+[libretro INFO] [MAME 2010] ROM @ 029C
+[libretro INFO] [MAME 2010] ROM @ 029C
+[libretro INFO] [MAME 2010] ROM @ 029D
+[libretro INFO] [MAME 2010] ROM @ 029D
+[libretro INFO] [MAME 2010] ROM @ 029E
+[libretro INFO] [MAME 2010] ROM @ 029E
+[libretro INFO] [MAME 2010] ROM @ 029F
+[libretro INFO] [MAME 2010] ROM @ 029F
+[libretro INFO] [MAME 2010] ROM @ 02A0
+[libretro INFO] [MAME 2010] ROM @ 02A0
+[libretro INFO] [MAME 2010] ROM @ 02A1
+[libretro INFO] [MAME 2010] ROM @ 02A1
+[libretro INFO] [MAME 2010] ROM @ 02A2
+[libretro INFO] [MAME 2010] ROM @ 02A2
+[libretro INFO] [MAME 2010] ROM @ 02A3
+[libretro INFO] [MAME 2010] ROM @ 02A3
+[libretro INFO] [MAME 2010] ROM @ 02A4
+[libretro INFO] [MAME 2010] ROM @ 02A4
+[libretro INFO] [MAME 2010] ROM @ 02A5
+[libretro INFO] [MAME 2010] ROM @ 02A5
+[libretro INFO] [MAME 2010] ROM @ 02A6
+[libretro INFO] [MAME 2010] ROM @ 02A6
+[libretro INFO] [MAME 2010] ROM @ 02A7
+[libretro INFO] [MAME 2010] ROM @ 02A7
+[libretro INFO] [MAME 2010] ROM @ 02A8
+[libretro INFO] [MAME 2010] ROM @ 02A8
+[libretro INFO] [MAME 2010] ROM @ 02A9
+[libretro INFO] [MAME 2010] ROM @ 02A9
+[libretro INFO] [MAME 2010] ROM @ 02AA
+[libretro INFO] [MAME 2010] ROM @ 02AA
+[libretro INFO] [MAME 2010] ROM @ 02AB
+[libretro INFO] [MAME 2010] ROM @ 02AB
+[libretro INFO] [MAME 2010] ROM @ 02AC
+[libretro INFO] [MAME 2010] ROM @ 02AC
+[libretro INFO] [MAME 2010] ROM @ 02AD
+[libretro INFO] [MAME 2010] ROM @ 02AD
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 02AE
+[libretro INFO] [MAME 2010] ROM @ 02AE
+[libretro INFO] [MAME 2010] ROM @ 02AF
+[libretro INFO] [MAME 2010] ROM @ 02AF
+[libretro INFO] [MAME 2010] ROM @ 02B0
+[libretro INFO] [MAME 2010] ROM @ 02B0
+[libretro INFO] [MAME 2010] ROM @ 02B1
+[libretro INFO] [MAME 2010] ROM @ 02B1
+[libretro INFO] [MAME 2010] ROM @ 02B2
+[libretro INFO] [MAME 2010] ROM @ 02B2
+[libretro INFO] [MAME 2010] ROM @ 02B3
+[libretro INFO] [MAME 2010] ROM @ 02B3
+[libretro INFO] [MAME 2010] ROM @ 02B4
+[libretro INFO] [MAME 2010] ROM @ 02B4
+[libretro INFO] [MAME 2010] ROM @ 02B5
+[libretro INFO] [MAME 2010] ROM @ 02B5
+[libretro INFO] [MAME 2010] ROM @ 02B6
+[libretro INFO] [MAME 2010] ROM @ 02B6
+[libretro INFO] [MAME 2010] ROM @ 02B7
+[libretro INFO] [MAME 2010] ROM @ 02B7
+[libretro INFO] [MAME 2010] ROM @ 02B8
+[libretro INFO] [MAME 2010] ROM @ 02B8
+[libretro INFO] [MAME 2010] ROM @ 02B9
+[libretro INFO] [MAME 2010] ROM @ 02B9
+[libretro INFO] [MAME 2010] ROM @ 02BA
+[libretro INFO] [MAME 2010] ROM @ 02BA
+[libretro INFO] [MAME 2010] ROM @ 02BB
+[libretro INFO] [MAME 2010] ROM @ 02BB
+[libretro INFO] [MAME 2010] ROM @ 02BC
+[libretro INFO] [MAME 2010] ROM @ 02BC
+[libretro INFO] [MAME 2010] ROM @ 02BD
+[libretro INFO] [MAME 2010] ROM @ 02BD
+[libretro INFO] [MAME 2010] ROM @ 02BE
+[libretro INFO] [MAME 2010] ROM @ 02BE
+[libretro INFO] [MAME 2010] ROM @ 02BF
+[libretro INFO] [MAME 2010] ROM @ 02BF
+[libretro INFO] [MAME 2010] ROM @ 02C0
+[libretro INFO] [MAME 2010] ROM @ 02C0
+[libretro INFO] [MAME 2010] ROM @ 02C1
+[libretro INFO] [MAME 2010] ROM @ 02C1
+[libretro INFO] [MAME 2010] ROM @ 02C2
+[libretro INFO] [MAME 2010] ROM @ 02C2
+[libretro INFO] [MAME 2010] ROM @ 02C3
+[libretro INFO] [MAME 2010] ROM @ 02C3
+[libretro INFO] [MAME 2010] ROM @ 02C4
+[libretro INFO] [MAME 2010] ROM @ 02C4
+[libretro INFO] [MAME 2010] ROM @ 02C5
+[libretro INFO] [MAME 2010] ROM @ 02C5
+[libretro INFO] [MAME 2010] ROM @ 02C6
+[libretro INFO] [MAME 2010] ROM @ 02C6
+[libretro INFO] [MAME 2010] ROM @ 02C7
+[libretro INFO] [MAME 2010] ROM @ 02C7
+[libretro INFO] [MAME 2010] ROM @ 02C8
+[libretro INFO] [MAME 2010] ROM @ 02C8
+[libretro INFO] [MAME 2010] ROM @ 02C9
+[libretro INFO] [MAME 2010] ROM @ 02C9
+[libretro INFO] [MAME 2010] ROM @ 02CA
+[libretro INFO] [MAME 2010] ROM @ 02CA
+[libretro INFO] [MAME 2010] ROM @ 02CB
+[libretro INFO] [MAME 2010] ROM @ 02CB
+[libretro INFO] [MAME 2010] ROM @ 02CC
+[libretro INFO] [MAME 2010] ROM @ 02CC
+[libretro INFO] [MAME 2010] ROM @ 02CD
+[libretro INFO] [MAME 2010] ROM @ 02CD
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 02CE
+[libretro INFO] [MAME 2010] ROM @ 02CE
+[libretro INFO] [MAME 2010] ROM @ 02CF
+[libretro INFO] [MAME 2010] ROM @ 02CF
+[libretro INFO] [MAME 2010] ROM @ 02D0
+[libretro INFO] [MAME 2010] ROM @ 02D0
+[libretro INFO] [MAME 2010] ROM @ 02D1
+[libretro INFO] [MAME 2010] ROM @ 02D1
+[libretro INFO] [MAME 2010] ROM @ 02D2
+[libretro INFO] [MAME 2010] ROM @ 02D2
+[libretro INFO] [MAME 2010] ROM @ 02D3
+[libretro INFO] [MAME 2010] ROM @ 02D3
+[libretro INFO] [MAME 2010] ROM @ 02D4
+[libretro INFO] [MAME 2010] ROM @ 02D4
+[libretro INFO] [MAME 2010] ROM @ 02D5
+[libretro INFO] [MAME 2010] ROM @ 02D5
+[libretro INFO] [MAME 2010] ROM @ 02D6
+[libretro INFO] [MAME 2010] ROM @ 02D6
+[libretro INFO] [MAME 2010] ROM @ 02D7
+[libretro INFO] [MAME 2010] ROM @ 02D7
+[libretro INFO] [MAME 2010] ROM @ 02D8
+[libretro INFO] [MAME 2010] ROM @ 02D8
+[libretro INFO] [MAME 2010] ROM @ 02D9
+[libretro INFO] [MAME 2010] ROM @ 02D9
+[libretro INFO] [MAME 2010] ROM @ 02DA
+[libretro INFO] [MAME 2010] ROM @ 02DA
+[libretro INFO] [MAME 2010] ROM @ 02DB
+[libretro INFO] [MAME 2010] ROM @ 02DB
+[libretro INFO] [MAME 2010] ROM @ 02DC
+[libretro INFO] [MAME 2010] ROM @ 02DC
+[libretro INFO] [MAME 2010] ROM @ 02DD
+[libretro INFO] [MAME 2010] ROM @ 02DD
+[libretro INFO] [MAME 2010] ROM @ 02DE
+[libretro INFO] [MAME 2010] ROM @ 02DE
+[libretro INFO] [MAME 2010] ROM @ 02DF
+[libretro INFO] [MAME 2010] ROM @ 02DF
+[libretro INFO] [MAME 2010] ROM @ 02E0
+[libretro INFO] [MAME 2010] ROM @ 02E0
+[libretro INFO] [MAME 2010] ROM @ 02E1
+[libretro INFO] [MAME 2010] ROM @ 02E1
+[libretro INFO] [MAME 2010] ROM @ 02E2
+[libretro INFO] [MAME 2010] ROM @ 02E2
+[libretro INFO] [MAME 2010] ROM @ 02E3
+[libretro INFO] [MAME 2010] ROM @ 02E3
+[libretro INFO] [MAME 2010] ROM @ 02E4
+[libretro INFO] [MAME 2010] ROM @ 02E4
+[libretro INFO] [MAME 2010] ROM @ 02E5
+[libretro INFO] [MAME 2010] ROM @ 02E5
+[libretro INFO] [MAME 2010] ROM @ 02E6
+[libretro INFO] [MAME 2010] ROM @ 02E6
+[libretro INFO] [MAME 2010] ROM @ 02E7
+[libretro INFO] [MAME 2010] ROM @ 02E7
+[libretro INFO] [MAME 2010] ROM @ 02E8
+[libretro INFO] [MAME 2010] ROM @ 02E8
+[libretro INFO] [MAME 2010] ROM @ 02E9
+[libretro INFO] [MAME 2010] ROM @ 02E9
+[libretro INFO] [MAME 2010] ROM @ 02EA
+[libretro INFO] [MAME 2010] ROM @ 02EA
+[libretro INFO] [MAME 2010] ROM @ 02EB
+[libretro INFO] [MAME 2010] ROM @ 02EB
+[libretro INFO] [MAME 2010] ROM @ 02EC
+[libretro INFO] [MAME 2010] ROM @ 02EC
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 02ED
+[libretro INFO] [MAME 2010] ROM @ 02ED
+[libretro INFO] [MAME 2010] ROM @ 02EE
+[libretro INFO] [MAME 2010] ROM @ 02EE
+[libretro INFO] [MAME 2010] ROM @ 02EF
+[libretro INFO] [MAME 2010] ROM @ 02EF
+[libretro INFO] [MAME 2010] ROM @ 02F0
+[libretro INFO] [MAME 2010] ROM @ 02F0
+[libretro INFO] [MAME 2010] ROM @ 02F1
+[libretro INFO] [MAME 2010] ROM @ 02F1
+[libretro INFO] [MAME 2010] ROM @ 02F2
+[libretro INFO] [MAME 2010] ROM @ 02F2
+[libretro INFO] [MAME 2010] ROM @ 02F3
+[libretro INFO] [MAME 2010] ROM @ 02F3
+[libretro INFO] [MAME 2010] ROM @ 02F4
+[libretro INFO] [MAME 2010] ROM @ 02F4
+[libretro INFO] [MAME 2010] ROM @ 02F5
+[libretro INFO] [MAME 2010] ROM @ 02F5
+[libretro INFO] [MAME 2010] ROM @ 02F6
+[libretro INFO] [MAME 2010] ROM @ 02F6
+[libretro INFO] [MAME 2010] ROM @ 02F7
+[libretro INFO] [MAME 2010] ROM @ 02F7
+[libretro INFO] [MAME 2010] ROM @ 02F8
+[libretro INFO] [MAME 2010] ROM @ 02F8
+[libretro INFO] [MAME 2010] ROM @ 02F9
+[libretro INFO] [MAME 2010] ROM @ 02F9
+[libretro INFO] [MAME 2010] ROM @ 02FA
+[libretro INFO] [MAME 2010] ROM @ 02FA
+[libretro INFO] [MAME 2010] ROM @ 02FB
+[libretro INFO] [MAME 2010] ROM @ 02FB
+[libretro INFO] [MAME 2010] ROM @ 02FC
+[libretro INFO] [MAME 2010] ROM @ 02FC
+[libretro INFO] [MAME 2010] ROM @ 02FD
+[libretro INFO] [MAME 2010] ROM @ 02FD
+[libretro INFO] [MAME 2010] ROM @ 02FE
+[libretro INFO] [MAME 2010] ROM @ 02FE
+[libretro INFO] [MAME 2010] ROM @ 02FF
+[libretro INFO] [MAME 2010] ROM @ 02FF
+[libretro INFO] [MAME 2010] ROM @ 0300
+[libretro INFO] [MAME 2010] ROM @ 0300
+[libretro INFO] [MAME 2010] ROM @ 0301
+[libretro INFO] [MAME 2010] ROM @ 0301
+[libretro INFO] [MAME 2010] ROM @ 0302
+[libretro INFO] [MAME 2010] ROM @ 0302
+[libretro INFO] [MAME 2010] ROM @ 0303
+[libretro INFO] [MAME 2010] ROM @ 0303
+[libretro INFO] [MAME 2010] ROM @ 0304
+[libretro INFO] [MAME 2010] ROM @ 0304
+[libretro INFO] [MAME 2010] ROM @ 0305
+[libretro INFO] [MAME 2010] ROM @ 0305
+[libretro INFO] [MAME 2010] ROM @ 0306
+[libretro INFO] [MAME 2010] ROM @ 0306
+[libretro INFO] [MAME 2010] ROM @ 0307
+[libretro INFO] [MAME 2010] ROM @ 0307
+[libretro INFO] [MAME 2010] ROM @ 0308
+[libretro INFO] [MAME 2010] ROM @ 0308
+[libretro INFO] [MAME 2010] ROM @ 0309
+[libretro INFO] [MAME 2010] ROM @ 0309
+[libretro INFO] [MAME 2010] ROM @ 030A
+[libretro INFO] [MAME 2010] ROM @ 030A
+[libretro INFO] [MAME 2010] ROM @ 030B
+[libretro INFO] [MAME 2010] ROM @ 030B
+[libretro INFO] [MAME 2010] ROM @ 030C
+[libretro INFO] [MAME 2010] ROM @ 030C
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 030D
+[libretro INFO] [MAME 2010] ROM @ 030D
+[libretro INFO] [MAME 2010] ROM @ 030E
+[libretro INFO] [MAME 2010] ROM @ 030E
+[libretro INFO] [MAME 2010] ROM @ 030F
+[libretro INFO] [MAME 2010] ROM @ 030F
+[libretro INFO] [MAME 2010] ROM @ 0310
+[libretro INFO] [MAME 2010] ROM @ 0310
+[libretro INFO] [MAME 2010] ROM @ 0311
+[libretro INFO] [MAME 2010] ROM @ 0311
+[libretro INFO] [MAME 2010] ROM @ 0312
+[libretro INFO] [MAME 2010] ROM @ 0312
+[libretro INFO] [MAME 2010] ROM @ 0313
+[libretro INFO] [MAME 2010] ROM @ 0313
+[libretro INFO] [MAME 2010] ROM @ 0314
+[libretro INFO] [MAME 2010] ROM @ 0314
+[libretro INFO] [MAME 2010] ROM @ 0315
+[libretro INFO] [MAME 2010] ROM @ 0315
+[libretro INFO] [MAME 2010] ROM @ 0316
+[libretro INFO] [MAME 2010] ROM @ 0316
+[libretro INFO] [MAME 2010] ROM @ 0317
+[libretro INFO] [MAME 2010] ROM @ 0317
+[libretro INFO] [MAME 2010] ROM @ 0318
+[libretro INFO] [MAME 2010] ROM @ 0318
+[libretro INFO] [MAME 2010] ROM @ 0319
+[libretro INFO] [MAME 2010] ROM @ 0319
+[libretro INFO] [MAME 2010] ROM @ 031A
+[libretro INFO] [MAME 2010] ROM @ 031A
+[libretro INFO] [MAME 2010] ROM @ 031B
+[libretro INFO] [MAME 2010] ROM @ 031B
+[libretro INFO] [MAME 2010] ROM @ 031C
+[libretro INFO] [MAME 2010] ROM @ 031C
+[libretro INFO] [MAME 2010] ROM @ 031D
+[libretro INFO] [MAME 2010] ROM @ 031D
+[libretro INFO] [MAME 2010] ROM @ 031E
+[libretro INFO] [MAME 2010] ROM @ 031E
+[libretro INFO] [MAME 2010] ROM @ 031F
+[libretro INFO] [MAME 2010] ROM @ 031F
+[libretro INFO] [MAME 2010] ROM @ 0320
+[libretro INFO] [MAME 2010] ROM @ 0320
+[libretro INFO] [MAME 2010] ROM @ 0321
+[libretro INFO] [MAME 2010] ROM @ 0321
+[libretro INFO] [MAME 2010] ROM @ 0322
+[libretro INFO] [MAME 2010] ROM @ 0322
+[libretro INFO] [MAME 2010] ROM @ 0323
+[libretro INFO] [MAME 2010] ROM @ 0323
+[libretro INFO] [MAME 2010] ROM @ 0324
+[libretro INFO] [MAME 2010] ROM @ 0324
+[libretro INFO] [MAME 2010] ROM @ 0325
+[libretro INFO] [MAME 2010] ROM @ 0325
+[libretro INFO] [MAME 2010] ROM @ 0326
+[libretro INFO] [MAME 2010] ROM @ 0326
+[libretro INFO] [MAME 2010] ROM @ 0327
+[libretro INFO] [MAME 2010] ROM @ 0327
+[libretro INFO] [MAME 2010] ROM @ 0328
+[libretro INFO] [MAME 2010] ROM @ 0328
+[libretro INFO] [MAME 2010] ROM @ 0329
+[libretro INFO] [MAME 2010] ROM @ 0329
+[libretro INFO] [MAME 2010] ROM @ 032A
+[libretro INFO] [MAME 2010] ROM @ 032A
+[libretro INFO] [MAME 2010] ROM @ 032B
+[libretro INFO] [MAME 2010] ROM @ 032B
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 032C
+[libretro INFO] [MAME 2010] ROM @ 032C
+[libretro INFO] [MAME 2010] ROM @ 032D
+[libretro INFO] [MAME 2010] ROM @ 032D
+[libretro INFO] [MAME 2010] ROM @ 032E
+[libretro INFO] [MAME 2010] ROM @ 032E
+[libretro INFO] [MAME 2010] ROM @ 032F
+[libretro INFO] [MAME 2010] ROM @ 032F
+[libretro INFO] [MAME 2010] ROM @ 0330
+[libretro INFO] [MAME 2010] ROM @ 0330
+[libretro INFO] [MAME 2010] ROM @ 0331
+[libretro INFO] [MAME 2010] ROM @ 0331
+[libretro INFO] [MAME 2010] ROM @ 0332
+[libretro INFO] [MAME 2010] ROM @ 0332
+[libretro INFO] [MAME 2010] ROM @ 0333
+[libretro INFO] [MAME 2010] ROM @ 0333
+[libretro INFO] [MAME 2010] ROM @ 0334
+[libretro INFO] [MAME 2010] ROM @ 0334
+[libretro INFO] [MAME 2010] ROM @ 0335
+[libretro INFO] [MAME 2010] ROM @ 0335
+[libretro INFO] [MAME 2010] ROM @ 0336
+[libretro INFO] [MAME 2010] ROM @ 0336
+[libretro INFO] [MAME 2010] ROM @ 0337
+[libretro INFO] [MAME 2010] ROM @ 0337
+[libretro INFO] [MAME 2010] ROM @ 0338
+[libretro INFO] [MAME 2010] ROM @ 0338
+[libretro INFO] [MAME 2010] ROM @ 0339
+[libretro INFO] [MAME 2010] ROM @ 0339
+[libretro INFO] [MAME 2010] ROM @ 033A
+[libretro INFO] [MAME 2010] ROM @ 033A
+[libretro INFO] [MAME 2010] ROM @ 033B
+[libretro INFO] [MAME 2010] ROM @ 033B
+[libretro INFO] [MAME 2010] ROM @ 033C
+[libretro INFO] [MAME 2010] ROM @ 033C
+[libretro INFO] [MAME 2010] ROM @ 033D
+[libretro INFO] [MAME 2010] ROM @ 033D
+[libretro INFO] [MAME 2010] ROM @ 033E
+[libretro INFO] [MAME 2010] ROM @ 033E
+[libretro INFO] [MAME 2010] ROM @ 033F
+[libretro INFO] [MAME 2010] ROM @ 033F
+[libretro INFO] [MAME 2010] ROM @ 0340
+[libretro INFO] [MAME 2010] ROM @ 0340
+[libretro INFO] [MAME 2010] ROM @ 0341
+[libretro INFO] [MAME 2010] ROM @ 0341
+[libretro INFO] [MAME 2010] ROM @ 0342
+[libretro INFO] [MAME 2010] ROM @ 0342
+[libretro INFO] [MAME 2010] ROM @ 0343
+[libretro INFO] [MAME 2010] ROM @ 0343
+[libretro INFO] [MAME 2010] ROM @ 0344
+[libretro INFO] [MAME 2010] ROM @ 0344
+[libretro INFO] [MAME 2010] ROM @ 0345
+[libretro INFO] [MAME 2010] ROM @ 0345
+[libretro INFO] [MAME 2010] ROM @ 0346
+[libretro INFO] [MAME 2010] ROM @ 0346
+[libretro INFO] [MAME 2010] ROM @ 0347
+[libretro INFO] [MAME 2010] ROM @ 0347
+[libretro INFO] [MAME 2010] ROM @ 0348
+[libretro INFO] [MAME 2010] ROM @ 0348
+[libretro INFO] [MAME 2010] ROM @ 0349
+[libretro INFO] [MAME 2010] ROM @ 0349
+[libretro INFO] [MAME 2010] ROM @ 034A
+[libretro INFO] [MAME 2010] ROM @ 034A
+[libretro INFO] [MAME 2010] ROM @ 034B
+[libretro INFO] [MAME 2010] ROM @ 034B
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 034C
+[libretro INFO] [MAME 2010] ROM @ 034C
+[libretro INFO] [MAME 2010] ROM @ 034D
+[libretro INFO] [MAME 2010] ROM @ 034D
+[libretro INFO] [MAME 2010] ROM @ 034E
+[libretro INFO] [MAME 2010] ROM @ 034E
+[libretro INFO] [MAME 2010] ROM @ 034F
+[libretro INFO] [MAME 2010] ROM @ 034F
+[libretro INFO] [MAME 2010] ROM @ 0350
+[libretro INFO] [MAME 2010] ROM @ 0350
+[libretro INFO] [MAME 2010] ROM @ 0351
+[libretro INFO] [MAME 2010] ROM @ 0351
+[libretro INFO] [MAME 2010] ROM @ 0352
+[libretro INFO] [MAME 2010] ROM @ 0352
+[libretro INFO] [MAME 2010] ROM @ 0353
+[libretro INFO] [MAME 2010] ROM @ 0353
+[libretro INFO] [MAME 2010] ROM @ 0354
+[libretro INFO] [MAME 2010] ROM @ 0354
+[libretro INFO] [MAME 2010] ROM @ 0355
+[libretro INFO] [MAME 2010] ROM @ 0355
+[libretro INFO] [MAME 2010] ROM @ 0356
+[libretro INFO] [MAME 2010] ROM @ 0356
+[libretro INFO] [MAME 2010] ROM @ 0357
+[libretro INFO] [MAME 2010] ROM @ 0357
+[libretro INFO] [MAME 2010] ROM @ 0358
+[libretro INFO] [MAME 2010] ROM @ 0358
+[libretro INFO] [MAME 2010] ROM @ 0359
+[libretro INFO] [MAME 2010] ROM @ 0359
+[libretro INFO] [MAME 2010] ROM @ 035A
+[libretro INFO] [MAME 2010] ROM @ 035A
+[libretro INFO] [MAME 2010] ROM @ 035B
+[libretro INFO] [MAME 2010] ROM @ 035B
+[libretro INFO] [MAME 2010] ROM @ 035C
+[libretro INFO] [MAME 2010] ROM @ 035C
+[libretro INFO] [MAME 2010] ROM @ 035D
+[libretro INFO] [MAME 2010] ROM @ 035D
+[libretro INFO] [MAME 2010] ROM @ 035E
+[libretro INFO] [MAME 2010] ROM @ 035E
+[libretro INFO] [MAME 2010] ROM @ 035F
+[libretro INFO] [MAME 2010] ROM @ 035F
+[libretro INFO] [MAME 2010] ROM @ 0360
+[libretro INFO] [MAME 2010] ROM @ 0360
+[libretro INFO] [MAME 2010] ROM @ 0361
+[libretro INFO] [MAME 2010] ROM @ 0361
+[libretro INFO] [MAME 2010] ROM @ 0362
+[libretro INFO] [MAME 2010] ROM @ 0362
+[libretro INFO] [MAME 2010] ROM @ 0363
+[libretro INFO] [MAME 2010] ROM @ 0363
+[libretro INFO] [MAME 2010] ROM @ 0364
+[libretro INFO] [MAME 2010] ROM @ 0364
+[libretro INFO] [MAME 2010] ROM @ 0365
+[libretro INFO] [MAME 2010] ROM @ 0365
+[libretro INFO] [MAME 2010] ROM @ 0366
+[libretro INFO] [MAME 2010] ROM @ 0366
+[libretro INFO] [MAME 2010] ROM @ 0367
+[libretro INFO] [MAME 2010] ROM @ 0367
+[libretro INFO] [MAME 2010] ROM @ 0368
+[libretro INFO] [MAME 2010] ROM @ 0368
+[libretro INFO] [MAME 2010] ROM @ 0369
+[libretro INFO] [MAME 2010] ROM @ 0369
+[libretro INFO] [MAME 2010] ROM @ 036A
+[libretro INFO] [MAME 2010] ROM @ 036A
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 036B
+[libretro INFO] [MAME 2010] ROM @ 036B
+[libretro INFO] [MAME 2010] ROM @ 036C
+[libretro INFO] [MAME 2010] ROM @ 036C
+[libretro INFO] [MAME 2010] ROM @ 036D
+[libretro INFO] [MAME 2010] ROM @ 036D
+[libretro INFO] [MAME 2010] ROM @ 036E
+[libretro INFO] [MAME 2010] ROM @ 036E
+[libretro INFO] [MAME 2010] ROM @ 036F
+[libretro INFO] [MAME 2010] ROM @ 036F
+[libretro INFO] [MAME 2010] ROM @ 0370
+[libretro INFO] [MAME 2010] ROM @ 0370
+[libretro INFO] [MAME 2010] ROM @ 0371
+[libretro INFO] [MAME 2010] ROM @ 0371
+[libretro INFO] [MAME 2010] ROM @ 0372
+[libretro INFO] [MAME 2010] ROM @ 0372
+[libretro INFO] [MAME 2010] ROM @ 0373
+[libretro INFO] [MAME 2010] ROM @ 0373
+[libretro INFO] [MAME 2010] ROM @ 0374
+[libretro INFO] [MAME 2010] ROM @ 0374
+[libretro INFO] [MAME 2010] ROM @ 0375
+[libretro INFO] [MAME 2010] ROM @ 0375
+[libretro INFO] [MAME 2010] ROM @ 0376
+[libretro INFO] [MAME 2010] ROM @ 0376
+[libretro INFO] [MAME 2010] ROM @ 0377
+[libretro INFO] [MAME 2010] ROM @ 0377
+[libretro INFO] [MAME 2010] ROM @ 0378
+[libretro INFO] [MAME 2010] ROM @ 0378
+[libretro INFO] [MAME 2010] ROM @ 0379
+[libretro INFO] [MAME 2010] ROM @ 0379
+[libretro INFO] [MAME 2010] ROM @ 037A
+[libretro INFO] [MAME 2010] ROM @ 037A
+[libretro INFO] [MAME 2010] ROM @ 037B
+[libretro INFO] [MAME 2010] ROM @ 037B
+[libretro INFO] [MAME 2010] ROM @ 037C
+[libretro INFO] [MAME 2010] ROM @ 037C
+[libretro INFO] [MAME 2010] ROM @ 037D
+[libretro INFO] [MAME 2010] ROM @ 037D
+[libretro INFO] [MAME 2010] ROM @ 037E
+[libretro INFO] [MAME 2010] ROM @ 037E
+[libretro INFO] [MAME 2010] ROM @ 037F
+[libretro INFO] [MAME 2010] ROM @ 037F
+[libretro INFO] [MAME 2010] ROM @ 0380
+[libretro INFO] [MAME 2010] ROM @ 0380
+[libretro INFO] [MAME 2010] ROM @ 0381
+[libretro INFO] [MAME 2010] ROM @ 0381
+[libretro INFO] [MAME 2010] ROM @ 0382
+[libretro INFO] [MAME 2010] ROM @ 0382
+[libretro INFO] [MAME 2010] ROM @ 0383
+[libretro INFO] [MAME 2010] ROM @ 0383
+[libretro INFO] [MAME 2010] ROM @ 0384
+[libretro INFO] [MAME 2010] ROM @ 0384
+[libretro INFO] [MAME 2010] ROM @ 0385
+[libretro INFO] [MAME 2010] ROM @ 0385
+[libretro INFO] [MAME 2010] ROM @ 0386
+[libretro INFO] [MAME 2010] ROM @ 0386
+[libretro INFO] [MAME 2010] ROM @ 0387
+[libretro INFO] [MAME 2010] ROM @ 0387
+[libretro INFO] [MAME 2010] ROM @ 0388
+[libretro INFO] [MAME 2010] ROM @ 0388
+[libretro INFO] [MAME 2010] ROM @ 0389
+[libretro INFO] [MAME 2010] ROM @ 0389
+[libretro INFO] [MAME 2010] ROM @ 038A
+[libretro INFO] [MAME 2010] ROM @ 038A
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 038B
+[libretro INFO] [MAME 2010] ROM @ 038B
+[libretro INFO] [MAME 2010] ROM @ 038C
+[libretro INFO] [MAME 2010] ROM @ 038C
+[libretro INFO] [MAME 2010] ROM @ 038D
+[libretro INFO] [MAME 2010] ROM @ 038D
+[libretro INFO] [MAME 2010] ROM @ 038E
+[libretro INFO] [MAME 2010] ROM @ 038E
+[libretro INFO] [MAME 2010] ROM @ 038F
+[libretro INFO] [MAME 2010] ROM @ 038F
+[libretro INFO] [MAME 2010] ROM @ 0390
+[libretro INFO] [MAME 2010] ROM @ 0390
+[libretro INFO] [MAME 2010] ROM @ 0391
+[libretro INFO] [MAME 2010] ROM @ 0391
+[libretro INFO] [MAME 2010] ROM @ 0392
+[libretro INFO] [MAME 2010] ROM @ 0392
+[libretro INFO] [MAME 2010] ROM @ 0393
+[libretro INFO] [MAME 2010] ROM @ 0393
+[libretro INFO] [MAME 2010] ROM @ 0394
+[libretro INFO] [MAME 2010] ROM @ 0394
+[libretro INFO] [MAME 2010] ROM @ 0395
+[libretro INFO] [MAME 2010] ROM @ 0395
+[libretro INFO] [MAME 2010] ROM @ 0396
+[libretro INFO] [MAME 2010] ROM @ 0396
+[libretro INFO] [MAME 2010] ROM @ 0397
+[libretro INFO] [MAME 2010] ROM @ 0397
+[libretro INFO] [MAME 2010] ROM @ 0398
+[libretro INFO] [MAME 2010] ROM @ 0398
+[libretro INFO] [MAME 2010] ROM @ 0399
+[libretro INFO] [MAME 2010] ROM @ 0399
+[libretro INFO] [MAME 2010] ROM @ 039A
+[libretro INFO] [MAME 2010] ROM @ 039A
+[libretro INFO] [MAME 2010] ROM @ 039B
+[libretro INFO] [MAME 2010] ROM @ 039B
+[libretro INFO] [MAME 2010] ROM @ 039C
+[libretro INFO] [MAME 2010] ROM @ 039C
+[libretro INFO] [MAME 2010] ROM @ 039D
+[libretro INFO] [MAME 2010] ROM @ 039D
+[libretro INFO] [MAME 2010] ROM @ 039E
+[libretro INFO] [MAME 2010] ROM @ 039E
+[libretro INFO] [MAME 2010] ROM @ 039F
+[libretro INFO] [MAME 2010] ROM @ 039F
+[libretro INFO] [MAME 2010] ROM @ 03A0
+[libretro INFO] [MAME 2010] ROM @ 03A0
+[libretro INFO] [MAME 2010] ROM @ 03A1
+[libretro INFO] [MAME 2010] ROM @ 03A1
+[libretro INFO] [MAME 2010] ROM @ 03A2
+[libretro INFO] [MAME 2010] ROM @ 03A2
+[libretro INFO] [MAME 2010] ROM @ 03A3
+[libretro INFO] [MAME 2010] ROM @ 03A3
+[libretro INFO] [MAME 2010] ROM @ 03A4
+[libretro INFO] [MAME 2010] ROM @ 03A4
+[libretro INFO] [MAME 2010] ROM @ 03A5
+[libretro INFO] [MAME 2010] ROM @ 03A5
+[libretro INFO] [MAME 2010] ROM @ 03A6
+[libretro INFO] [MAME 2010] ROM @ 03A6
+[libretro INFO] [MAME 2010] ROM @ 03A7
+[libretro INFO] [MAME 2010] ROM @ 03A7
+[libretro INFO] [MAME 2010] ROM @ 03A8
+[libretro INFO] [MAME 2010] ROM @ 03A8
+[libretro INFO] [MAME 2010] ROM @ 03A9
+[libretro INFO] [MAME 2010] ROM @ 03A9
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 03AA
+[libretro INFO] [MAME 2010] ROM @ 03AA
+[libretro INFO] [MAME 2010] ROM @ 03AB
+[libretro INFO] [MAME 2010] ROM @ 03AB
+[libretro INFO] [MAME 2010] ROM @ 03AC
+[libretro INFO] [MAME 2010] ROM @ 03AC
+[libretro INFO] [MAME 2010] ROM @ 03AD
+[libretro INFO] [MAME 2010] ROM @ 03AD
+[libretro INFO] [MAME 2010] ROM @ 03AE
+[libretro INFO] [MAME 2010] ROM @ 03AE
+[libretro INFO] [MAME 2010] ROM @ 03AF
+[libretro INFO] [MAME 2010] ROM @ 03AF
+[libretro INFO] [MAME 2010] ROM @ 03B0
+[libretro INFO] [MAME 2010] ROM @ 03B0
+[libretro INFO] [MAME 2010] ROM @ 03B1
+[libretro INFO] [MAME 2010] ROM @ 03B1
+[libretro INFO] [MAME 2010] ROM @ 03B2
+[libretro INFO] [MAME 2010] ROM @ 03B2
+[libretro INFO] [MAME 2010] ROM @ 03B3
+[libretro INFO] [MAME 2010] ROM @ 03B3
+[libretro INFO] [MAME 2010] ROM @ 03B4
+[libretro INFO] [MAME 2010] ROM @ 03B4
+[libretro INFO] [MAME 2010] ROM @ 03B5
+[libretro INFO] [MAME 2010] ROM @ 03B5
+[libretro INFO] [MAME 2010] ROM @ 03B6
+[libretro INFO] [MAME 2010] ROM @ 03B6
+[libretro INFO] [MAME 2010] ROM @ 03B7
+[libretro INFO] [MAME 2010] ROM @ 03B7
+[libretro INFO] [MAME 2010] ROM @ 03B8
+[libretro INFO] [MAME 2010] ROM @ 03B8
+[libretro INFO] [MAME 2010] ROM @ 03B9
+[libretro INFO] [MAME 2010] ROM @ 03B9
+[libretro INFO] [MAME 2010] ROM @ 03BA
+[libretro INFO] [MAME 2010] ROM @ 03BA
+[libretro INFO] [MAME 2010] ROM @ 03BB
+[libretro INFO] [MAME 2010] ROM @ 03BB
+[libretro INFO] [MAME 2010] ROM @ 03BC
+[libretro INFO] [MAME 2010] ROM @ 03BC
+[libretro INFO] [MAME 2010] ROM @ 03BD
+[libretro INFO] [MAME 2010] ROM @ 03BD
+[libretro INFO] [MAME 2010] ROM @ 03BE
+[libretro INFO] [MAME 2010] ROM @ 03BE
+[libretro INFO] [MAME 2010] ROM @ 03BF
+[libretro INFO] [MAME 2010] ROM @ 03BF
+[libretro INFO] [MAME 2010] ROM @ 03C0
+[libretro INFO] [MAME 2010] ROM @ 03C0
+[libretro INFO] [MAME 2010] ROM @ 03C1
+[libretro INFO] [MAME 2010] ROM @ 03C1
+[libretro INFO] [MAME 2010] ROM @ 03C2
+[libretro INFO] [MAME 2010] ROM @ 03C2
+[libretro INFO] [MAME 2010] ROM @ 03C3
+[libretro INFO] [MAME 2010] ROM @ 03C3
+[libretro INFO] [MAME 2010] ROM @ 03C4
+[libretro INFO] [MAME 2010] ROM @ 03C4
+[libretro INFO] [MAME 2010] ROM @ 03C5
+[libretro INFO] [MAME 2010] ROM @ 03C5
+[libretro INFO] [MAME 2010] ROM @ 03C6
+[libretro INFO] [MAME 2010] ROM @ 03C6
+[libretro INFO] [MAME 2010] ROM @ 03C7
+[libretro INFO] [MAME 2010] ROM @ 03C7
+[libretro INFO] [MAME 2010] ROM @ 03C8
+[libretro INFO] [MAME 2010] ROM @ 03C8
+[libretro INFO] [MAME 2010] ROM @ 03C9
+[libretro INFO] [MAME 2010] ROM @ 03C9
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 03CA
+[libretro INFO] [MAME 2010] ROM @ 03CA
+[libretro INFO] [MAME 2010] ROM @ 03CB
+[libretro INFO] [MAME 2010] ROM @ 03CB
+[libretro INFO] [MAME 2010] ROM @ 03CC
+[libretro INFO] [MAME 2010] ROM @ 03CC
+[libretro INFO] [MAME 2010] ROM @ 03CD
+[libretro INFO] [MAME 2010] ROM @ 03CD
+[libretro INFO] [MAME 2010] ROM @ 03CE
+[libretro INFO] [MAME 2010] ROM @ 03CE
+[libretro INFO] [MAME 2010] ROM @ 03CF
+[libretro INFO] [MAME 2010] ROM @ 03CF
+[libretro INFO] [MAME 2010] ROM @ 03D0
+[libretro INFO] [MAME 2010] ROM @ 03D0
+[libretro INFO] [MAME 2010] ROM @ 03D1
+[libretro INFO] [MAME 2010] ROM @ 03D1
+[libretro INFO] [MAME 2010] ROM @ 03D2
+[libretro INFO] [MAME 2010] ROM @ 03D2
+[libretro INFO] [MAME 2010] ROM @ 03D3
+[libretro INFO] [MAME 2010] ROM @ 03D3
+[libretro INFO] [MAME 2010] ROM @ 03D4
+[libretro INFO] [MAME 2010] ROM @ 03D4
+[libretro INFO] [MAME 2010] ROM @ 03D5
+[libretro INFO] [MAME 2010] ROM @ 03D5
+[libretro INFO] [MAME 2010] ROM @ 03D6
+[libretro INFO] [MAME 2010] ROM @ 03D6
+[libretro INFO] [MAME 2010] ROM @ 03D7
+[libretro INFO] [MAME 2010] ROM @ 03D7
+[libretro INFO] [MAME 2010] ROM @ 03D8
+[libretro INFO] [MAME 2010] ROM @ 03D8
+[libretro INFO] [MAME 2010] ROM @ 03D9
+[libretro INFO] [MAME 2010] ROM @ 03D9
+[libretro INFO] [MAME 2010] ROM @ 03DA
+[libretro INFO] [MAME 2010] ROM @ 03DA
+[libretro INFO] [MAME 2010] ROM @ 03DB
+[libretro INFO] [MAME 2010] ROM @ 03DB
+[libretro INFO] [MAME 2010] ROM @ 03DC
+[libretro INFO] [MAME 2010] ROM @ 03DC
+[libretro INFO] [MAME 2010] ROM @ 03DD
+[libretro INFO] [MAME 2010] ROM @ 03DD
+[libretro INFO] [MAME 2010] ROM @ 03DE
+[libretro INFO] [MAME 2010] ROM @ 03DE
+[libretro INFO] [MAME 2010] ROM @ 03DF
+[libretro INFO] [MAME 2010] ROM @ 03DF
+[libretro INFO] [MAME 2010] ROM @ 03E0
+[libretro INFO] [MAME 2010] ROM @ 03E0
+[libretro INFO] [MAME 2010] ROM @ 03E1
+[libretro INFO] [MAME 2010] ROM @ 03E1
+[libretro INFO] [MAME 2010] ROM @ 03E2
+[libretro INFO] [MAME 2010] ROM @ 03E2
+[libretro INFO] [MAME 2010] ROM @ 03E3
+[libretro INFO] [MAME 2010] ROM @ 03E3
+[libretro INFO] [MAME 2010] ROM @ 03E4
+[libretro INFO] [MAME 2010] ROM @ 03E4
+[libretro INFO] [MAME 2010] ROM @ 03E5
+[libretro INFO] [MAME 2010] ROM @ 03E5
+[libretro INFO] [MAME 2010] ROM @ 03E6
+[libretro INFO] [MAME 2010] ROM @ 03E6
+[libretro INFO] [MAME 2010] ROM @ 03E7
+[libretro INFO] [MAME 2010] ROM @ 03E7
+[libretro INFO] [MAME 2010] ROM @ 03E8
+[libretro INFO] [MAME 2010] ROM @ 03E8
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 03E9
+[libretro INFO] [MAME 2010] ROM @ 03E9
+[libretro INFO] [MAME 2010] ROM @ 03EA
+[libretro INFO] [MAME 2010] ROM @ 03EA
+[libretro INFO] [MAME 2010] ROM @ 03EB
+[libretro INFO] [MAME 2010] ROM @ 03EB
+[libretro INFO] [MAME 2010] ROM @ 03EC
+[libretro INFO] [MAME 2010] ROM @ 03EC
+[libretro INFO] [MAME 2010] ROM @ 03ED
+[libretro INFO] [MAME 2010] ROM @ 03ED
+[libretro INFO] [MAME 2010] ROM @ 03EE
+[libretro INFO] [MAME 2010] ROM @ 03EE
+[libretro INFO] [MAME 2010] ROM @ 03EF
+[libretro INFO] [MAME 2010] ROM @ 03EF
+[libretro INFO] [MAME 2010] ROM @ 03F0
+[libretro INFO] [MAME 2010] ROM @ 03F0
+[libretro INFO] [MAME 2010] ROM @ 03F1
+[libretro INFO] [MAME 2010] ROM @ 03F1
+[libretro INFO] [MAME 2010] ROM @ 03F2
+[libretro INFO] [MAME 2010] ROM @ 03F2
+[libretro INFO] [MAME 2010] ROM @ 03F3
+[libretro INFO] [MAME 2010] ROM @ 03F3
+[libretro INFO] [MAME 2010] ROM @ 03F4
+[libretro INFO] [MAME 2010] ROM @ 03F4
+[libretro INFO] [MAME 2010] ROM @ 03F5
+[libretro INFO] [MAME 2010] ROM @ 03F5
+[libretro INFO] [MAME 2010] ROM @ 03F6
+[libretro INFO] [MAME 2010] ROM @ 03F6
+[libretro INFO] [MAME 2010] ROM @ 03F7
+[libretro INFO] [MAME 2010] ROM @ 03F7
+[libretro INFO] [MAME 2010] ROM @ 03F8
+[libretro INFO] [MAME 2010] ROM @ 03F8
+[libretro INFO] [MAME 2010] ROM @ 03F9
+[libretro INFO] [MAME 2010] ROM @ 03F9
+[libretro INFO] [MAME 2010] ROM @ 03FA
+[libretro INFO] [MAME 2010] ROM @ 03FA
+[libretro INFO] [MAME 2010] ROM @ 03FB
+[libretro INFO] [MAME 2010] ROM @ 03FB
+[libretro INFO] [MAME 2010] ROM @ 03FC
+[libretro INFO] [MAME 2010] ROM @ 03FC
+[libretro INFO] [MAME 2010] ROM @ 03FD
+[libretro INFO] [MAME 2010] ROM @ 03FD
+[libretro INFO] [MAME 2010] ROM @ 03FE
+[libretro INFO] [MAME 2010] ROM @ 03FE
+[libretro INFO] [MAME 2010] ROM @ 03FF
+[libretro INFO] [MAME 2010] ROM @ 03FF
+[libretro INFO] [MAME 2010] ROM @ 0400
+[libretro INFO] [MAME 2010] ROM @ 0400
+[libretro INFO] [MAME 2010] ROM @ 0401
+[libretro INFO] [MAME 2010] ROM @ 0401
+[libretro INFO] [MAME 2010] ROM @ 0402
+[libretro INFO] [MAME 2010] ROM @ 0402
+[libretro INFO] [MAME 2010] ROM @ 0403
+[libretro INFO] [MAME 2010] ROM @ 0403
+[libretro INFO] [MAME 2010] ROM @ 0404
+[libretro INFO] [MAME 2010] ROM @ 0404
+[libretro INFO] [MAME 2010] ROM @ 0405
+[libretro INFO] [MAME 2010] ROM @ 0405
+[libretro INFO] [MAME 2010] ROM @ 0406
+[libretro INFO] [MAME 2010] ROM @ 0406
+[libretro INFO] [MAME 2010] ROM @ 0407
+[libretro INFO] [MAME 2010] ROM @ 0407
+[libretro INFO] [MAME 2010] ROM @ 0408
+[libretro INFO] [MAME 2010] ROM @ 0408
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0409
+[libretro INFO] [MAME 2010] ROM @ 0409
+[libretro INFO] [MAME 2010] ROM @ 040A
+[libretro INFO] [MAME 2010] ROM @ 040A
+[libretro INFO] [MAME 2010] ROM @ 040B
+[libretro INFO] [MAME 2010] ROM @ 040B
+[libretro INFO] [MAME 2010] ROM @ 040C
+[libretro INFO] [MAME 2010] ROM @ 040C
+[libretro INFO] [MAME 2010] ROM @ 040D
+[libretro INFO] [MAME 2010] ROM @ 040D
+[libretro INFO] [MAME 2010] ROM @ 040E
+[libretro INFO] [MAME 2010] ROM @ 040E
+[libretro INFO] [MAME 2010] ROM @ 040F
+[libretro INFO] [MAME 2010] ROM @ 040F
+[libretro INFO] [MAME 2010] ROM @ 0410
+[libretro INFO] [MAME 2010] ROM @ 0410
+[libretro INFO] [MAME 2010] ROM @ 0411
+[libretro INFO] [MAME 2010] ROM @ 0411
+[libretro INFO] [MAME 2010] ROM @ 0412
+[libretro INFO] [MAME 2010] ROM @ 0412
+[libretro INFO] [MAME 2010] ROM @ 0413
+[libretro INFO] [MAME 2010] ROM @ 0413
+[libretro INFO] [MAME 2010] ROM @ 0414
+[libretro INFO] [MAME 2010] ROM @ 0414
+[libretro INFO] [MAME 2010] ROM @ 0415
+[libretro INFO] [MAME 2010] ROM @ 0415
+[libretro INFO] [MAME 2010] ROM @ 0416
+[libretro INFO] [MAME 2010] ROM @ 0416
+[libretro INFO] [MAME 2010] ROM @ 0417
+[libretro INFO] [MAME 2010] ROM @ 0417
+[libretro INFO] [MAME 2010] ROM @ 0418
+[libretro INFO] [MAME 2010] ROM @ 0418
+[libretro INFO] [MAME 2010] ROM @ 0419
+[libretro INFO] [MAME 2010] ROM @ 0419
+[libretro INFO] [MAME 2010] ROM @ 041A
+[libretro INFO] [MAME 2010] ROM @ 041A
+[libretro INFO] [MAME 2010] ROM @ 041B
+[libretro INFO] [MAME 2010] ROM @ 041B
+[libretro INFO] [MAME 2010] ROM @ 041C
+[libretro INFO] [MAME 2010] ROM @ 041C
+[libretro INFO] [MAME 2010] ROM @ 041D
+[libretro INFO] [MAME 2010] ROM @ 041D
+[libretro INFO] [MAME 2010] ROM @ 041E
+[libretro INFO] [MAME 2010] ROM @ 041E
+[libretro INFO] [MAME 2010] ROM @ 041F
+[libretro INFO] [MAME 2010] ROM @ 041F
+[libretro INFO] [MAME 2010] ROM @ 0420
+[libretro INFO] [MAME 2010] ROM @ 0420
+[libretro INFO] [MAME 2010] ROM @ 0421
+[libretro INFO] [MAME 2010] ROM @ 0421
+[libretro INFO] [MAME 2010] ROM @ 0422
+[libretro INFO] [MAME 2010] ROM @ 0422
+[libretro INFO] [MAME 2010] ROM @ 0423
+[libretro INFO] [MAME 2010] ROM @ 0423
+[libretro INFO] [MAME 2010] ROM @ 0424
+[libretro INFO] [MAME 2010] ROM @ 0424
+[libretro INFO] [MAME 2010] ROM @ 0425
+[libretro INFO] [MAME 2010] ROM @ 0425
+[libretro INFO] [MAME 2010] ROM @ 0426
+[libretro INFO] [MAME 2010] ROM @ 0426
+[libretro INFO] [MAME 2010] ROM @ 0427
+[libretro INFO] [MAME 2010] ROM @ 0427
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0428
+[libretro INFO] [MAME 2010] ROM @ 0428
+[libretro INFO] [MAME 2010] ROM @ 0429
+[libretro INFO] [MAME 2010] ROM @ 0429
+[libretro INFO] [MAME 2010] ROM @ 042A
+[libretro INFO] [MAME 2010] ROM @ 042A
+[libretro INFO] [MAME 2010] ROM @ 042B
+[libretro INFO] [MAME 2010] ROM @ 042B
+[libretro INFO] [MAME 2010] ROM @ 042C
+[libretro INFO] [MAME 2010] ROM @ 042C
+[libretro INFO] [MAME 2010] ROM @ 042D
+[libretro INFO] [MAME 2010] ROM @ 042D
+[libretro INFO] [MAME 2010] ROM @ 042E
+[libretro INFO] [MAME 2010] ROM @ 042E
+[libretro INFO] [MAME 2010] ROM @ 042F
+[libretro INFO] [MAME 2010] ROM @ 042F
+[libretro INFO] [MAME 2010] ROM @ 0430
+[libretro INFO] [MAME 2010] ROM @ 0430
+[libretro INFO] [MAME 2010] ROM @ 0431
+[libretro INFO] [MAME 2010] ROM @ 0431
+[libretro INFO] [MAME 2010] ROM @ 0432
+[libretro INFO] [MAME 2010] ROM @ 0432
+[libretro INFO] [MAME 2010] ROM @ 0433
+[libretro INFO] [MAME 2010] ROM @ 0433
+[libretro INFO] [MAME 2010] ROM @ 0434
+[libretro INFO] [MAME 2010] ROM @ 0434
+[libretro INFO] [MAME 2010] ROM @ 0435
+[libretro INFO] [MAME 2010] ROM @ 0435
+[libretro INFO] [MAME 2010] ROM @ 0436
+[libretro INFO] [MAME 2010] ROM @ 0436
+[libretro INFO] [MAME 2010] ROM @ 0437
+[libretro INFO] [MAME 2010] ROM @ 0437
+[libretro INFO] [MAME 2010] ROM @ 0438
+[libretro INFO] [MAME 2010] ROM @ 0438
+[libretro INFO] [MAME 2010] ROM @ 0439
+[libretro INFO] [MAME 2010] ROM @ 0439
+[libretro INFO] [MAME 2010] ROM @ 043A
+[libretro INFO] [MAME 2010] ROM @ 043A
+[libretro INFO] [MAME 2010] ROM @ 043B
+[libretro INFO] [MAME 2010] ROM @ 043B
+[libretro INFO] [MAME 2010] ROM @ 043C
+[libretro INFO] [MAME 2010] ROM @ 043C
+[libretro INFO] [MAME 2010] ROM @ 043D
+[libretro INFO] [MAME 2010] ROM @ 043D
+[libretro INFO] [MAME 2010] ROM @ 043E
+[libretro INFO] [MAME 2010] ROM @ 043E
+[libretro INFO] [MAME 2010] ROM @ 043F
+[libretro INFO] [MAME 2010] ROM @ 043F
+[libretro INFO] [MAME 2010] ROM @ 0440
+[libretro INFO] [MAME 2010] ROM @ 0440
+[libretro INFO] [MAME 2010] ROM @ 0441
+[libretro INFO] [MAME 2010] ROM @ 0441
+[libretro INFO] [MAME 2010] ROM @ 0442
+[libretro INFO] [MAME 2010] ROM @ 0442
+[libretro INFO] [MAME 2010] ROM @ 0443
+[libretro INFO] [MAME 2010] ROM @ 0443
+[libretro INFO] [MAME 2010] ROM @ 0444
+[libretro INFO] [MAME 2010] ROM @ 0444
+[libretro INFO] [MAME 2010] ROM @ 0445
+[libretro INFO] [MAME 2010] ROM @ 0445
+[libretro INFO] [MAME 2010] ROM @ 0446
+[libretro INFO] [MAME 2010] ROM @ 0446
+[libretro INFO] [MAME 2010] ROM @ 0447
+[libretro INFO] [MAME 2010] ROM @ 0447
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0448
+[libretro INFO] [MAME 2010] ROM @ 0448
+[libretro INFO] [MAME 2010] ROM @ 0449
+[libretro INFO] [MAME 2010] ROM @ 0449
+[libretro INFO] [MAME 2010] ROM @ 044A
+[libretro INFO] [MAME 2010] ROM @ 044A
+[libretro INFO] [MAME 2010] ROM @ 044B
+[libretro INFO] [MAME 2010] ROM @ 044B
+[libretro INFO] [MAME 2010] ROM @ 044C
+[libretro INFO] [MAME 2010] ROM @ 044C
+[libretro INFO] [MAME 2010] ROM @ 044D
+[libretro INFO] [MAME 2010] ROM @ 044D
+[libretro INFO] [MAME 2010] ROM @ 044E
+[libretro INFO] [MAME 2010] ROM @ 044E
+[libretro INFO] [MAME 2010] ROM @ 044F
+[libretro INFO] [MAME 2010] ROM @ 044F
+[libretro INFO] [MAME 2010] ROM @ 0450
+[libretro INFO] [MAME 2010] ROM @ 0450
+[libretro INFO] [MAME 2010] ROM @ 0451
+[libretro INFO] [MAME 2010] ROM @ 0451
+[libretro INFO] [MAME 2010] ROM @ 0452
+[libretro INFO] [MAME 2010] ROM @ 0452
+[libretro INFO] [MAME 2010] ROM @ 0453
+[libretro INFO] [MAME 2010] ROM @ 0453
+[libretro INFO] [MAME 2010] ROM @ 0454
+[libretro INFO] [MAME 2010] ROM @ 0454
+[libretro INFO] [MAME 2010] ROM @ 0455
+[libretro INFO] [MAME 2010] ROM @ 0455
+[libretro INFO] [MAME 2010] ROM @ 0456
+[libretro INFO] [MAME 2010] ROM @ 0456
+[libretro INFO] [MAME 2010] ROM @ 0457
+[libretro INFO] [MAME 2010] ROM @ 0457
+[libretro INFO] [MAME 2010] ROM @ 0458
+[libretro INFO] [MAME 2010] ROM @ 0458
+[libretro INFO] [MAME 2010] ROM @ 0459
+[libretro INFO] [MAME 2010] ROM @ 0459
+[libretro INFO] [MAME 2010] ROM @ 045A
+[libretro INFO] [MAME 2010] ROM @ 045A
+[libretro INFO] [MAME 2010] ROM @ 045B
+[libretro INFO] [MAME 2010] ROM @ 045B
+[libretro INFO] [MAME 2010] ROM @ 045C
+[libretro INFO] [MAME 2010] ROM @ 045C
+[libretro INFO] [MAME 2010] ROM @ 045D
+[libretro INFO] [MAME 2010] ROM @ 045D
+[libretro INFO] [MAME 2010] ROM @ 045E
+[libretro INFO] [MAME 2010] ROM @ 045E
+[libretro INFO] [MAME 2010] ROM @ 045F
+[libretro INFO] [MAME 2010] ROM @ 045F
+[libretro INFO] [MAME 2010] ROM @ 0460
+[libretro INFO] [MAME 2010] ROM @ 0460
+[libretro INFO] [MAME 2010] ROM @ 0461
+[libretro INFO] [MAME 2010] ROM @ 0461
+[libretro INFO] [MAME 2010] ROM @ 0462
+[libretro INFO] [MAME 2010] ROM @ 0462
+[libretro INFO] [MAME 2010] ROM @ 0463
+[libretro INFO] [MAME 2010] ROM @ 0463
+[libretro INFO] [MAME 2010] ROM @ 0464
+[libretro INFO] [MAME 2010] ROM @ 0464
+[libretro INFO] [MAME 2010] ROM @ 0465
+[libretro INFO] [MAME 2010] ROM @ 0465
+[libretro INFO] [MAME 2010] ROM @ 0466
+[libretro INFO] [MAME 2010] ROM @ 0466
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0467
+[libretro INFO] [MAME 2010] ROM @ 0467
+[libretro INFO] [MAME 2010] ROM @ 0468
+[libretro INFO] [MAME 2010] ROM @ 0468
+[libretro INFO] [MAME 2010] ROM @ 0469
+[libretro INFO] [MAME 2010] ROM @ 0469
+[libretro INFO] [MAME 2010] ROM @ 046A
+[libretro INFO] [MAME 2010] ROM @ 046A
+[libretro INFO] [MAME 2010] ROM @ 046B
+[libretro INFO] [MAME 2010] ROM @ 046B
+[libretro INFO] [MAME 2010] ROM @ 046C
+[libretro INFO] [MAME 2010] ROM @ 046C
+[libretro INFO] [MAME 2010] ROM @ 046D
+[libretro INFO] [MAME 2010] ROM @ 046D
+[libretro INFO] [MAME 2010] ROM @ 046E
+[libretro INFO] [MAME 2010] ROM @ 046E
+[libretro INFO] [MAME 2010] ROM @ 046F
+[libretro INFO] [MAME 2010] ROM @ 046F
+[libretro INFO] [MAME 2010] ROM @ 0470
+[libretro INFO] [MAME 2010] ROM @ 0470
+[libretro INFO] [MAME 2010] ROM @ 0471
+[libretro INFO] [MAME 2010] ROM @ 0471
+[libretro INFO] [MAME 2010] ROM @ 0472
+[libretro INFO] [MAME 2010] ROM @ 0472
+[libretro INFO] [MAME 2010] ROM @ 0473
+[libretro INFO] [MAME 2010] ROM @ 0473
+[libretro INFO] [MAME 2010] ROM @ 0474
+[libretro INFO] [MAME 2010] ROM @ 0474
+[libretro INFO] [MAME 2010] ROM @ 0475
+[libretro INFO] [MAME 2010] ROM @ 0475
+[libretro INFO] [MAME 2010] ROM @ 0476
+[libretro INFO] [MAME 2010] ROM @ 0476
+[libretro INFO] [MAME 2010] ROM @ 0477
+[libretro INFO] [MAME 2010] ROM @ 0477
+[libretro INFO] [MAME 2010] ROM @ 0478
+[libretro INFO] [MAME 2010] ROM @ 0478
+[libretro INFO] [MAME 2010] ROM @ 0479
+[libretro INFO] [MAME 2010] ROM @ 0479
+[libretro INFO] [MAME 2010] ROM @ 047A
+[libretro INFO] [MAME 2010] ROM @ 047A
+[libretro INFO] [MAME 2010] ROM @ 047B
+[libretro INFO] [MAME 2010] ROM @ 047B
+[libretro INFO] [MAME 2010] ROM @ 047C
+[libretro INFO] [MAME 2010] ROM @ 047C
+[libretro INFO] [MAME 2010] ROM @ 047D
+[libretro INFO] [MAME 2010] ROM @ 047D
+[libretro INFO] [MAME 2010] ROM @ 047E
+[libretro INFO] [MAME 2010] ROM @ 047E
+[libretro INFO] [MAME 2010] ROM @ 047F
+[libretro INFO] [MAME 2010] ROM @ 047F
+[libretro INFO] [MAME 2010] ROM @ 0480
+[libretro INFO] [MAME 2010] ROM @ 0480
+[libretro INFO] [MAME 2010] ROM @ 0481
+[libretro INFO] [MAME 2010] ROM @ 0481
+[libretro INFO] [MAME 2010] ROM @ 0482
+[libretro INFO] [MAME 2010] ROM @ 0482
+[libretro INFO] [MAME 2010] ROM @ 0483
+[libretro INFO] [MAME 2010] ROM @ 0483
+[libretro INFO] [MAME 2010] ROM @ 0484
+[libretro INFO] [MAME 2010] ROM @ 0484
+[libretro INFO] [MAME 2010] ROM @ 0485
+[libretro INFO] [MAME 2010] ROM @ 0485
+[libretro INFO] [MAME 2010] ROM @ 0486
+[libretro INFO] [MAME 2010] ROM @ 0486
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0487
+[libretro INFO] [MAME 2010] ROM @ 0487
+[libretro INFO] [MAME 2010] ROM @ 0488
+[libretro INFO] [MAME 2010] ROM @ 0488
+[libretro INFO] [MAME 2010] ROM @ 0489
+[libretro INFO] [MAME 2010] ROM @ 0489
+[libretro INFO] [MAME 2010] ROM @ 048A
+[libretro INFO] [MAME 2010] ROM @ 048A
+[libretro INFO] [MAME 2010] ROM @ 048B
+[libretro INFO] [MAME 2010] ROM @ 048B
+[libretro INFO] [MAME 2010] ROM @ 048C
+[libretro INFO] [MAME 2010] ROM @ 048C
+[libretro INFO] [MAME 2010] ROM @ 048D
+[libretro INFO] [MAME 2010] ROM @ 048D
+[libretro INFO] [MAME 2010] ROM @ 048E
+[libretro INFO] [MAME 2010] ROM @ 048E
+[libretro INFO] [MAME 2010] ROM @ 048F
+[libretro INFO] [MAME 2010] ROM @ 048F
+[libretro INFO] [MAME 2010] ROM @ 0490
+[libretro INFO] [MAME 2010] ROM @ 0490
+[libretro INFO] [MAME 2010] ROM @ 0491
+[libretro INFO] [MAME 2010] ROM @ 0491
+[libretro INFO] [MAME 2010] ROM @ 0492
+[libretro INFO] [MAME 2010] ROM @ 0492
+[libretro INFO] [MAME 2010] ROM @ 0493
+[libretro INFO] [MAME 2010] ROM @ 0493
+[libretro INFO] [MAME 2010] ROM @ 0494
+[libretro INFO] [MAME 2010] ROM @ 0494
+[libretro INFO] [MAME 2010] ROM @ 0495
+[libretro INFO] [MAME 2010] ROM @ 0495
+[libretro INFO] [MAME 2010] ROM @ 0496
+[libretro INFO] [MAME 2010] ROM @ 0496
+[libretro INFO] [MAME 2010] ROM @ 0497
+[libretro INFO] [MAME 2010] ROM @ 0497
+[libretro INFO] [MAME 2010] ROM @ 0498
+[libretro INFO] [MAME 2010] ROM @ 0498
+[libretro INFO] [MAME 2010] ROM @ 0499
+[libretro INFO] [MAME 2010] ROM @ 0499
+[libretro INFO] [MAME 2010] ROM @ 049A
+[libretro INFO] [MAME 2010] ROM @ 049A
+[libretro INFO] [MAME 2010] ROM @ 049B
+[libretro INFO] [MAME 2010] ROM @ 049B
+[libretro INFO] [MAME 2010] ROM @ 049C
+[libretro INFO] [MAME 2010] ROM @ 049C
+[libretro INFO] [MAME 2010] ROM @ 049D
+[libretro INFO] [MAME 2010] ROM @ 049D
+[libretro INFO] [MAME 2010] ROM @ 049E
+[libretro INFO] [MAME 2010] ROM @ 049E
+[libretro INFO] [MAME 2010] ROM @ 049F
+[libretro INFO] [MAME 2010] ROM @ 049F
+[libretro INFO] [MAME 2010] ROM @ 04A0
+[libretro INFO] [MAME 2010] ROM @ 04A0
+[libretro INFO] [MAME 2010] ROM @ 04A1
+[libretro INFO] [MAME 2010] ROM @ 04A1
+[libretro INFO] [MAME 2010] ROM @ 04A2
+[libretro INFO] [MAME 2010] ROM @ 04A2
+[libretro INFO] [MAME 2010] ROM @ 04A3
+[libretro INFO] [MAME 2010] ROM @ 04A3
+[libretro INFO] [MAME 2010] ROM @ 04A4
+[libretro INFO] [MAME 2010] ROM @ 04A4
+[libretro INFO] [MAME 2010] ROM @ 04A5
+[libretro INFO] [MAME 2010] ROM @ 04A5
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 04A6
+[libretro INFO] [MAME 2010] ROM @ 04A6
+[libretro INFO] [MAME 2010] ROM @ 04A7
+[libretro INFO] [MAME 2010] ROM @ 04A7
+[libretro INFO] [MAME 2010] ROM @ 04A8
+[libretro INFO] [MAME 2010] ROM @ 04A8
+[libretro INFO] [MAME 2010] ROM @ 04A9
+[libretro INFO] [MAME 2010] ROM @ 04A9
+[libretro INFO] [MAME 2010] ROM @ 04AA
+[libretro INFO] [MAME 2010] ROM @ 04AA
+[libretro INFO] [MAME 2010] ROM @ 04AB
+[libretro INFO] [MAME 2010] ROM @ 04AB
+[libretro INFO] [MAME 2010] ROM @ 04AC
+[libretro INFO] [MAME 2010] ROM @ 04AC
+[libretro INFO] [MAME 2010] ROM @ 04AD
+[libretro INFO] [MAME 2010] ROM @ 04AD
+[libretro INFO] [MAME 2010] ROM @ 04AE
+[libretro INFO] [MAME 2010] ROM @ 04AE
+[libretro INFO] [MAME 2010] ROM @ 04AF
+[libretro INFO] [MAME 2010] ROM @ 04AF
+[libretro INFO] [MAME 2010] ROM @ 04B0
+[libretro INFO] [MAME 2010] ROM @ 04B0
+[libretro INFO] [MAME 2010] ROM @ 04B1
+[libretro INFO] [MAME 2010] ROM @ 04B1
+[libretro INFO] [MAME 2010] ROM @ 04B2
+[libretro INFO] [MAME 2010] ROM @ 04B2
+[libretro INFO] [MAME 2010] ROM @ 04B3
+[libretro INFO] [MAME 2010] ROM @ 04B3
+[libretro INFO] [MAME 2010] ROM @ 04B4
+[libretro INFO] [MAME 2010] ROM @ 04B4
+[libretro INFO] [MAME 2010] ROM @ 04B5
+[libretro INFO] [MAME 2010] ROM @ 04B5
+[libretro INFO] [MAME 2010] ROM @ 04B6
+[libretro INFO] [MAME 2010] ROM @ 04B6
+[libretro INFO] [MAME 2010] ROM @ 04B7
+[libretro INFO] [MAME 2010] ROM @ 04B7
+[libretro INFO] [MAME 2010] ROM @ 04B8
+[libretro INFO] [MAME 2010] ROM @ 04B8
+[libretro INFO] [MAME 2010] ROM @ 04B9
+[libretro INFO] [MAME 2010] ROM @ 04B9
+[libretro INFO] [MAME 2010] ROM @ 04BA
+[libretro INFO] [MAME 2010] ROM @ 04BA
+[libretro INFO] [MAME 2010] ROM @ 04BB
+[libretro INFO] [MAME 2010] ROM @ 04BB
+[libretro INFO] [MAME 2010] ROM @ 04BC
+[libretro INFO] [MAME 2010] ROM @ 04BC
+[libretro INFO] [MAME 2010] ROM @ 04BD
+[libretro INFO] [MAME 2010] ROM @ 04BD
+[libretro INFO] [MAME 2010] ROM @ 04BE
+[libretro INFO] [MAME 2010] ROM @ 04BE
+[libretro INFO] [MAME 2010] ROM @ 04BF
+[libretro INFO] [MAME 2010] ROM @ 04BF
+[libretro INFO] [MAME 2010] ROM @ 04C0
+[libretro INFO] [MAME 2010] ROM @ 04C0
+[libretro INFO] [MAME 2010] ROM @ 04C1
+[libretro INFO] [MAME 2010] ROM @ 04C1
+[libretro INFO] [MAME 2010] ROM @ 04C2
+[libretro INFO] [MAME 2010] ROM @ 04C2
+[libretro INFO] [MAME 2010] ROM @ 04C3
+[libretro INFO] [MAME 2010] ROM @ 04C3
+[libretro INFO] [MAME 2010] ROM @ 04C4
+[libretro INFO] [MAME 2010] ROM @ 04C4
+[libretro INFO] [MAME 2010] ROM @ 04C5
+[libretro INFO] [MAME 2010] ROM @ 04C5
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 04C6
+[libretro INFO] [MAME 2010] ROM @ 04C6
+[libretro INFO] [MAME 2010] ROM @ 04C7
+[libretro INFO] [MAME 2010] ROM @ 04C7
+[libretro INFO] [MAME 2010] ROM @ 04C8
+[libretro INFO] [MAME 2010] ROM @ 04C8
+[libretro INFO] [MAME 2010] ROM @ 04C9
+[libretro INFO] [MAME 2010] ROM @ 04C9
+[libretro INFO] [MAME 2010] ROM @ 04CA
+[libretro INFO] [MAME 2010] ROM @ 04CA
+[libretro INFO] [MAME 2010] ROM @ 04CB
+[libretro INFO] [MAME 2010] ROM @ 04CB
+[libretro INFO] [MAME 2010] ROM @ 04CC
+[libretro INFO] [MAME 2010] ROM @ 04CC
+[libretro INFO] [MAME 2010] ROM @ 04CD
+[libretro INFO] [MAME 2010] ROM @ 04CD
+[libretro INFO] [MAME 2010] ROM @ 04CE
+[libretro INFO] [MAME 2010] ROM @ 04CE
+[libretro INFO] [MAME 2010] ROM @ 04CF
+[libretro INFO] [MAME 2010] ROM @ 04CF
+[libretro INFO] [MAME 2010] ROM @ 04D0
+[libretro INFO] [MAME 2010] ROM @ 04D0
+[libretro INFO] [MAME 2010] ROM @ 04D1
+[libretro INFO] [MAME 2010] ROM @ 04D1
+[libretro INFO] [MAME 2010] ROM @ 04D2
+[libretro INFO] [MAME 2010] ROM @ 04D2
+[libretro INFO] [MAME 2010] ROM @ 04D3
+[libretro INFO] [MAME 2010] ROM @ 04D3
+[libretro INFO] [MAME 2010] ROM @ 04D4
+[libretro INFO] [MAME 2010] ROM @ 04D4
+[libretro INFO] [MAME 2010] ROM @ 04D5
+[libretro INFO] [MAME 2010] ROM @ 04D5
+[libretro INFO] [MAME 2010] ROM @ 04D6
+[libretro INFO] [MAME 2010] ROM @ 04D6
+[libretro INFO] [MAME 2010] ROM @ 04D7
+[libretro INFO] [MAME 2010] ROM @ 04D7
+[libretro INFO] [MAME 2010] ROM @ 04D8
+[libretro INFO] [MAME 2010] ROM @ 04D8
+[libretro INFO] [MAME 2010] ROM @ 04D9
+[libretro INFO] [MAME 2010] ROM @ 04D9
+[libretro INFO] [MAME 2010] ROM @ 04DA
+[libretro INFO] [MAME 2010] ROM @ 04DA
+[libretro INFO] [MAME 2010] ROM @ 04DB
+[libretro INFO] [MAME 2010] ROM @ 04DB
+[libretro INFO] [MAME 2010] ROM @ 04DC
+[libretro INFO] [MAME 2010] ROM @ 04DC
+[libretro INFO] [MAME 2010] ROM @ 04DD
+[libretro INFO] [MAME 2010] ROM @ 04DD
+[libretro INFO] [MAME 2010] ROM @ 04DE
+[libretro INFO] [MAME 2010] ROM @ 04DE
+[libretro INFO] [MAME 2010] ROM @ 04DF
+[libretro INFO] [MAME 2010] ROM @ 04DF
+[libretro INFO] [MAME 2010] ROM @ 04E0
+[libretro INFO] [MAME 2010] ROM @ 04E0
+[libretro INFO] [MAME 2010] ROM @ 04E1
+[libretro INFO] [MAME 2010] ROM @ 04E1
+[libretro INFO] [MAME 2010] ROM @ 04E2
+[libretro INFO] [MAME 2010] ROM @ 04E2
+[libretro INFO] [MAME 2010] ROM @ 04E3
+[libretro INFO] [MAME 2010] ROM @ 04E3
+[libretro INFO] [MAME 2010] ROM @ 04E4
+[libretro INFO] [MAME 2010] ROM @ 04E4
+[libretro INFO] [MAME 2010] ROM @ 04E5
+[libretro INFO] [MAME 2010] ROM @ 04E5
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 04E6
+[libretro INFO] [MAME 2010] ROM @ 04E6
+[libretro INFO] [MAME 2010] ROM @ 04E7
+[libretro INFO] [MAME 2010] ROM @ 04E7
+[libretro INFO] [MAME 2010] ROM @ 04E8
+[libretro INFO] [MAME 2010] ROM @ 04E8
+[libretro INFO] [MAME 2010] ROM @ 04E9
+[libretro INFO] [MAME 2010] ROM @ 04E9
+[libretro INFO] [MAME 2010] ROM @ 04EA
+[libretro INFO] [MAME 2010] ROM @ 04EA
+[libretro INFO] [MAME 2010] ROM @ 04EB
+[libretro INFO] [MAME 2010] ROM @ 04EB
+[libretro INFO] [MAME 2010] ROM @ 04EC
+[libretro INFO] [MAME 2010] ROM @ 04EC
+[libretro INFO] [MAME 2010] ROM @ 04ED
+[libretro INFO] [MAME 2010] ROM @ 04ED
+[libretro INFO] [MAME 2010] ROM @ 04EE
+[libretro INFO] [MAME 2010] ROM @ 04EE
+[libretro INFO] [MAME 2010] ROM @ 04EF
+[libretro INFO] [MAME 2010] ROM @ 04EF
+[libretro INFO] [MAME 2010] ROM @ 04F0
+[libretro INFO] [MAME 2010] ROM @ 04F0
+[libretro INFO] [MAME 2010] ROM @ 04F1
+[libretro INFO] [MAME 2010] ROM @ 04F1
+[libretro INFO] [MAME 2010] ROM @ 04F2
+[libretro INFO] [MAME 2010] ROM @ 04F2
+[libretro INFO] [MAME 2010] ROM @ 04F3
+[libretro INFO] [MAME 2010] ROM @ 04F3
+[libretro INFO] [MAME 2010] ROM @ 04F4
+[libretro INFO] [MAME 2010] ROM @ 04F4
+[libretro INFO] [MAME 2010] ROM @ 04F5
+[libretro INFO] [MAME 2010] ROM @ 04F5
+[libretro INFO] [MAME 2010] ROM @ 04F6
+[libretro INFO] [MAME 2010] ROM @ 04F6
+[libretro INFO] [MAME 2010] ROM @ 04F7
+[libretro INFO] [MAME 2010] ROM @ 04F7
+[libretro INFO] [MAME 2010] ROM @ 04F8
+[libretro INFO] [MAME 2010] ROM @ 04F8
+[libretro INFO] [MAME 2010] ROM @ 04F9
+[libretro INFO] [MAME 2010] ROM @ 04F9
+[libretro INFO] [MAME 2010] ROM @ 04FA
+[libretro INFO] [MAME 2010] ROM @ 04FA
+[libretro INFO] [MAME 2010] ROM @ 04FB
+[libretro INFO] [MAME 2010] ROM @ 04FB
+[libretro INFO] [MAME 2010] ROM @ 04FC
+[libretro INFO] [MAME 2010] ROM @ 04FC
+[libretro INFO] [MAME 2010] ROM @ 04FD
+[libretro INFO] [MAME 2010] ROM @ 04FD
+[libretro INFO] [MAME 2010] ROM @ 04FE
+[libretro INFO] [MAME 2010] ROM @ 04FE
+[libretro INFO] [MAME 2010] ROM @ 04FF
+[libretro INFO] [MAME 2010] ROM @ 04FF
+[libretro INFO] [MAME 2010] ROM @ 0500
+[libretro INFO] [MAME 2010] ROM @ 0500
+[libretro INFO] [MAME 2010] ROM @ 0501
+[libretro INFO] [MAME 2010] ROM @ 0501
+[libretro INFO] [MAME 2010] ROM @ 0502
+[libretro INFO] [MAME 2010] ROM @ 0502
+[libretro INFO] [MAME 2010] ROM @ 0503
+[libretro INFO] [MAME 2010] ROM @ 0503
+[libretro INFO] [MAME 2010] ROM @ 0504
+[libretro INFO] [MAME 2010] ROM @ 0504
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0505
+[libretro INFO] [MAME 2010] ROM @ 0505
+[libretro INFO] [MAME 2010] ROM @ 0506
+[libretro INFO] [MAME 2010] ROM @ 0506
+[libretro INFO] [MAME 2010] ROM @ 0507
+[libretro INFO] [MAME 2010] ROM @ 0507
+[libretro INFO] [MAME 2010] ROM @ 0508
+[libretro INFO] [MAME 2010] ROM @ 0508
+[libretro INFO] [MAME 2010] ROM @ 0509
+[libretro INFO] [MAME 2010] ROM @ 0509
+[libretro INFO] [MAME 2010] ROM @ 050A
+[libretro INFO] [MAME 2010] ROM @ 050A
+[libretro INFO] [MAME 2010] ROM @ 050B
+[libretro INFO] [MAME 2010] ROM @ 050B
+[libretro INFO] [MAME 2010] ROM @ 050C
+[libretro INFO] [MAME 2010] ROM @ 050C
+[libretro INFO] [MAME 2010] ROM @ 050D
+[libretro INFO] [MAME 2010] ROM @ 050D
+[libretro INFO] [MAME 2010] ROM @ 050E
+[libretro INFO] [MAME 2010] ROM @ 050E
+[libretro INFO] [MAME 2010] ROM @ 050F
+[libretro INFO] [MAME 2010] ROM @ 050F
+[libretro INFO] [MAME 2010] ROM @ 0510
+[libretro INFO] [MAME 2010] ROM @ 0510
+[libretro INFO] [MAME 2010] ROM @ 0511
+[libretro INFO] [MAME 2010] ROM @ 0511
+[libretro INFO] [MAME 2010] ROM @ 0512
+[libretro INFO] [MAME 2010] ROM @ 0512
+[libretro INFO] [MAME 2010] ROM @ 0513
+[libretro INFO] [MAME 2010] ROM @ 0513
+[libretro INFO] [MAME 2010] ROM @ 0514
+[libretro INFO] [MAME 2010] ROM @ 0514
+[libretro INFO] [MAME 2010] ROM @ 0515
+[libretro INFO] [MAME 2010] ROM @ 0515
+[libretro INFO] [MAME 2010] ROM @ 0516
+[libretro INFO] [MAME 2010] ROM @ 0516
+[libretro INFO] [MAME 2010] ROM @ 0517
+[libretro INFO] [MAME 2010] ROM @ 0517
+[libretro INFO] [MAME 2010] ROM @ 0518
+[libretro INFO] [MAME 2010] ROM @ 0518
+[libretro INFO] [MAME 2010] ROM @ 0519
+[libretro INFO] [MAME 2010] ROM @ 0519
+[libretro INFO] [MAME 2010] ROM @ 051A
+[libretro INFO] [MAME 2010] ROM @ 051A
+[libretro INFO] [MAME 2010] ROM @ 051B
+[libretro INFO] [MAME 2010] ROM @ 051B
+[libretro INFO] [MAME 2010] ROM @ 051C
+[libretro INFO] [MAME 2010] ROM @ 051C
+[libretro INFO] [MAME 2010] ROM @ 051D
+[libretro INFO] [MAME 2010] ROM @ 051D
+[libretro INFO] [MAME 2010] ROM @ 051E
+[libretro INFO] [MAME 2010] ROM @ 051E
+[libretro INFO] [MAME 2010] ROM @ 051F
+[libretro INFO] [MAME 2010] ROM @ 051F
+[libretro INFO] [MAME 2010] ROM @ 0520
+[libretro INFO] [MAME 2010] ROM @ 0520
+[libretro INFO] [MAME 2010] ROM @ 0521
+[libretro INFO] [MAME 2010] ROM @ 0521
+[libretro INFO] [MAME 2010] ROM @ 0522
+[libretro INFO] [MAME 2010] ROM @ 0522
+[libretro INFO] [MAME 2010] ROM @ 0523
+[libretro INFO] [MAME 2010] ROM @ 0523
+[libretro INFO] [MAME 2010] ROM @ 0524
+[libretro INFO] [MAME 2010] ROM @ 0524
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0525
+[libretro INFO] [MAME 2010] ROM @ 0525
+[libretro INFO] [MAME 2010] ROM @ 0526
+[libretro INFO] [MAME 2010] ROM @ 0526
+[libretro INFO] [MAME 2010] ROM @ 0527
+[libretro INFO] [MAME 2010] ROM @ 0527
+[libretro INFO] [MAME 2010] ROM @ 0528
+[libretro INFO] [MAME 2010] ROM @ 0528
+[libretro INFO] [MAME 2010] ROM @ 0529
+[libretro INFO] [MAME 2010] ROM @ 0529
+[libretro INFO] [MAME 2010] ROM @ 052A
+[libretro INFO] [MAME 2010] ROM @ 052A
+[libretro INFO] [MAME 2010] ROM @ 052B
+[libretro INFO] [MAME 2010] ROM @ 052B
+[libretro INFO] [MAME 2010] ROM @ 052C
+[libretro INFO] [MAME 2010] ROM @ 052C
+[libretro INFO] [MAME 2010] ROM @ 052D
+[libretro INFO] [MAME 2010] ROM @ 052D
+[libretro INFO] [MAME 2010] ROM @ 052E
+[libretro INFO] [MAME 2010] ROM @ 052E
+[libretro INFO] [MAME 2010] ROM @ 052F
+[libretro INFO] [MAME 2010] ROM @ 052F
+[libretro INFO] [MAME 2010] ROM @ 0530
+[libretro INFO] [MAME 2010] ROM @ 0530
+[libretro INFO] [MAME 2010] ROM @ 0531
+[libretro INFO] [MAME 2010] ROM @ 0531
+[libretro INFO] [MAME 2010] ROM @ 0532
+[libretro INFO] [MAME 2010] ROM @ 0532
+[libretro INFO] [MAME 2010] ROM @ 0533
+[libretro INFO] [MAME 2010] ROM @ 0533
+[libretro INFO] [MAME 2010] ROM @ 0534
+[libretro INFO] [MAME 2010] ROM @ 0534
+[libretro INFO] [MAME 2010] ROM @ 0535
+[libretro INFO] [MAME 2010] ROM @ 0535
+[libretro INFO] [MAME 2010] ROM @ 0536
+[libretro INFO] [MAME 2010] ROM @ 0536
+[libretro INFO] [MAME 2010] ROM @ 0537
+[libretro INFO] [MAME 2010] ROM @ 0537
+[libretro INFO] [MAME 2010] ROM @ 0538
+[libretro INFO] [MAME 2010] ROM @ 0538
+[libretro INFO] [MAME 2010] ROM @ 0539
+[libretro INFO] [MAME 2010] ROM @ 0539
+[libretro INFO] [MAME 2010] ROM @ 053A
+[libretro INFO] [MAME 2010] ROM @ 053A
+[libretro INFO] [MAME 2010] ROM @ 053B
+[libretro INFO] [MAME 2010] ROM @ 053B
+[libretro INFO] [MAME 2010] ROM @ 053C
+[libretro INFO] [MAME 2010] ROM @ 053C
+[libretro INFO] [MAME 2010] ROM @ 053D
+[libretro INFO] [MAME 2010] ROM @ 053D
+[libretro INFO] [MAME 2010] ROM @ 053E
+[libretro INFO] [MAME 2010] ROM @ 053E
+[libretro INFO] [MAME 2010] ROM @ 053F
+[libretro INFO] [MAME 2010] ROM @ 053F
+[libretro INFO] [MAME 2010] ROM @ 0540
+[libretro INFO] [MAME 2010] ROM @ 0540
+[libretro INFO] [MAME 2010] ROM @ 0541
+[libretro INFO] [MAME 2010] ROM @ 0541
+[libretro INFO] [MAME 2010] ROM @ 0542
+[libretro INFO] [MAME 2010] ROM @ 0542
+[libretro INFO] [MAME 2010] ROM @ 0543
+[libretro INFO] [MAME 2010] ROM @ 0543
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0544
+[libretro INFO] [MAME 2010] ROM @ 0544
+[libretro INFO] [MAME 2010] ROM @ 0545
+[libretro INFO] [MAME 2010] ROM @ 0545
+[libretro INFO] [MAME 2010] ROM @ 0546
+[libretro INFO] [MAME 2010] ROM @ 0546
+[libretro INFO] [MAME 2010] ROM @ 0547
+[libretro INFO] [MAME 2010] ROM @ 0547
+[libretro INFO] [MAME 2010] ROM @ 0548
+[libretro INFO] [MAME 2010] ROM @ 0548
+[libretro INFO] [MAME 2010] ROM @ 0549
+[libretro INFO] [MAME 2010] ROM @ 0549
+[libretro INFO] [MAME 2010] ROM @ 054A
+[libretro INFO] [MAME 2010] ROM @ 054A
+[libretro INFO] [MAME 2010] ROM @ 054B
+[libretro INFO] [MAME 2010] ROM @ 054B
+[libretro INFO] [MAME 2010] ROM @ 054C
+[libretro INFO] [MAME 2010] ROM @ 054C
+[libretro INFO] [MAME 2010] ROM @ 054D
+[libretro INFO] [MAME 2010] ROM @ 054D
+[libretro INFO] [MAME 2010] ROM @ 054E
+[libretro INFO] [MAME 2010] ROM @ 054E
+[libretro INFO] [MAME 2010] ROM @ 054F
+[libretro INFO] [MAME 2010] ROM @ 054F
+[libretro INFO] [MAME 2010] ROM @ 0550
+[libretro INFO] [MAME 2010] ROM @ 0550
+[libretro INFO] [MAME 2010] ROM @ 0551
+[libretro INFO] [MAME 2010] ROM @ 0551
+[libretro INFO] [MAME 2010] ROM @ 0552
+[libretro INFO] [MAME 2010] ROM @ 0552
+[libretro INFO] [MAME 2010] ROM @ 0553
+[libretro INFO] [MAME 2010] ROM @ 0553
+[libretro INFO] [MAME 2010] ROM @ 0554
+[libretro INFO] [MAME 2010] ROM @ 0554
+[libretro INFO] [MAME 2010] ROM @ 0555
+[libretro INFO] [MAME 2010] ROM @ 0555
+[libretro INFO] [MAME 2010] ROM @ 0556
+[libretro INFO] [MAME 2010] ROM @ 0556
+[libretro INFO] [MAME 2010] ROM @ 0557
+[libretro INFO] [MAME 2010] ROM @ 0557
+[libretro INFO] [MAME 2010] ROM @ 0558
+[libretro INFO] [MAME 2010] ROM @ 0558
+[libretro INFO] [MAME 2010] ROM @ 0559
+[libretro INFO] [MAME 2010] ROM @ 0559
+[libretro INFO] [MAME 2010] ROM @ 055A
+[libretro INFO] [MAME 2010] ROM @ 055A
+[libretro INFO] [MAME 2010] ROM @ 055B
+[libretro INFO] [MAME 2010] ROM @ 055B
+[libretro INFO] [MAME 2010] ROM @ 055C
+[libretro INFO] [MAME 2010] ROM @ 055C
+[libretro INFO] [MAME 2010] ROM @ 055D
+[libretro INFO] [MAME 2010] ROM @ 055D
+[libretro INFO] [MAME 2010] ROM @ 055E
+[libretro INFO] [MAME 2010] ROM @ 055E
+[libretro INFO] [MAME 2010] ROM @ 055F
+[libretro INFO] [MAME 2010] ROM @ 055F
+[libretro INFO] [MAME 2010] ROM @ 0560
+[libretro INFO] [MAME 2010] ROM @ 0560
+[libretro INFO] [MAME 2010] ROM @ 0561
+[libretro INFO] [MAME 2010] ROM @ 0561
+[libretro INFO] [MAME 2010] ROM @ 0562
+[libretro INFO] [MAME 2010] ROM @ 0562
+[libretro INFO] [MAME 2010] ROM @ 0563
+[libretro INFO] [MAME 2010] ROM @ 0563
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] Z8000 invalid Cause_Interrupt 00ff
+[libretro INFO] [MAME 2010] ROM @ 0564
+[libretro INFO] [MAME 2010] ROM @ 0564
+[libretro INFO] [MAME 2010] ROM @ 0565
+[libretro INFO] [MAME 2010] ROM @ 0565
+[libretro INFO] [MAME 2010] ROM @ 0566
+[libretro INFO] [MAME 2010] ROM @ 0566
+[libretro INFO] [MAME 2010] ROM @ 0567
+[libretro INFO] [MAME 2010] ROM @ 0567
+[libretro INFO] [MAME 2010] ROM @ 0568
+[libretro INFO] [MAME 2010] ROM @ 0568
+[libretro INFO] [MAME 2010] ROM @ 0569
+[libretro INFO] [MAME 2010] ROM @ 0569
+[libretro INFO] [MAME 2010] ROM @ 056A
+[libretro INFO] [MAME 2010] ROM @ 056A
+[libretro INFO] [MAME 2010] ROM @ 056B
+[libretro INFO] [MAME 2010] ROM @ 056B
+[libretro INFO] [MAME 2010] ROM @ 056C
+[libretro INFO] [MAME 2010] ROM @ 056C
+[libretro INFO] [MAME 2010] ROM @ 056D
+[libretro INFO] [MAME 2010] ROM @ 056D
+[libretro INFO] [MAME 2010] ROM @ 056E
+[libretro INFO] [MAME 2010] ROM @ 056E
+[libretro INFO] [MAME 2010] ROM @ 056F
+[libretro INFO] [MAME 2010] ROM @ 056F
+[libretro INFO] [MAME 2010] ROM @ 0570
+[libretro INFO] [MAME 2010] ROM @ 0570
+[libretro INFO] [MAME 2010] ROM @ 0571
+[libretro INFO] [MAME 2010] ROM @ 0571
+[libretro INFO] [MAME 2010] ROM @ 0572
+[libretro INFO] [MAME 2010] ROM @ 0572
+[libretro INFO] [MAME 2010] ROM @ 0573
+[libretro INFO] [MAME 2010] ROM @ 0573
+[libretro INFO] [MAME 2010] ROM @ 0574
+[libretro INFO] [MAME 2010] ROM @ 0574
+[libretro INFO] [MAME 2010] ROM @ 0575
+[libretro INFO] [MAME 2010] ROM @ 0575
+[libretro INFO] [MAME 2010] ROM @ 0576
+[libretro INFO] [MAME 2010] ROM @ 0576
+[libretro INFO] [MAME 2010] ROM @ 0577
+[libretro INFO] [MAME 2010] ROM @ 0577
+[libretro INFO] [MAME 2010] ROM @ 0578
+[libretro INFO] [MAME 2010] ROM @ 0578
+[libretro INFO] [MAME 2010] ROM @ 0579
+[libretro INFO] [MAME 2010] ROM @ 0579
+[libretro INFO] [MAME 2010] ROM @ 057A
+[libretro INFO] [MAME 2010] ROM @ 057A
+[libretro INFO] [MAME 2010] ROM @ 057B
+[libretro INFO] [MAME 2010] ROM @ 057B
+[libretro INFO] [MAME 2010] ROM @ 057C
+[libretro INFO] [MAME 2010] ROM @ 057C

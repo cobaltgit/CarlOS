@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Alien 3 (USA).smc</path>
+		<name>Alien 3 (USA)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224743</lastplayed>
+	</game>
+	<game>
+		<path>./7th Saga.7z</path>
+		<name>7th Saga</name>
+		<playcount>1</playcount>
+		<lastplayed>20170818T023917</lastplayed>
+	</game>
+	<game>
+		<path>./90 Minutes - European Prime Goal.7z</path>
+		<name>90 Minutes - European Prime Goal</name>
+		<playcount>1</playcount>
+		<lastplayed>20170818T023913</lastplayed>
+	</game>
+</gameList>

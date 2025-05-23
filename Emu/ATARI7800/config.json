@@ -1,0 +1,15 @@
+{
+"label":"ATARI 7800",
+"icon":"ic-atari7800.png",
+"iconsel":"ic-atari7800-80-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/ATARI7800",
+"imgpath":"../../Roms/ATARI7800/media/images",
+"gamelist":"../../Roms/ATARI7800/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"extlist":"a78|bin|zip|7z",
+"hidebios":0
+}

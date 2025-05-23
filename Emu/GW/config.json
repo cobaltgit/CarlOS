@@ -1,0 +1,14 @@
+{
+"label":"G&W",
+"icon":"ic-GW.png",
+"iconsel":"ic-gw-80-n.png",
+"background":"bg.png",
+"themecolor":"FF0000",
+"launch":"launch.sh",
+"rompath":"../../Roms/GW",
+"imgpath":"../../Roms/GW/media/images",
+"gamelist":"../../Roms/GW/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1
+}

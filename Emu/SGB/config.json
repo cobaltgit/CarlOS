@@ -1,0 +1,16 @@
+{
+    "label":"SGB",
+    "icon":"ic-SGB.png",
+	"iconsel":"ic-SGB-80-n.png",
+    "iconlist":"ic-SGB-32-n.png",
+    "background":"bg.png",
+    "themecolor":"00FF00",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/SGB",
+    "imgpath":"../../Roms/SGB/media/images",
+	"gamelist":"../../Roms/SGB/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"gb|gbc|7z|zip"
+}

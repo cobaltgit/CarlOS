@@ -1,0 +1,17 @@
+{
+"label":"OpenBOR",
+"icon":"ic-openbor.png",
+"iconsel":"ic-openbor-80-n.png",
+"iconsmall":"ic-openbor-80-n.png",
+"iconlist":"ic-openbor-32-n.png",
+"background":"bg.png",
+"themecolor":"FFFF00",
+"launch":"launch.sh",
+"rompath":"../../Roms/OPENBOR",
+"imgpath":"../../Roms/OPENBOR/media/images",
+"gamelist":"../../Roms/OPENBOR/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":0,
+"extlist":"pak|Pak|PAK|7z"
+}

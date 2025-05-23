@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./超级肉食男孩/超级肉食男孩.sh</path>
+		<name>超级肉食男孩</name>
+		<playcount>1</playcount>
+		<lastplayed>20170817T074439</lastplayed>
+	</game>
+	<game>
+		<path>./铲子骑士/铲子骑士.sh</path>
+		<name>铲子骑士</name>
+		<playcount>1</playcount>
+		<lastplayed>20170817T074433</lastplayed>
+	</game>
+</gameList>

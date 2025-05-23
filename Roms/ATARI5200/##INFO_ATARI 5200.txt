@@ -1,0 +1,1 @@
+This system is compatible with roms in these filetypes: rom, xfd, atr, atx, cdm, cas, car, bin, a52, xex, zip, 7z

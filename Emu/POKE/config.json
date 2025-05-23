@@ -1,0 +1,24 @@
+{
+    "label":"POKE",
+    "icon":"ic-poke.png",
+	"iconsel":"ic-poke-80-n.png",
+    "iconsmall":"ic-poke-80-n.png",
+    "iconlist":"ic-poke-32-n.png",
+    "background":"bg.png",
+    "themecolor":"00FF00",
+    "effectsh":"effect.sh",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/POKE",
+    "imgpath":"../../Roms/POKE/media/images",
+	"gamelist":"../../Roms/POKE/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"min|zip|7z",
+    "launchlist": [
+        {
+            "name": "PokeMini",
+            "launch": "launch.sh"
+        }
+    ]
+}

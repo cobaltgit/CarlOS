@@ -1,0 +1,278 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/cores/pcsx_rearmed_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PS.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PS.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/PCSX-ReARMed/Tomb Raider II.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/PCSX-ReARMed/Tomb Raider II.state".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/remaps/PCSX-ReARMed/PCSX-ReARMed.rmp".
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[libretro INFO] Memcard 2: disabled
+[libretro INFO] Starting PCSX-ReARMed r25l-24-g6091efb4 (cc 8.3.0 64bit pic arm64v8 neon ari64 gpu=neon)
+[libretro INFO] build time: Mar 31 2025 00:42:34
+[libretro INFO] 2 cpu core(s) detected
+[libretro INFO] Init new dynarec, ndrc size 1001000, pgsize 4096
+[libretro INFO] ndrc config: mul=175, ha=0, pex=0
+[libretro INFO] (0x7f911aef30) testing if we can run recompiled code @0x7f915ec000...
+[libretro INFO] test passed.
+[libretro INFO] Mapped (RAM/scrp/ROM/LUTs/TC):
+[libretro INFO] 0x80000000/0x1f800000/0x1fc00000/(nil)/0x7f915ec000
+[libretro INFO] compiler thread enabled
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system".
+[libretro INFO] found BIOS file: scph101.bin
+[INFO] [Environ]: GET_CAN_DUPE: true
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 6.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] Using PIXEL_FORMAT 2
+[libretro INFO] cdrom precache: 12 buffers
+[libretro INFO] plugin: plugins/builtin_gpu
+[libretro INFO] plugin: plugins/builtin_spu
+[libretro INFO] plugin: plugins/builtin_pad
+[libretro INFO] plugin: plugins/builtin_pad
+[libretro INFO] Plugins loaded.
+[libretro INFO] chd: TRACK:1 TYPE:MODE2_RAW SUBTYPE:NONE FRAMES:103967 PREGAP:0 PGTYPE:MODE1 PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:2 TYPE:AUDIO SUBTYPE:NONE FRAMES:6559 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:3 TYPE:AUDIO SUBTYPE:NONE FRAMES:8725 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:4 TYPE:AUDIO SUBTYPE:NONE FRAMES:10335 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:5 TYPE:AUDIO SUBTYPE:NONE FRAMES:735 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:6 TYPE:AUDIO SUBTYPE:NONE FRAMES:672 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:7 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:8 TYPE:AUDIO SUBTYPE:NONE FRAMES:527 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:9 TYPE:AUDIO SUBTYPE:NONE FRAMES:600 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:10 TYPE:AUDIO SUBTYPE:NONE FRAMES:999 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:11 TYPE:AUDIO SUBTYPE:NONE FRAMES:1335 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:12 TYPE:AUDIO SUBTYPE:NONE FRAMES:788 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:13 TYPE:AUDIO SUBTYPE:NONE FRAMES:834 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:14 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:15 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:16 TYPE:AUDIO SUBTYPE:NONE FRAMES:527 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:17 TYPE:AUDIO SUBTYPE:NONE FRAMES:827 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:18 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:19 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:20 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:21 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:22 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:23 TYPE:AUDIO SUBTYPE:NONE FRAMES:1399 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:24 TYPE:AUDIO SUBTYPE:NONE FRAMES:826 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:25 TYPE:AUDIO SUBTYPE:NONE FRAMES:526 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:26 TYPE:AUDIO SUBTYPE:NONE FRAMES:4040 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:27 TYPE:AUDIO SUBTYPE:NONE FRAMES:9011 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:28 TYPE:AUDIO SUBTYPE:NONE FRAMES:8983 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:29 TYPE:AUDIO SUBTYPE:NONE FRAMES:12634 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:30 TYPE:AUDIO SUBTYPE:NONE FRAMES:13935 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:31 TYPE:AUDIO SUBTYPE:NONE FRAMES:732 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:32 TYPE:AUDIO SUBTYPE:NONE FRAMES:498 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:33 TYPE:AUDIO SUBTYPE:NONE FRAMES:1385 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:34 TYPE:AUDIO SUBTYPE:NONE FRAMES:4234 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:35 TYPE:AUDIO SUBTYPE:NONE FRAMES:1641 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:36 TYPE:AUDIO SUBTYPE:NONE FRAMES:12069 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:37 TYPE:AUDIO SUBTYPE:NONE FRAMES:1063 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:38 TYPE:AUDIO SUBTYPE:NONE FRAMES:1007 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:39 TYPE:AUDIO SUBTYPE:NONE FRAMES:1263 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:40 TYPE:AUDIO SUBTYPE:NONE FRAMES:1488 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:41 TYPE:AUDIO SUBTYPE:NONE FRAMES:4581 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:42 TYPE:AUDIO SUBTYPE:NONE FRAMES:2655 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:43 TYPE:AUDIO SUBTYPE:NONE FRAMES:479 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:44 TYPE:AUDIO SUBTYPE:NONE FRAMES:1199 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:45 TYPE:AUDIO SUBTYPE:NONE FRAMES:898 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:46 TYPE:AUDIO SUBTYPE:NONE FRAMES:1077 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:47 TYPE:AUDIO SUBTYPE:NONE FRAMES:783 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:48 TYPE:AUDIO SUBTYPE:NONE FRAMES:12383 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:49 TYPE:AUDIO SUBTYPE:NONE FRAMES:5500 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:50 TYPE:AUDIO SUBTYPE:NONE FRAMES:722 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:51 TYPE:AUDIO SUBTYPE:NONE FRAMES:3308 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:52 TYPE:AUDIO SUBTYPE:NONE FRAMES:885 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:53 TYPE:AUDIO SUBTYPE:NONE FRAMES:3831 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:54 TYPE:AUDIO SUBTYPE:NONE FRAMES:15869 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:55 TYPE:AUDIO SUBTYPE:NONE FRAMES:15882 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:56 TYPE:AUDIO SUBTYPE:NONE FRAMES:8078 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:57 TYPE:AUDIO SUBTYPE:NONE FRAMES:1920 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:58 TYPE:AUDIO SUBTYPE:NONE FRAMES:1774 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:59 TYPE:AUDIO SUBTYPE:NONE FRAMES:1479 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:60 TYPE:AUDIO SUBTYPE:NONE FRAMES:12647 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:61 TYPE:AUDIO SUBTYPE:NONE FRAMES:1480 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] Loaded CD Image: /media/sdcard0/Emu/PS/../../Roms/PS/Tomb Raider II.chd[+chd] (353455374 bytes).
+[libretro INFO] Track 01 (DATA) - Start 00:02:00, Length 23:06:17
+[libretro INFO] Track 02 (AUDIO) - Start 23:10:17, Length 01:27:34
+[libretro INFO] Track 03 (AUDIO) - Start 24:37:51, Length 01:56:25
+[libretro INFO] Track 04 (AUDIO) - Start 26:34:01, Length 02:17:60
+[libretro INFO] Track 05 (AUDIO) - Start 28:51:61, Length 00:09:60
+[libretro INFO] Track 06 (AUDIO) - Start 29:01:46, Length 00:08:72
+[libretro INFO] Track 07 (AUDIO) - Start 29:10:43, Length 00:07:01
+[libretro INFO] Track 08 (AUDIO) - Start 29:17:44, Length 00:07:02
+[libretro INFO] Track 09 (AUDIO) - Start 29:24:46, Length 00:08:00
+[libretro INFO] Track 10 (AUDIO) - Start 29:32:46, Length 00:13:24
+[libretro INFO] Track 11 (AUDIO) - Start 29:45:70, Length 00:17:60
+[libretro INFO] Track 12 (AUDIO) - Start 30:03:55, Length 00:10:38
+[libretro INFO] Track 13 (AUDIO) - Start 30:14:18, Length 00:11:09
+[libretro INFO] Track 14 (AUDIO) - Start 30:25:27, Length 00:07:01
+[libretro INFO] Track 15 (AUDIO) - Start 30:32:28, Length 00:07:01
+[libretro INFO] Track 16 (AUDIO) - Start 30:39:29, Length 00:07:02
+[libretro INFO] Track 17 (AUDIO) - Start 30:46:31, Length 00:11:02
+[libretro INFO] Track 18 (AUDIO) - Start 30:57:33, Length 00:07:01
+[libretro INFO] Track 19 (AUDIO) - Start 31:04:34, Length 00:07:01
+[libretro INFO] Track 20 (AUDIO) - Start 31:11:35, Length 00:07:01
+[libretro INFO] Track 21 (AUDIO) - Start 31:18:36, Length 00:07:01
+[libretro INFO] Track 22 (AUDIO) - Start 31:25:37, Length 00:07:01
+[libretro INFO] Track 23 (AUDIO) - Start 31:32:38, Length 00:18:49
+[libretro INFO] Track 24 (AUDIO) - Start 31:51:12, Length 00:11:01
+[libretro INFO] Track 25 (AUDIO) - Start 32:02:13, Length 00:07:01
+[libretro INFO] Track 26 (AUDIO) - Start 32:09:14, Length 00:53:65
+[libretro INFO] Track 27 (AUDIO) - Start 33:03:04, Length 02:00:11
+[libretro INFO] Track 28 (AUDIO) - Start 35:03:15, Length 01:59:58
+[libretro INFO] Track 29 (AUDIO) - Start 37:02:73, Length 02:48:34
+[libretro INFO] Track 30 (AUDIO) - Start 39:51:32, Length 03:05:60
+[libretro INFO] Track 31 (AUDIO) - Start 42:57:17, Length 00:09:57
+[libretro INFO] Track 32 (AUDIO) - Start 43:06:74, Length 00:06:48
+[libretro INFO] Track 33 (AUDIO) - Start 43:13:47, Length 00:18:35
+[libretro INFO] Track 34 (AUDIO) - Start 43:32:07, Length 00:56:34
+[libretro INFO] Track 35 (AUDIO) - Start 44:28:41, Length 00:21:66
+[libretro INFO] Track 36 (AUDIO) - Start 44:50:32, Length 02:40:69
+[libretro INFO] Track 37 (AUDIO) - Start 47:31:26, Length 00:14:13
+[libretro INFO] Track 38 (AUDIO) - Start 47:45:39, Length 00:13:32
+[libretro INFO] Track 39 (AUDIO) - Start 47:58:71, Length 00:16:63
+[libretro INFO] Track 40 (AUDIO) - Start 48:15:59, Length 00:19:63
+[libretro INFO] Track 41 (AUDIO) - Start 48:35:47, Length 01:01:06
+[libretro INFO] Track 42 (AUDIO) - Start 49:36:53, Length 00:35:30
+[libretro INFO] Track 43 (AUDIO) - Start 50:12:08, Length 00:06:29
+[libretro INFO] Track 44 (AUDIO) - Start 50:18:37, Length 00:15:74
+[libretro INFO] Track 45 (AUDIO) - Start 50:34:36, Length 00:11:73
+[libretro INFO] Track 46 (AUDIO) - Start 50:46:34, Length 00:14:27
+[libretro INFO] Track 47 (AUDIO) - Start 51:00:61, Length 00:10:33
+[libretro INFO] Track 48 (AUDIO) - Start 51:11:19, Length 02:45:08
+[libretro INFO] Track 49 (AUDIO) - Start 53:56:27, Length 01:13:25
+[libretro INFO] Track 50 (AUDIO) - Start 55:09:52, Length 00:09:47
+[libretro INFO] Track 51 (AUDIO) - Start 55:19:24, Length 00:44:08
+[libretro INFO] Track 52 (AUDIO) - Start 56:03:32, Length 00:11:60
+[libretro INFO] Track 53 (AUDIO) - Start 56:15:17, Length 00:51:06
+[libretro INFO] Track 54 (AUDIO) - Start 57:06:23, Length 03:31:44
+[libretro INFO] Track 55 (AUDIO) - Start 60:37:67, Length 03:31:57
+[libretro INFO] Track 56 (AUDIO) - Start 64:09:49, Length 01:47:53
+[libretro INFO] Track 57 (AUDIO) - Start 65:57:27, Length 00:25:45
+[libretro INFO] Track 58 (AUDIO) - Start 66:22:72, Length 00:23:49
+[libretro INFO] Track 59 (AUDIO) - Start 66:46:46, Length 00:19:54
+[libretro INFO] Track 60 (AUDIO) - Start 67:06:25, Length 02:48:47
+[libretro INFO] Track 61 (AUDIO) - Start 69:54:72, Length 00:19:55
+[libretro INFO] cdrom precache: 12 buffers
+[libretro INFO] CD-ROM Label: TOMB2ENG                        
+[libretro INFO] CD-ROM ID: SLES00718
+[libretro INFO] CD-ROM EXE Name: SLES_007.18;1
+[libretro INFO] BIOS: 19951204, 'CEX-3000/1001/1002 by K.S.', 'A'
+[INFO] [Environ]: SET_MEMORY_MAPS.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 256x240, Aspect: 1.333, FPS: 50.00, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f840abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PS.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 50.00 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[libretro INFO] port: 1  device: standard
+[libretro INFO] port: 2  device: standard
+[libretro INFO] port: 3  device: standard
+[libretro INFO] port: 4  device: standard
+[libretro INFO] port: 5  device: none
+[libretro INFO] port: 6  device: none
+[libretro INFO] port: 7  device: none
+[libretro INFO] port: 8  device: none
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Environ]: SET_GEOMETRY: 640x480, Aspect: 1.333.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[libretro INFO] vsync @0007f774
+[INFO] [Environ]: SET_GEOMETRY: 256x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 364x256, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 640x256, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 364x256, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x256, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 364x256, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x256, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 364x256, Aspect: 1.333.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [SRAM]: Guardando tipo de RAM #0 en "/mnt/SDCARD/Savefiles/PCSX-ReARMed/Tomb Raider II.srm".
+[INFO] [SRAM]: Se han guardado los datos en "/mnt/SDCARD/Savefiles/PCSX-ReARMed/Tomb Raider II.srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 04 minutes, 15 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PCSX-ReARMed.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 12760, Frames dropped: 3.

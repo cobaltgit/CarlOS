@@ -1,0 +1,27 @@
+{
+    "label":"SGCD",
+    "icon":"ic-sg.png",
+    "iconsmall":"ic-sg-80-n.png",
+	"iconsel":"ic-sg-80-n.png",
+    "iconlist":"ic-sg-32-n.png",
+    "background":"bg.png",
+    "themecolor":"0088CF",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/SEGACD",
+    "imgpath":"../../Roms/SEGACD/media/images",
+	"gamelist":"../../Roms/SEGACD/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist": "cue|iso|chd|m3u",
+    "launchlist": [
+        {
+            "name": "GENESIS PLUS GX",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "PICODRIVE",
+            "launch": "launch1.sh"
+        }
+    ]
+}

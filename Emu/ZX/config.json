@@ -1,0 +1,16 @@
+{
+"label":"ZX Spectrum",
+"icon":"ic-zx.png",
+"iconsel":"ic-zx-80-n.png",
+"iconsmall":"ic-zx-80-n.png",
+"iconlist":"ic-zx-32-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/ZX",
+"imgpath":"../../Roms/ZX/media/images",
+"gamelist":"../../Roms/ZX/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0
+}

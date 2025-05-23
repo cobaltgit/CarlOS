@@ -1,0 +1,6 @@
+{
+"label":"P.Overlays y Shader ON-OFF",
+"icon":"Portatiles.png",
+"launch":"launch.sh",
+"description":"ON-OFF de Shader y Overlays para Portatiles"
+}

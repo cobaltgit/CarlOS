@@ -1,0 +1,273 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/cores/fbalpha2012_neogeo_libretro.so"
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/FB Alpha 2012 Neo Geo/mslug.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/FB Alpha 2012 Neo Geo/mslug.state".
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/remaps/FB Alpha 2012 Neo Geo/FB Alpha 2012 Neo Geo.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/FB Alpha 2012 Neo Geo".
+[libretro INFO] Setting save dir to /mnt/SDCARD/Savefiles/FB Alpha 2012 Neo Geo
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/system".
+[libretro INFO] Setting system dir to /media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/system
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] set_environment: SYSTEM: 7, DIPSWITCH: 0
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_aspect', 'Core-Provided Aspect Ratio' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_cpu_speed_adjust', 'CPU Speed (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_lowpass_filter', 'Audio Filter' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_lowpass_range', 'Audio Filter Level (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_frameskip', 'Frameskip' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_frameskip_threshold', 'Frameskip Threshold (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_neogeo_mode', 'Neo Geo Mode' }
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: SET_CORE_OPTIONS.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/FB Alpha 2012 Neo Geo/mslug.opt".
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[libretro INFO] [FBA] Archive: mslug
+[libretro INFO] [FBA] Archive: neogeo
+[libretro INFO] [FBA] Parsing archive /media/sdcard0/Emu/NEOGEO/../../Roms/NEOGEO/mslug.
+[libretro WARN] [FBA] Searching ROM at index 129 with CRC 0x9036d879 and name sp-s2.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 130 with CRC 0xc7f2fa45 and name sp-s.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 131 with CRC 0xe72943de and name sp-u2.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 132 with CRC 0x2723a5b5 and name sp-e.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 133 with CRC 0xf0e8f27d and name vs-bios.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 134 with CRC 0xacede59c and name sp-j2.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 135 with CRC 0x9fb0abe4 and name sp1.jipan.1024 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 136 with CRC 0x03cc9f6a and name sp-45.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 137 with CRC 0xdff6d41f and name japan-j3.bin => Not Found
+[libretro WARN] [FBA] Searching ROM at index 138 with CRC 0x16d0c132 and name neo-po.bin => Not Found
+[libretro WARN] [FBA] Searching ROM at index 139 with CRC 0xd27a71f1 and name neo-epo.bin => Not Found
+[libretro WARN] [FBA] Searching ROM at index 140 with CRC 0x698ebb7d and name neodebug.bin => Not Found
+[libretro WARN] [FBA] Searching ROM at index 141 with CRC 0x162f0ebe and name sp-1v1_3db8c.bin => Not Found
+[libretro WARN] [FBA] Searching ROM at index 142 with CRC 0xa7aab458 and name uni-bios_4_0.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 143 with CRC 0x24858466 and name uni-bios_3_3.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 144 with CRC 0xa4e8b9b3 and name uni-bios_3_2.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 145 with CRC 0x0c58093f and name uni-bios_3_1.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 146 with CRC 0xa97c89a9 and name uni-bios_3_0.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 147 with CRC 0x27664eb5 and name uni-bios_2_3.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 148 with CRC 0x601720ae and name uni-bios_2_3o.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 149 with CRC 0x2d50996a and name uni-bios_2_2.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 150 with CRC 0x8dabf76b and name uni-bios_2_1.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 151 with CRC 0x0c12c2ad and name uni-bios_2_0.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 152 with CRC 0xb24b44a0 and name uni-bios_1_3.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 153 with CRC 0x4fa698e9 and name uni-bios_1_2.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 154 with CRC 0xe19d3ce9 and name uni-bios_1_2o.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 155 with CRC 0x5dda0d84 and name uni-bios_1_1.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 156 with CRC 0x0ce453a0 and name uni-bios_1_0.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 157 with CRC 0xcb915e76 and name neopen.sp1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 160 with CRC 0x94416d67 and name sm1.sm1 => Not Found
+[libretro WARN] [FBA] Searching ROM at index 161 with CRC 0xc2ea0cfd and name sfix.sfix => Not Found
+[libretro WARN] [FBA] Searching ROM at index 162 with CRC 0x5a86cff2 and name 000-lo.lo => Not Found
+[libretro INFO] [FBA] Parsing archive /media/sdcard0/Emu/NEOGEO/../../Roms/NEOGEO/neogeo.
+[libretro WARN] [FBA] Searching ROM at index 143 with CRC 0x24858466 and name uni-bios_3_3.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 144 with CRC 0xa4e8b9b3 and name uni-bios_3_2.rom => Not Found
+[libretro WARN] [FBA] Searching ROM at index 145 with CRC 0x0c58093f and name uni-bios_3_1.rom => Not Found
+[libretro INFO] UNIBIOS Neo Geo Mode selected => Set NeoSystem: 0x0e (uni-bios_4_0.rom [0xa7aab458] (Universe BIOS ver. 4.0)).
+[libretro INFO] DIP switches offset: 25.
+[libretro INFO] set_environment: SYSTEM: 8, DIPSWITCH: 0
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_aspect', 'Core-Provided Aspect Ratio' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_cpu_speed_adjust', 'CPU Speed (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_lowpass_filter', 'Audio Filter' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_lowpass_range', 'Audio Filter Level (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_frameskip', 'Frameskip' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_frameskip_threshold', 'Frameskip Threshold (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_diagnostic_input', 'Diagnostic Input' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_neogeo_mode', 'Neo Geo Mode' }
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: SET_CORE_OPTIONS.
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/FB Alpha 2012 Neo Geo/mslug.opt".
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/FB Alpha 2012 Neo Geo/mslug.opt".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] Initialize DIP switches.
+[libretro INFO] 'Autofire' (2)
+[libretro INFO]    '(Default) Off'
+[libretro INFO]    'Off'
+[libretro INFO]    'On'
+[libretro INFO] 'Setting mode' (2)
+[libretro INFO]    '(Default) Off'
+[libretro INFO]    'Off'
+[libretro INFO]    'On'
+[libretro WARN] Error in mslugDIPList for DIPSWITCH 'Coin chutes': the line '2' is useless
+[libretro INFO] 'Coin chutes' (2)
+[libretro INFO]    '(Default) 1'
+[libretro INFO]    '1'
+[libretro INFO]    '2'
+[libretro WARN] Error in mslugDIPList for DIPSWITCH 'Coin chutes': the line '2' is useless
+[libretro INFO] 'Coin chutes' (2)
+[libretro INFO]    '(Default) 2'
+[libretro INFO]    '2'
+[libretro INFO]    '4'
+[libretro INFO] 'Commmunicaton' (5)
+[libretro INFO]    '(Default) Disabled'
+[libretro INFO]    'Disabled'
+[libretro INFO]    'Setting 1'
+[libretro INFO]    'Setting 2'
+[libretro INFO]    'Setting 3'
+[libretro INFO]    'Setting 4'
+[libretro INFO] 'Free play' (2)
+[libretro INFO]    '(Default) Off'
+[libretro INFO]    'Off'
+[libretro INFO]    'On'
+[libretro INFO] 'Stop mode' (2)
+[libretro INFO]    '(Default) Off'
+[libretro INFO]    'Off'
+[libretro INFO]    'On'
+[libretro INFO] 'BIOS' (30)
+[libretro INFO]    '(Default) MVS Asia/Europe ver. 6 (1 slot)'
+[libretro INFO]    'MVS Asia/Europe ver. 6 (1 slot)'
+[libretro INFO]    'MVS Asia/Europe ver. 5 (1 slot)'
+[libretro INFO]    'MVS Asia/Europe ver. 3 (4 slot)'
+[libretro INFO]    'MVS USA ver. 5 (2 slot)'
+[libretro INFO]    'MVS USA ver. 5 (6 slot)'
+[libretro INFO]    'MVS Japan ver. 6 (? slot)'
+[libretro INFO]    'MVS Japan ver. 5 (? slot)'
+[libretro INFO]    'MVS Japan ver. 3 (4 slot)'
+[libretro INFO]    'NEO-MVH MV1C'
+[libretro INFO]    'MVS Japan (J3)'
+[libretro INFO]    'AES Japan'
+[libretro INFO]    'AES Asia'
+[libretro INFO]    'Development Kit'
+[libretro INFO]    'Deck ver. 6 (Git Ver 1.3)'
+[libretro INFO]    'Universe BIOS ver. 4.0'
+[libretro INFO]    'Universe BIOS ver. 3.3'
+[libretro INFO]    'Universe BIOS ver. 3.2'
+[libretro INFO]    'Universe BIOS ver. 3.1'
+[libretro INFO]    'Universe BIOS ver. 3.0'
+[libretro INFO]    'Universe BIOS ver. 2.3'
+[libretro INFO]    'Universe BIOS ver. 2.3 (alt)'
+[libretro INFO]    'Universe BIOS ver. 2.2'
+[libretro INFO]    'Universe BIOS ver. 2.1'
+[libretro INFO]    'Universe BIOS ver. 2.0'
+[libretro INFO]    'Universe BIOS ver. 1.3'
+[libretro INFO]    'Universe BIOS ver. 1.2'
+[libretro INFO]    'Universe BIOS ver. 1.2 (alt)'
+[libretro INFO]    'Universe BIOS ver. 1.1'
+[libretro INFO]    'Universe BIOS ver. 1.0'
+[libretro INFO]    'NeoOpen BIOS v0.1 beta'
+[libretro INFO] 'Memory card' (2)
+[libretro INFO]    '(Default) Writable'
+[libretro INFO]    'Writable'
+[libretro INFO]    'Write-protected'
+[libretro INFO] 'New card type' (2)
+[libretro INFO]    '(Default) Normal'
+[libretro INFO]    '1 Megabit'
+[libretro INFO]    'Normal'
+[libretro INFO] set_environment: SYSTEM: 8, DIPSWITCH: 10
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_aspect', 'Core-Provided Aspect Ratio' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_cpu_speed_adjust', 'CPU Speed (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_lowpass_filter', 'Audio Filter' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_lowpass_range', 'Audio Filter Level (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_frameskip', 'Frameskip' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_frameskip_threshold', 'Frameskip Threshold (%)' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_diagnostic_input', 'Diagnostic Input' }
+[libretro INFO] retro_core_option_definition (SYSTEM)    { 'fbalpha2012_neogeo_neogeo_mode', 'Neo Geo Mode' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Autofire', 'Autofire' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Setting_mode', 'Setting mode' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Coin_chutes', 'Coin chutes' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Coin_chutes_2', 'Coin chutes' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Commmunicaton', 'Commmunicaton' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Free_play', 'Free play' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Stop_mode', 'Stop mode' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_BIOS', 'BIOS' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_Memory_card', 'Memory card' }
+[libretro INFO] retro_core_option_definition (DIPSWITCH) { 'fbalpha2012_neogeo_dipswitch_mslug_New_card_type', 'New card type' }
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: SET_CORE_OPTIONS.
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/FB Alpha 2012 Neo Geo/mslug.opt".
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/FB Alpha 2012 Neo Geo/mslug.opt".
+[libretro INFO] Apply DIP switches value from core options.
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Autofire' '(Default) Off' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Setting mode' '(Default) Off' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Coin chutes' '(Default) 1' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Coin chutes' '(Default) 2' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Commmunicaton' '(Default) Disabled' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Free play' '(Default) Off' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466708] [0x00] -> [0x00] - No change - 'Stop mode' '(Default) Off' [0x00]
+[libretro INFO] DIP switch at PTR: [-1648466732] [0x80] -> [0x8e] - Changed   - 'BIOS' 'Universe BIOS ver. 4.0' [0x0e]
+[libretro INFO] DIP switch at PTR: [-1648466732] [0x8e] -> [0x8e] - No change - 'Memory card' '(Default) Writable' [0x80]
+[libretro INFO] DIP switch at PTR: [-1648466732] [0x8e] -> [0x8e] - No change - 'New card type' '(Default) Normal' [0x00]
+[libretro INFO] UNIBIOS Neo Geo Mode selected => Set NeoSystem: 0x8e (uni-bios_4_0.rom [0xa7aab458] (Universe BIOS ver. 4.0)).
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] Frontend supports RGB565 - will use that instead of XRGB1555.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 304x224, Aspect: 1.333, FPS: 59.18, Sample rate: 31602.12 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f940abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 32040.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 10 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/NEOGEO/../../RetroArch/.config/retroarch/config/FB Alpha 2012 Neo Geo/mslug.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 698, Frames dropped: 3.

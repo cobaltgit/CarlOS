@@ -1,0 +1,15 @@
+{
+"label":"SCUMMVM",
+"icon":"ic-scummvm.png",
+"iconsel":"ic-scummvm-80-n.png",
+"iconsmall":"ic-scummvm-80-n.png",
+"iconlist":"ic-scummvm-32-n.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/SCUMMVM",
+"imgpath":"../../Roms/SCUMMVM/media/images",
+"gamelist":"../../Roms/SCUMMVM/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist": "scummvm|squashfs"
+}

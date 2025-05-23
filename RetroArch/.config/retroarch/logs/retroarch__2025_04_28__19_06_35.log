@@ -1,0 +1,240 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/cores/puae_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/config/PUAE/AMIGA.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/config/PUAE/AMIGA.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/PUAE/EyeOfTheBeholder_v1.5_0116.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/PUAE/EyeOfTheBeholder_v1.5_0116.state".
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/system".
+[INFO] [Environ]: CORE_ASSETS_DIRECTORY: "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/downloads".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/PUAE".
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/config/PUAE/EyeOfTheBeholder_v1.5_0116.opt".
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_SUPPORT_NO_GAME: yes.
+[INFO] [Environ]: GET_LED_INTERFACE.
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V2, providing V3.
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/config/remaps/PUAE/EyeOfTheBeholder_v1.5_0116.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_PERF_INTERFACE.
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Environ]: SET_KEYBOARD_CALLBACK.
+[INFO] [Environ]: SET_SERIALIZATION_QUIRKS.
+[INFO] [Environ]: SET_SUPPORT_ACHIEVEMENTS: yes.
+[libretro INFO] Migrating 'zoom_mode' to 'crop'..
+[libretro INFO] SET_VARIABLE: puae_crop = "auto"
+[libretro INFO] SET_VARIABLE: puae_zoom_mode = "deprecated"
+[libretro INFO] SET_VARIABLE: puae_zoom_mode_crop = "deprecated"
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_PIXEL_FORMAT: XRGB8888.
+[libretro INFO] Unzip: /mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.hdf
+[libretro INFO] ->M3U: /mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.m3u
+[libretro INFO] No model specified in: '/mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.m3u'
+[libretro INFO] Model: 'A600'
+[libretro INFO] Kickstart: 'kick40063.A600'
+[libretro INFO] M3U parsed, 1 file(s) found
+[libretro INFO] HD (1) inserted in drive DH0: '/mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.hdf'
+[libretro INFO] --------------------------------------------------------------------------------
+[libretro INFO] PUAE 5.3.0 527564f, Oct 12 2024 23:06:31
+[libretro INFO] --------------------------------------------------------------------------------
+[libretro INFO] KS ver = 40 (0x28)
+[libretro INFO] KS ver = 40 (0x28)
+[libretro INFO] KS ver = 40 (0x28)
+[libretro INFO] RTAREA located at 00F00000
+[libretro INFO] TRAP_ENTRY = 00f021da
+[libretro INFO] Known ROM 'KS ROM v3.1 (A500,A600,A2000)' loaded
+[libretro INFO] CPU cycleunit: 256 (0.500)
+[libretro INFO] 1872 CPU functions
+[libretro INFO] CPU cycleunit: 256 (0.500)
+[libretro INFO] Building CPU, 44274 opcodes (0 0 1)
+[libretro INFO] CPU=68000, FPU=0, MMU=0, JIT=0. 24-bit
+[libretro INFO] hfd attempting to open: '/mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.hdf'
+[libretro INFO] HDF '/mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.hdf' opened, size=3168K mode=3 empty=0
+[libretro INFO] Reset at 00000000. Chipset mask = 00000003
+[libretro INFO] PAL mode V=50.0804Hz H=15625.0879Hz (227x312+0) IDX=10 (PAL) D=0 RTG=0/0
+[libretro INFO] Autoconfig board list:
+[libretro INFO] Card 01: 
+[libretro INFO] '<no name>' no autoconfig 00da0000 - 00daffff.
+[libretro INFO] Card 02: 
+[libretro INFO] '<no name>' no autoconfig 00600000 - 00a7ffff.
+[libretro INFO] Card 03: 
+[libretro INFO] 'UAE Boot ROM' no autoconfig 00f00000 - 00f0ffff.
+[libretro INFO] Card 04: 
+[libretro INFO] 'Z2 Fast RAM'
+[libretro INFO]   e0.51.00.00.07.db.00.00.00.01.00.00.00.00.00.00
+[libretro INFO]   MID 2011 (07db) PID 81 (51) SER 00000001
+[libretro INFO]   Z2 0x00200000 0x00200000 8192K RAM 0
+[libretro INFO] Card 05: 
+[libretro INFO] 'UAE FS ROM'
+[libretro INFO]   d1.52.40.00.07.db.00.00.00.03.20.00.00.00.00.00
+[libretro INFO]   MID 2011 (07db) PID 82 (52) SER 00000003
+[libretro INFO]   Z2 0x00e90000 0x00e90000   64K ROM 0
+[libretro INFO] END
+[libretro INFO] Card 0: skipping autoconfig (not autoconfig)
+[libretro INFO] Card 2: skipping autoconfig (not autoconfig)
+[libretro INFO] CPU cycleunit: 256 (0.500)
+[libretro INFO] hardreset, memory cleared
+[libretro INFO] SNDRATE 313.0*227.0*50.080410=3558263.250000
+[libretro INFO] rndseed = 00000001 (1)
+[INFO] [Environ]: SET_MEMORY_MAPS.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 360x287, Aspect: 1.254, FPS: 49.92, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f900abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/config/PUAE/AMIGA.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 49.92 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Environ]: SET_SYSTEM_AV_INFO: 640x200, Aspect: 1.666, FPS: 50.08, Sample rate: 44100.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 50.08 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Input]: Game Focus => OFF
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[libretro INFO] SERIAL: period=372, baud=9600, hsyncs=14, bits=8, PC=f8018a
+[libretro INFO] Illegal instruction: 4e7b at 00F80C38 -> 00F80CC0
+[libretro INFO] Card 4: Z2 0x00200000 8192K RAM Fast memory
+[libretro INFO] Card 5: Z2 0x00e90000   64K ROM Filesystem autoconfig
+[libretro INFO] 00000000    2048K/1 =    2048K ID* C16 Chip memory
+[libretro INFO] 00200000    8192K/1 =    8192K ID* F16 Fast memory
+[libretro INFO] 00A00000     512K/0 =     512K --  F32 <none>
+[libretro INFO] 00A80000    1024K/2 =     512K ID* F32 Kickstart ROM (FC24AE0D)
+[libretro INFO] =KS ROM v3.1 (A500,A600,A2000) rev 40.63 (512k)
+[libretro INFO] 00B80000     448K/0 =     448K --  F32 <none>
+[libretro INFO] 00BF0000      64K/0 =      64K --  CIA CIA
+[libretro INFO] 00C00000    1536K/0 =    1536K --  F16 <none>
+[libretro INFO] 00D80000     256K/0 =     256K --  C16 Gayle (low)
+[libretro INFO] 00DC0000      64K/0 =      64K --  C16 Battery backed up clock (MSM6242B)
+[libretro INFO] 00DD0000      64K/0 =      64K --  C16 Gayle (low)
+[libretro INFO] 00DE0000      64K/0 =      64K --  C16 Gayle (high)
+[libretro INFO] 00DF0000      64K/0 =      64K --  C16 Custom chipset
+[libretro INFO] 00E00000     512K/1 =     512K ID* F16 Kickstart ROM (FC24AE0D)
+[libretro INFO] =KS ROM v3.1 (A500,A600,A2000) rev 40.63 (512k)
+[libretro INFO] 00E80000      64K/0 =      64K --  F16 <none>
+[libretro INFO] 00E90000      64K/1 =      64K --* F16 Filesystem autoconfig
+[libretro INFO] 00EA0000     384K/0 =     384K --  F16 <none>
+[libretro INFO] 00F00000      64K/1 =      64K --* F16 UAE Boot ROM
+[libretro INFO] 00F10000     448K/0 =     448K --  F16 <none>
+[libretro INFO] 00F80000     512K/1 =     512K ID* F16 Kickstart ROM (FC24AE0D)
+[libretro INFO] =KS ROM v3.1 (A500,A600,A2000) rev 40.63 (512k)
+[libretro INFO] filesystem: diagentry 00200098 configdev 00000c48
+[libretro INFO] SNDRATE 313.0*227.0*49.920410=3546895.000000
+[libretro INFO] PAL mode V=49.9204Hz H=15625.0879Hz (227x312+1) IDX=10 (PAL) D=0 RTG=0/0
+[INFO] [Environ]: SET_SYSTEM_AV_INFO: 640x200, Aspect: 1.666, FPS: 49.92, Sample rate: 44100.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 49.92 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Input]: Game Focus => OFF
+[libretro INFO] Mounting uaehf.device:0 0 (0):
+[libretro INFO] FS: mounted virtual unit WHDLoad (/mnt/SDCARD/Savefiles/PUAE/WHDLoad/)
+[libretro INFO] Mounting uaehf.device:0 1 (0):
+[libretro INFO] FS: mounted virtual unit WHDSaves (/mnt/SDCARD/Savefiles/PUAE/WHDSaves/)
+[libretro INFO] Mounting uaehf.device:0 2 (0):
+[libretro INFO] FS: mounted HDF unit DH0 (0000-00318000, /mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.hdf)
+[libretro INFO] Partition 'DH0' Dostype=444F5300 (DOS\0) Flags: 00000000
+[libretro INFO] BlockSize: 512, Surfaces: 1, SectorsPerBlock 1
+[libretro INFO] SectorsPerTrack: 32, Reserved: 2, LowCyl 0, HighCyl 197, Size 3M
+[libretro INFO] Buffers: 50, BufMemType: 00000001, MaxTransfer: 7fffffff, Mask: ffffffff, BootPri: 0
+[libretro INFO] Total blocks: 6336, Total disk blocks: 6336
+[libretro INFO] First block 0 dostype: 444F5300 (DOS\0)
+[libretro INFO] RDB: OFS, using ROM default FS.
+[libretro INFO] FS: WHDLoad (flags=00000002,E=0,ED=1,EF=0,native='/mnt/SDCARD/Savefiles/PUAE/WHDLoad/') starting..
+[libretro INFO] FS: WHDSaves (flags=00000002,E=0,ED=1,EF=0,native='/mnt/SDCARD/Savefiles/PUAE/WHDSaves/') starting..
+[INFO] [Environ]: SET_GEOMETRY: 640x256, Aspect: 1.301.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 39 seconds.
+[INFO] [Core]: Unloading game..
+[libretro INFO] WHDLoad QuitKey triggered..
+[libretro INFO] SERIAL: period=5, baud=110, hsyncs=1, bits=8, PC=22d40e
+[libretro INFO] Clean: /mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.hdf
+[libretro INFO] Clean: /mnt/SDCARD/Savefiles/PUAE/TEMP/EyeOfTheBeholder_v1.5_0116.m3u
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/AMIGA/../../RetroArch/.config/retroarch/config/PUAE/EyeOfTheBeholder_v1.5_0116.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 1971, Frames dropped: 6.

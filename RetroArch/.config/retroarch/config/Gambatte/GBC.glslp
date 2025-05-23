@@ -1,0 +1,2 @@
+#reference "../../shaders/shaders_glsl/handheld/lcd1x.glslp"
+BRIGHTEN_SCANLINES = "6.000000"

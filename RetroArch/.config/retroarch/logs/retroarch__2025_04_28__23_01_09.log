@@ -1,0 +1,261 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/cores/prboom_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/config/PrBoom/DOOM.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/config/PrBoom/DOOM.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/PrBoom/Lunar Catastrophe.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/PrBoom/Lunar Catastrophe.state".
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V1, providing V3.
+[INFO] [Remaps]: Content-dir-specific remap found at "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/config/remaps/PrBoom/DOOM.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 4.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[libretro INFO] Rumble environment supported.
+[libretro ERROR] FindFileInDir: not found Lunar Catastrophe in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[libretro ERROR] FindFileInDir: not found Lunar Catastrophe in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[libretro ERROR] FindFileInDir: not found Lunar Catastrophe in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/PrBoom".
+[libretro INFO] M_LoadDefaults: Load system defaults.
+[libretro INFO]  default file with base values: /media/sdcard0/Emu/DOOM/../../Roms/DOOM/prboom.cfg
+[libretro INFO]  Default file: /mnt/SDCARD/Savefiles/PrBoom/Lunar Catastrophe/prboom.cfg
+[libretro INFO] IdentifyVersion: basesavegame: /mnt/SDCARD/Savefiles/PrBoom/Lunar Catastrophe
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found doom2f.wad in /media
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found doom2.wad in /media
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found plutonia.wad in /media
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found tnt.wad in /media
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found freedoom2.wad in /media
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found doom.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found doom.wad in /media
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found doomu.wad in /media
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found freedoom1.wad in /media
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM/../../Roms
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM/../..
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM/..
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu/DOOM
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0/Emu
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media/sdcard0
+[libretro ERROR] FindFileInDir: not found freedoom.wad in /media
+[libretro INFO] iwad: /media/sdcard0/Emu/DOOM/../../Roms/DOOM/doom1.wad
+[libretro INFO] IWAD found: /media/sdcard0/Emu/DOOM/../../Roms/DOOM/doom1.wad
+[libretro ERROR] FindFileInDir: not found prboom.wad in /media/sdcard0/Emu/DOOM/../../Roms/DOOM
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system".
+[libretro ERROR] FindFileInDir: not found prboom.wad in /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom
+[libretro INFO] PrBoom, playing: The Ultimate DOOM
+PrBoom is released under the GNU General Public license v2.0.
+You are welcome to redistribute it under certain conditions.
+It comes with ABSOLUTELY NO WARRANTY. See the file COPYING for details.
+[libretro INFO] V_Init: allocate screens.
+[libretro INFO] D_InitNetGame: Checking for network game.
+[libretro INFO] W_Init: Init WADfiles.
+[libretro INFO]  adding /media/sdcard0/Emu/DOOM/../../Roms/DOOM/doom1.wad
+[libretro INFO]  adding /media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/system/prboom.wad
+[libretro INFO]  adding /media/sdcard0/Emu/DOOM/../../Roms/DOOM/Lunar Catastrophe.wad
+[libretro INFO] W_InitCache
+[libretro INFO] 
+[libretro INFO] M_Init: Init miscellaneous info.
+[libretro INFO] R_Init: Init DOOM refresh daemon - [libretro INFO] 
+R_LoadTrigTables:
+[libretro INFO] Endianness...
+[libretro INFO] ok.
+[libretro INFO] 
+R_InitData:
+[libretro INFO] Textures
+[libretro INFO] Flats
+[libretro INFO] Sprites
+[libretro INFO] Colormaps
+[libretro INFO] 
+R_Init: R_InitPlanes
+[libretro INFO] R_InitLightTables
+[libretro INFO] R_InitSkyMap
+[libretro INFO] R_InitTranslationsTables
+[libretro INFO] R_InitPatches
+[libretro INFO] 
+P_Init: Init Playloop state.
+[libretro INFO] I_Init: Setting up machine state.
+[libretro INFO] I_InitSound: 
+[libretro INFO] S_Init: Setting up sound.
+[libretro INFO] S_Init: default sfx volume 8
+[libretro INFO] HU_Init: Setting up heads up display.
+[libretro INFO] V_InitMode: using 16 bit video mode
+[libretro INFO] ST_Init: Init status bar.
+[libretro INFO] S_ChangeMusic: playing intro from file '/media/sdcard0/Emu/DOOM/../../Roms/DOOM/intro.mp3'
+[libretro WARN] ReadFileHeader: Invalid MIDI chunk header! chunk_size=0
+[libretro INFO] mad_registersong succeed. bitrate 192000 samplerate 44100
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 320x200, Aspect: 1.333, FPS: 60.00, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fb00aab20.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/config/PrBoom/DOOM.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[libretro INFO] S_ChangeMusic: playing e1m1 from file '/media/sdcard0/Emu/DOOM/../../Roms/DOOM/e1m1.mp3'
+[libretro WARN] ReadFileHeader: Invalid MIDI chunk header! chunk_size=0
+[libretro INFO] mad_registersong succeed. bitrate 192000 samplerate 44100
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 02 minutes, 20 seconds.
+[INFO] [Core]: Unloading game..
+[libretro INFO] D_DoomDeinit:
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/DOOM/../../RetroArch/.config/retroarch/config/PrBoom/PrBoom.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 8404, Frames dropped: 31.

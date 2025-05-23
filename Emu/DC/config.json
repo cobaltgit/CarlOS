@@ -1,0 +1,26 @@
+{
+"label":"DC",
+"icon":"ic-dc.png",
+"iconsel":"ic-dc-80-n.png",
+"effectsh":"effect.sh",
+"background":"bg.png",
+"themecolor":"FFFFFF",
+"launch":"launch.sh",
+"rompath":"../../Roms/DC",
+"imgpath":"../../Roms/DC/media/images",
+"gamelist":"../../Roms/DC/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"chd|cue|cdi|gdi|m3u",
+"launchlist": [
+        {
+            "name": "FLYCAST STANDALONE",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "FLYCAST CORE",
+            "launch": "launch_core.sh"
+        }
+    ]
+}

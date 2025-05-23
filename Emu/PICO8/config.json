@@ -1,0 +1,28 @@
+{
+"label":"PICO 8",
+"icon":"ic-pico8.png",
+"iconsel":"ic-pico8-80-n.png",
+"background":"BG.png",
+"themecolor":"00FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/PICO8",
+"imgpath":"../../Roms/PICO8/media/images/",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"p8",
+"launchlist": [
+    {
+        "name": "Pico8 SA",
+        "launch": "launch1.sh"
+    },
+    {
+        "name": "Pico8 SA FULL SCREEN",
+        "launch": "launch2.sh"
+    },
+	{
+		"name": "FAKE-08",
+		"launch": "launch.sh"
+	}
+]
+}

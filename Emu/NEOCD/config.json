@@ -1,0 +1,17 @@
+{
+"label":"NEOCD",
+"icon":"ic-neocd.png",
+"iconsel":"ic-neocd-80-n.png",
+"iconsmall":"ic-neocd-80-n.png",
+"iconlist":"ic-neocd-32-n.png",
+"background":"bg.png",
+"themecolor":"FFD200",
+"launch":"launch_fbneo.sh",
+"rompath":"../../Roms/NEOCD",
+"imgpath":"../../Roms/NEOCD/media/images",
+"gamelist":"../../Roms/NEOCD/gamelist.xml",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"cue|iso|chd"
+}

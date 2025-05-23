@@ -1,0 +1,27 @@
+{
+    "label":"PSP",
+    "icon":"ic-psp.png",
+	"iconsel":"ic-psp-80-n.png",
+    "launch":"launch_performance.sh",
+    "background":"bg.png",
+    "themecolor":"64A8BD",
+    "iconsel":"",
+    "rompath":"../../Roms/PSP",
+    "imgpath":"../../Roms/PSP/media/images",
+	"gamelist":"../../Roms/PSP/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"pbp|cso|iso",
+    "launchlist": [
+        {
+            "name": "PPSSPP Performance Mode",
+            "launch": "launch_performance.sh"
+        },
+        {
+            "name": "PPSSPP",
+            "launch": "launch.sh"
+        }
+    ]
+}
+    

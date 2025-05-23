@@ -1,0 +1,17 @@
+{
+"label":"NGP",
+"icon":"ic-ngpc.png",
+"iconsel":"ic-ngpc-80-n.png",
+"iconsmall":"ic-ngpc-80-n.png",
+"iconlist":"ic-ngpc-32-n.png",
+"background":"bg.png",
+"themecolor":"FFFFFF",
+"launch":"launch.sh",
+"rompath":"../../Roms/NGP",
+"imgpath":"../../Roms/NGP/media/images",
+"gamelist":"../../Roms/NGP/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"ngc|ngp|zip|7z"
+}

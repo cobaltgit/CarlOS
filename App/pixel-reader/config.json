@@ -1,0 +1,7 @@
+{
+"label":"Ebook Reader",
+"icon":"ereader.png",
+"iconsel":"ereader.png",
+"launch":"launch.sh",
+"description":"PixelReader v0.6"
+}

@@ -1,0 +1,90 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/cores/mame2003_plus_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/MAME 2003-Plus/ARCADE.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/MAME 2003-Plus/ARCADE.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/MAME 2003-Plus/bigstrik.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/MAME 2003-Plus/bigstrik.state".
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V1, providing V3.
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/remaps/MAME 2003-Plus/MAME 2003-Plus.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 10.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[libretro INFO] [MAME 2003+] Full content path /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/bigstrik.zip
+[libretro INFO] [MAME 2003+] Git Version  9b359c8a
+[libretro INFO] [MAME 2003+] Content lookup name: bigstrik
+[libretro INFO] [MAME 2003+] Driver index counter: 4273. Matched game driver: bigstrik
+[libretro INFO] [MAME 2003+] ==== BEGIN DRIVER CONTENT ATTRIBUTES ====
+[libretro INFO] [MAME 2003+] * Supports 2 players with 2 distinct controls.
+[libretro INFO] [MAME 2003+] * Supports 3 distinct button controls.
+[libretro INFO] [MAME 2003+] * Uses multiplayer control labels.
+[libretro INFO] [MAME 2003+] * Uses 8-way joystick controls.
+[libretro INFO] [MAME 2003+] ==== END DRIVER CONTENT ATTRIBUTES ====
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/MAME 2003-Plus".
+[libretro INFO] [MAME 2003+] content path: /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE
+[libretro INFO] [MAME 2003+]  system path: /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system
+[libretro INFO] [MAME 2003+]    save path: /mnt/SDCARD/Savefiles/MAME 2003-Plus
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_nvram_bootstraps - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_four_way_emulation - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_crosshair_enabled - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_crosshair_appearance - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_dialsharexy - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_dial_swap_xy - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_cheat_input_ports - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_override_ad_stick - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_use_alt_sound - Invalid value.
+[libretro INFO] options.frameskip:0
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_resolution - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_antialias - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_beam_width - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_translucency - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_flicker - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_intensity - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_neogeo_bios - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_stv_bios - Invalid value.
+[INFO] [Environ]: GET_LED_INTERFACE.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v11.3
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v11.2
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v10.8
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v10.7
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: 91021.01
+[libretro INFO] [MAME 2003+] Opening ROM file: 91021.03
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v11.9
+[libretro INFO] [MAME 2003+] Opening ROM file: 91021.02
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v10.11
+[libretro ERROR] [MAME 2003+] 91105v10.11  WRONG CHECKSUMS:
+[libretro ERROR] [MAME 2003+]     EXPECTED: CRC(0ef8fd43) SHA1(c226db63d9427ba024e7c41d5518c8895b45feaa)
+[libretro ERROR] [MAME 2003+]        FOUND: CRC(a1f13dd5) SHA1(b9f047a1aaa9d19c5c27390eb3e4bfa845b5a4f2)
+[libretro INFO] [MAME 2003+] Opening ROM file: 91105v10.10
+[libretro ERROR] [MAME 2003+] 91105v10.10  WRONG CHECKSUMS:
+[libretro ERROR] [MAME 2003+]     EXPECTED: CRC(d273a92a) SHA1(9f94bb7a60dfc7158871c9239d72832ca7b8ad09)
+[libretro ERROR] [MAME 2003+]        FOUND: CRC(e4f8fc8d) SHA1(9000b958d366c9771ca92ade3610a538d1b59664)
+[libretro INFO] [MAME 2003+] Opening ROM file: 82s131.12
+[libretro ERROR] [MAME 2003+] 82s131.12    NOT FOUND
+[INFO] [Environ]: SET_MESSAGE: Required files are missing, the game cannot be run.
+
+[libretro ERROR] [MAME 2003+] Required files are missing, the game cannot be run.
+[libretro ERROR] [MAME 2003+] readroms failed
+[ERROR] [Content]: Error al cargar contenido
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/MAME 2003-Plus/MAME 2003-Plus.opt".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.

@@ -1,0 +1,16 @@
+{
+"label":"VECTREX",
+"icon":"ic-vec.png",
+"iconsel":"ic-vec-80-n.png",
+"iconsmall":"ic-vec-80-n.png",
+"iconlist":"ic-vec-32-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/VECTREX",
+"imgpath":"../../Roms/VECTREX/media/images",
+"gamelist":"../../Roms/VECTREX/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0
+}

@@ -1,0 +1,5 @@
+fake08_crop_h_left = "0"
+fake08_crop_h_right = "0"
+fake08_crop_v_bottom = "0"
+fake08_crop_v_top = "0"
+fake08_video_scale = "1x"

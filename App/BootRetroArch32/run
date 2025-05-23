@@ -1,0 +1,6 @@
+#!/bin/bash
+RA_DIR=$(dirname "$0")/../../RetroArch32
+cd $RA_DIR
+HOME=$RA_DIR
+export LD_LIBRARY_PATH="$HOME/lib:$LD_LIBRARY_PATH"
+$RA_DIR/retroarch 

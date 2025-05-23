@@ -1,0 +1,14 @@
+{
+"label":"ONS",
+"icon":"ons.png",
+"iconsmall":"ons.png",
+"iconlist":"ons.png",
+"background":"bg.png",
+"themecolor":"00CCFF",
+"launch":"launch.sh",
+"rompath":"../../Roms/ONS",
+"imgpath":"../../Roms/ONS/media/images",
+"useswap":1,
+"shortname":1,
+"hidebios":1
+}

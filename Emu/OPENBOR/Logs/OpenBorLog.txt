@@ -1,0 +1,495 @@
+Total Ram:  1002876928 Bytes (   956 MB )
+ Free Ram:   763318272 Bytes (   727 MB )
+ Used Ram:     1626624 Bytes (     1 MB )
+
+debug:nativeWidth, nativeHeight, bpp, Hz  640, 480, 32, 60
+OpenBoR v3.0 Build 7142 (commit hash: 7f6f175), Compile Date: Jun  5 2024
+
+Game Selected: /media/sdcard0/Emu/OPENBOR/../../Roms/OPENBOR/Final Fight Gold.pak
+
+FileCaching System Init......	Enabled
+Initializing video............
+Reading video settings from 'data/video.txt'.
+
+Colordepth is depreciated. All modules are displayed with a 32bit color screen.
+
+Initialized video.............	480x272 (Mode: 1)
+
+Loading menu.txt.............	Done!
+Loading fonts................	1 2 3 4 Done!
+Timer init...................	Done!
+Initialize Sound..............	Done!
+Loading sprites..............	Done!
+Loading level order..........	Done!
+Loading model constants......	Done!
+Loading script settings......	Done!
+Loading scripts..............	Done!
+Loading models...............
+
+Controller or joystick hotplugged: SDL device ID=0
+X360 Controller (device #0, SDL ID 0) is a game controller.
+Hotplugged controller set as device #0
+Cacheing 'Levelup' from data/chars/Misc/levelup/levelup.txt
+Cacheing 'Flash' from data/chars/misc/flash/flash.txt
+Cacheing 'Blood' from data/chars/misc/flash/blood.txt
+Cacheing 'Guard' from data/chars/misc/flash/guard.txt
+Cacheing 'Cody' from data/chars/cody/cody.txt
+Cacheing 'tornado' from data/chars/cody/tornado/tornado.txt
+Cacheing 'ruffian' from data/chars/cody/ruffian/ruffian.txt
+Cacheing 'Guy' from data/chars/guy/guy.txt
+Cacheing 'gokusa' from data/chars/guy/gokusa/gokusa.txt
+Cacheing 'izuna' from data/chars/guy/izuna/izuna.txt
+Cacheing 'hassou' from data/chars/guy/hassou/hassou.txt
+Cacheing 'Haggar' from data/chars/haggar/haggar.txt
+Cacheing 'axe' from data/chars/haggar/axe/axe.txt
+Cacheing 'driver' from data/chars/haggar/driver/driver.txt
+Cacheing 'Carlos' from data/chars/carlos/carlos.txt
+Cacheing 'slice01' from data/chars/carlos/slice01/slice01.txt
+Cacheing 'slice02' from data/chars/carlos/slice02/slice02.txt
+Cacheing 'slice12' from data/chars/carlos/slice02/slice12.txt
+Cacheing 'slice03' from data/chars/carlos/slice03/slice03.txt
+Cacheing 'Maki' from data/chars/maki/maki.txt
+Cacheing 'reppu' from data/chars/maki/reppu/reppu.txt
+Cacheing 'daoshi' from data/chars/maki/daoshi/daoshi.txt
+Cacheing 'tengu' from data/chars/maki/tengu/tengu.txt
+Cacheing 'izuma1' from data/chars/maki/izuma/izuma1.txt
+Cacheing 'izuma2' from data/chars/maki/izuma/izuma2.txt
+Cacheing 'Lucia' from data/chars/lucia/lucia.txt
+Cacheing 'Dean' from data/chars/dean/dean.txt
+Cacheing 'wave' from data/chars/dean/wave/wave.txt
+Cacheing 'Ryu' from data/chars/ryu/ryu.txt
+Cacheing 'hado2' from data/chars/ryu/hado2/hado2.txt
+Cacheing 'hado3' from data/chars/ryu/hado3/hado3.txt
+Cacheing 'hado4' from data/chars/ryu/hado4/hado4.txt
+Cacheing 'Ken' from data/chars/ken/ken.txt
+Cacheing 'hado1' from data/chars/ken/hado1/hado1.txt
+Cacheing 'honda' from data/chars/honda/honda.txt
+Cacheing 'chunli' from data/chars/chunli/chunli.txt
+Cacheing 'kiko' from data/chars/chunli/kiko/kiko.txt
+Cacheing 'sho' from data/chars/chunli/sho/sho.txt
+Cacheing 'Blanka' from data/chars/blanka/blanka.txt
+Cacheing 'Zang' from data/chars/zang/zang.txt
+Cacheing 'Guile' from data/chars/guile/guile.txt
+Cacheing 'boom' from data/chars/guile/boom/boom.txt
+Cacheing 'bazoo' from data/chars/guile/bazoo/bazoo.txt
+Cacheing 'sonic' from data/chars/guile/sonic/sonic.txt
+Cacheing 'Dhal' from data/chars/dhal/dhal.txt
+Cacheing 'yoga1' from data/chars/dhal/yoga/yoga1.txt
+Cacheing 'yoga2' from data/chars/dhal/yoga/yoga2.txt
+Cacheing 'yoga3' from data/chars/dhal/yoga/yoga3.txt
+Cacheing 'Thawk' from data/chars/thawk/thawk.txt
+Cacheing 'mex' from data/chars/thawk/mex/mex.txt
+Cacheing 'Fei' from data/chars/fei/fei.txt
+Cacheing 'Deejay' from data/chars/deejay/deejay.txt
+Cacheing 'maxo1' from data/chars/deejay/maxo/maxo1.txt
+Cacheing 'maxo2' from data/chars/deejay/maxo/maxo2.txt
+Cacheing 'Cammy' from data/chars/cammy/cammy.txt
+Cacheing 'pbalrog' from data/chars/balrog/pbalrog.txt
+Cacheing 'elbow' from data/chars/balrog/elbow/elbow.txt
+Cacheing 'pvega' from data/chars/vega/pvega.txt
+Cacheing 'claw' from data/chars/vega/claw/claw.txt
+Cacheing 'psagat' from data/chars/sagat/psagat.txt
+Cacheing 'shad' from data/chars/sagat/shad/shad.txt
+Cacheing 'tiger1' from data/chars/sagat/tiger1/tiger1.txt
+Cacheing 'tiger2' from data/chars/sagat/tiger2/tiger2.txt
+Cacheing 'pbison' from data/chars/bison/pbison.txt
+Cacheing 'crush' from data/chars/bison/crush/crush.txt
+Cacheing 'psycho' from data/chars/bison/psycho/psycho.txt
+Cacheing 'Akuma' from data/chars/akuma/akuma.txt
+Cacheing 'asura' from data/chars/akuma/asura/asura.txt
+Cacheing 'zanku' from data/chars/akuma/zanku/zanku.txt
+Cacheing 'gouha' from data/chars/akuma/gouha/gouha.txt
+Cacheing 'shaku' from data/chars/akuma/shaku/shaku.txt
+Cacheing 'kongo' from data/chars/akuma/kongo/kongo.txt
+Cacheing 'satsu' from data/chars/akuma/satsu/satsu.txt
+Cacheing 'quake' from data/chars/misc/quake.txt
+Cacheing 'Dust01' from data/chars/misc/dust01/dust01.txt
+Cacheing 'Dust02' from data/chars/misc/dust02/dust02.txt
+Cacheing 'Dust03' from data/chars/misc/dust03/dust03.txt
+Cacheing 'Dust' from data/chars/misc/dust/dust.txt
+Cacheing 'Dust2' from data/chars/misc/dust/dust2.txt
+Cacheing 'Bret' from data/chars/bret/bret.txt
+Cacheing 'Dug' from data/chars/dug/dug.txt
+Cacheing 'Jake' from data/chars/jake/jake.txt
+Cacheing 'Simons' from data/chars/simons/simons.txt
+Cacheing 'Jay' from data/chars/jay/jay.txt
+Cacheing 'Two_p' from data/chars/two_p/two_p.txt
+Cacheing 'Axl' from data/chars/axl/axl.txt
+Cacheing 'Slash' from data/chars/slash/slash.txt
+Cacheing 'Poison' from data/chars/poison/poison.txt
+Cacheing 'Gory' from data/chars/gory/gory.txt
+Cacheing 'Wong' from data/chars/wong/wong.txt
+Cacheing 'Bill' from data/chars/bill/bill.txt
+Cacheing 'Holly' from data/chars/holly/holly.txt
+Cacheing 'hknife' from data/chars/holly/hknife.txt
+Cacheing 'Elgado' from data/chars/elgado/elgado.txt
+Cacheing 'Wood' from data/chars/wood/wood.txt
+Cacheing 'Wmolo' from data/chars/wood/wmolo.txt
+Cacheing 'Andore' from data/chars/andore/andore.txt
+Cacheing 'Andore2' from data/chars/andore/andore2.txt
+Cacheing 'Elic' from data/chars/elic/elic.txt
+Cacheing 'Elias' from data/chars/elias/elias.txt
+Cacheing 'Eliot' from data/chars/eliot/eliot.txt
+Cacheing 'Leon' from data/chars/leon/leon.txt
+Cacheing 'Mic' from data/chars/mic/mic.txt
+Cacheing 'Mark' from data/chars/mark/mark.txt
+Cacheing 'Bull' from data/chars/bull/bull.txt
+Cacheing 'Elijah' from data/chars/elijah/elijah.txt
+Cacheing 'Schot' from data/chars/schot/schot.txt
+Cacheing 'Jack' from data/chars/jack/jack.txt
+Cacheing 'Jony' from data/chars/jony/jony.txt
+Cacheing 'Atlus' from data/chars/atlus/atlus.txt
+Cacheing 'Damnd2' from data/chars/damnd/damnd2.txt
+Cacheing 'Bret2' from data/chars/bret/bret2.txt
+Cacheing 'refe' from data/chars/refe/refe.txt
+Cacheing 'Damnd' from data/chars/damnd/damnd.txt
+Cacheing 'Sodom' from data/chars/sodom/sodom.txt
+Cacheing 'Sodpr' from data/chars/sodom/sodpr.txt
+Cacheing 'Sodprh' from data/chars/sodom/sodprh.txt
+Cacheing 'Edi' from data/chars/edi/edi.txt
+Cacheing 'Abigail' from data/chars/abigail/abigail.txt
+Cacheing 'Rolent' from data/chars/rolent/rolent.txt
+Cacheing 'Rgran' from data/chars/rolent/rgran.txt
+Cacheing 'Rgran2' from data/chars/rolent/rgran2.txt
+Cacheing 'Wonwon' from data/chars/wonwon/wonwon.txt
+Cacheing 'Freddie' from data/chars/freddie/freddie.txt
+Cacheing 'Bratken' from data/chars/bratken/bratken.txt
+Cacheing 'Phil' from data/chars/phil/phil.txt
+Cacheing 'Retu' from data/chars/retu/retu.txt
+Cacheing 'ebalrog' from data/chars/balrog/ebalrog.txt
+Cacheing 'eelbow' from data/chars/balrog/elbow/eelbow.txt
+Cacheing 'evega' from data/chars/vega/evega.txt
+Cacheing 'eclaw' from data/chars/vega/claw/eclaw.txt
+Cacheing 'esagat' from data/chars/sagat/esagat.txt
+Cacheing 'esagat2' from data/chars/sagat/esagat2.txt
+Cacheing 'eshad' from data/chars/sagat/shad/eshad.txt
+Cacheing 'etiger1' from data/chars/sagat/tiger1/etiger1.txt
+Cacheing 'etiger2' from data/chars/sagat/tiger2/etiger2.txt
+Cacheing 'eBison' from data/chars/bison/ebison.txt
+Cacheing 'mantle' from data/chars/bison/mantle/mantle.txt
+Cacheing 'ecrush' from data/chars/bison/crush/ecrush.txt
+Cacheing 'epsycho' from data/chars/bison/psycho/epsycho.txt
+Cacheing 'eAkuma' from data/chars/akuma/eakuma.txt
+Cacheing 'diebison' from data/chars/bison/diebison.txt
+Cacheing 'ezanku' from data/chars/akuma/zanku/ezanku.txt
+Cacheing 'egouha' from data/chars/akuma/gouha/egouha.txt
+Cacheing 'eshaku' from data/chars/akuma/shaku/eshaku.txt
+Cacheing 'Empty' from data/chars/empty.txt
+Cacheing 'Empty2' from data/chars/empty_2.txt
+Cacheing 'Barrel' from data/chars/misc/items/barrel.txt
+Cacheing 'Drum' from data/chars/misc/items/drum.txt
+Cacheing 'Box' from data/chars/misc/items/box.txt
+Cacheing 'Phone' from data/chars/misc/items/phone.txt
+Cacheing 'Surf' from data/chars/misc/items/surf.txt
+Cacheing 'Tires' from data/chars/misc/items/tires.txt
+Cacheing 'Trash' from data/chars/misc/items/trash.txt
+Cacheing 'Roll' from data/chars/misc/items/roll.txt
+Cacheing 'Coin' from data/chars/misc/money/coin.txt
+Cacheing 'Hammer' from data/chars/misc/money/hammer.txt
+Cacheing 'glas' from data/chars/misc/money/glas.txt
+Cacheing 'radio' from data/chars/misc/money/radio.txt
+Cacheing 'dollar' from data/chars/misc/money/dollar.txt
+Cacheing 'ring' from data/chars/misc/money/ring.txt
+Cacheing 'jewel' from data/chars/misc/money/jewel.txt
+Cacheing 'bag' from data/chars/misc/money/bag.txt
+Cacheing 'gold' from data/chars/misc/money/gold.txt
+Cacheing 'Gum' from data/chars/misc/food/gum.txt
+Cacheing 'Coke' from data/chars/misc/food/coke.txt
+Cacheing 'Apple' from data/chars/misc/food/apple.txt
+Cacheing 'Grape' from data/chars/misc/food/grape.txt
+Cacheing 'Banana' from data/chars/misc/food/banana.txt
+Cacheing 'Hamb' from data/chars/misc/food/hamb.txt
+Cacheing 'Pasta' from data/chars/misc/food/pasta.txt
+Cacheing 'Pizza' from data/chars/misc/food/pizza.txt
+Cacheing 'Meat' from data/chars/misc/food/meat.txt
+Cacheing 'ftrap' from data/chars/misc/ftrap/ftrap.txt
+Cacheing '1up' from data/chars/misc/1up/1up.txt
+Cacheing 'super' from data/chars/misc/super/super.txt
+Cacheing 'stage01' from data/scenes/intro/stage01/stage01.txt
+Cacheing 'stage02' from data/scenes/intro/stage02/stage02.txt
+Cacheing 'stage03' from data/scenes/intro/stage03/stage03.txt
+Cacheing 'stage04' from data/scenes/intro/stage04/stage04.txt
+Cacheing 'stage05' from data/scenes/intro/stage05/stage05.txt
+Cacheing 'bonus' from data/scenes/intro/bonus/bonus.txt
+Cacheing 'dial01' from data/scenes/dial/dial01.txt
+Cacheing 'dial02' from data/scenes/dial/dial02.txt
+Cacheing 'dial03' from data/scenes/dial/dial03.txt
+Cacheing 'dial04' from data/scenes/dial/dial04.txt
+Cacheing 'dial05' from data/scenes/dial/dial05.txt
+Cacheing 'dial06' from data/scenes/dial/dial06.txt
+Cacheing 'dial07' from data/scenes/dial/dial07.txt
+Cacheing 'dial08' from data/scenes/dial/dial08.txt
+Cacheing 'dial09' from data/scenes/dial/dial09.txt
+Cacheing 'dial10' from data/scenes/dial/dial10.txt
+Cacheing 'dial11' from data/scenes/dial/dial11.txt
+Cacheing 'dial12' from data/scenes/dial/dial12.txt
+Cacheing 'dial13' from data/scenes/dial/dial13.txt
+Cacheing 'dial14' from data/scenes/dial/dial14.txt
+Cacheing 'dial15' from data/scenes/dial/dial15.txt
+Cacheing 'go01' from data/chars/misc/go/go01.txt
+Cacheing 'go02' from data/chars/misc/go/go02.txt
+Cacheing 'go03' from data/chars/misc/go/go03.txt
+Cacheing 'go03_2' from data/chars/misc/go/go03_2.txt
+Cacheing 'go04' from data/chars/misc/go/go04.txt
+Cacheing 'go05' from data/chars/misc/go/go05.txt
+Cacheing 'go05_2' from data/chars/misc/go/go05_2.txt
+Cacheing 'car01' from data/chars/misc/car/car01.txt
+Cacheing 'car02' from data/chars/misc/car/car02.txt
+Cacheing 'car03' from data/chars/misc/car/car03.txt
+Cacheing 'glass' from data/chars/misc/glass/glass.txt
+Cacheing 'car201' from data/chars/misc/car2/car201.txt
+Cacheing 'car202' from data/chars/misc/car2/car202.txt
+Cacheing 'car203' from data/chars/misc/car2/car203.txt
+Cacheing 'fdrum' from data/chars/misc/fdrum/fdrum.txt
+Cacheing 'wall01' from data/chars/misc/wall/wall01.txt
+Cacheing 'wall02' from data/chars/misc/wall/wall02.txt
+Cacheing 'wall03' from data/chars/misc/wall/wall03.txt
+Cacheing 'barr' from data/chars/misc/barr/barr.txt
+Cacheing 'rain' from data/chars/misc/rain/rain.txt
+Cacheing 'wcar1' from data/chars/wall/wcar1.txt
+Cacheing 'wcar2' from data/chars/wall/wcar2.txt
+Cacheing 'wblock' from data/chars/wall/wblock.txt
+Cacheing 'wcorner' from data/chars/wall/wcorner.txt
+
+Loaded 'levelup' from data/chars/Misc/levelup/levelup.txt 
+Loaded 'Flash' from data/chars/misc/flash/flash.txt 
+Loaded 'Blood' from data/chars/misc/flash/blood.txt 
+Loaded 'Guard' from data/chars/misc/flash/guard.txt 
+Loaded 'Cody' from data/chars/cody/cody.txt 
+Loaded 'quake' from data/chars/misc/quake.txt 
+Loaded 'tornado' from data/chars/cody/tornado/tornado.txt 
+Loaded 'ruffian' from data/chars/cody/ruffian/ruffian.txt 
+Loaded 'Guy' from data/chars/guy/guy.txt 
+Loaded 'gokusa' from data/chars/guy/gokusa/gokusa.txt 
+Loaded 'izuna' from data/chars/guy/izuna/izuna.txt 
+Loaded 'hassou' from data/chars/guy/hassou/hassou.txt 
+Loaded 'Haggar' from data/chars/haggar/haggar.txt 
+Loaded 'axe' from data/chars/haggar/axe/axe.txt 
+Loaded 'driver' from data/chars/haggar/driver/driver.txt 
+Loaded 'Carlos' from data/chars/carlos/carlos.txt 
+Loaded 'slice01' from data/chars/carlos/slice01/slice01.txt 
+Loaded 'slice02' from data/chars/carlos/slice02/slice02.txt 
+Loaded 'slice12' from data/chars/carlos/slice02/slice12.txt 
+Loaded 'slice03' from data/chars/carlos/slice03/slice03.txt 
+Loaded 'Maki' from data/chars/maki/maki.txt 
+Loaded 'reppu' from data/chars/maki/reppu/reppu.txt 
+Loaded 'daoshi' from data/chars/maki/daoshi/daoshi.txt 
+Loaded 'tengu' from data/chars/maki/tengu/tengu.txt 
+Loaded 'izuma1' from data/chars/maki/izuma/izuma1.txt 
+Loaded 'izuma2' from data/chars/maki/izuma/izuma2.txt 
+Loaded 'Lucia' from data/chars/lucia/lucia.txt 
+Loaded 'Dean' from data/chars/dean/dean.txt 
+Loaded 'wave' from data/chars/dean/wave/wave.txt 
+Loaded 'Ryu' from data/chars/ryu/ryu.txt 
+Loaded 'hado2' from data/chars/ryu/hado2/hado2.txt 
+Loaded 'hado3' from data/chars/ryu/hado3/hado3.txt 
+Loaded 'hado4' from data/chars/ryu/hado4/hado4.txt 
+Loaded 'Ken' from data/chars/ken/ken.txt 
+Loaded 'hado1' from data/chars/ken/hado1/hado1.txt 
+Loaded 'E._Honda' from data/chars/honda/honda.txt 
+Loaded 'Chun_Li' from data/chars/chunli/chunli.txt 
+Loaded 'kiko' from data/chars/chunli/kiko/kiko.txt 
+Loaded 'sho' from data/chars/chunli/sho/sho.txt 
+Loaded 'Blanka' from data/chars/blanka/blanka.txt 
+Loaded 'Zangief' from data/chars/zang/zang.txt 
+Loaded 'Guile' from data/chars/guile/guile.txt 
+Loaded 'boom' from data/chars/guile/boom/boom.txt 
+Loaded 'bazoo' from data/chars/guile/bazoo/bazoo.txt 
+Loaded 'sonic' from data/chars/guile/sonic/sonic.txt 
+Loaded 'Dhalsim' from data/chars/dhal/dhal.txt 
+Loaded 'yoga1' from data/chars/dhal/yoga/yoga1.txt 
+Loaded 'yoga2' from data/chars/dhal/yoga/yoga2.txt 
+Loaded 'yoga3' from data/chars/dhal/yoga/yoga3.txt 
+Loaded 'T._Hawk' from data/chars/thawk/thawk.txt 
+Loaded 'mex' from data/chars/thawk/mex/mex.txt 
+Loaded 'Fei_Long' from data/chars/fei/fei.txt 
+Loaded 'Deejay' from data/chars/deejay/deejay.txt 
+Loaded 'maxo1' from data/chars/deejay/maxo/maxo1.txt 
+Command 'smaxow' not understood in file 'data/chars/deejay/maxo/maxo1.txt'!
+Loaded 'maxo2' from data/chars/deejay/maxo/maxo2.txt 
+Command 'smaxow' not understood in file 'data/chars/deejay/maxo/maxo2.txt'!
+Loaded 'Cammy' from data/chars/cammy/cammy.txt 
+Loaded 'Balrog' from data/chars/balrog/pbalrog.txt 
+Loaded 'elbow' from data/chars/balrog/elbow/elbow.txt 
+Command 'elbowow' not understood in file 'data/chars/balrog/elbow/elbow.txt'!
+Loaded 'Vega' from data/chars/vega/pvega.txt 
+Loaded 'claw' from data/chars/vega/claw/claw.txt 
+Command 'clawow' not understood in file 'data/chars/vega/claw/claw.txt'!
+Loaded 'Sagat' from data/chars/sagat/psagat.txt 
+Loaded 'shad' from data/chars/sagat/shad/shad.txt 
+Loaded 'tiger1' from data/chars/sagat/tiger1/tiger1.txt 
+Loaded 'tiger2' from data/chars/sagat/tiger2/tiger2.txt 
+Loaded 'M._Bison' from data/chars/bison/pbison.txt 
+Loaded 'psycho' from data/chars/bison/psycho/psycho.txt 
+Loaded 'dust03' from data/chars/misc/dust03/dust03.txt 
+Loaded 'crush' from data/chars/bison/crush/crush.txt 
+sound_load_sample can't load sample from file '0'!
+Loaded 'Akuma' from data/chars/akuma/akuma.txt 
+Loaded 'zanku' from data/chars/akuma/zanku/zanku.txt 
+Loaded 'shaku' from data/chars/akuma/shaku/shaku.txt 
+Loaded 'gouha' from data/chars/akuma/gouha/gouha.txt 
+Loaded 'asura' from data/chars/akuma/asura/asura.txt 
+Loaded 'kongo' from data/chars/akuma/kongo/kongo.txt 
+Loaded 'satsu' from data/chars/akuma/satsu/satsu.txt 
+Loaded 'quake'Loaded 'dust01' from data/chars/misc/dust01/dust01.txt 
+Loaded 'dust02' from data/chars/misc/dust02/dust02.txt 
+Loaded 'dust03'Loaded 'Dust' from data/chars/misc/dust/dust.txt 
+Loaded 'Dust2' from data/chars/misc/dust/dust2.txt 
+Loaded 'Sodprh' from data/chars/sodom/sodprh.txt 
+Loaded 'SUPER' from data/chars/misc/super/super.txt 
+Loaded 'DIAL01' from data/scenes/dial/dial01.txt 
+Loaded 'DIAL02' from data/scenes/dial/dial02.txt 
+Loaded 'DIAL03' from data/scenes/dial/dial03.txt 
+Loaded 'DIAL04' from data/scenes/dial/dial04.txt 
+Loaded 'DIAL05' from data/scenes/dial/dial05.txt 
+Loaded 'DIAL06' from data/scenes/dial/dial06.txt 
+Loaded 'DIAL07' from data/scenes/dial/dial07.txt 
+Loaded 'DIAL08' from data/scenes/dial/dial08.txt 
+Loaded 'DIAL09' from data/scenes/dial/dial09.txt 
+Loaded 'DIAL10' from data/scenes/dial/dial10.txt 
+Loaded 'DIAL11' from data/scenes/dial/dial11.txt 
+Loaded 'DIAL12' from data/scenes/dial/dial12.txt 
+Loaded 'DIAL13' from data/scenes/dial/dial13.txt 
+Loaded 'DIAL14' from data/scenes/dial/dial14.txt 
+Loaded 'DIAL15' from data/scenes/dial/dial15.txt 
+
+Loading models...............	Done!
+Object engine init...........	Done!
+Input init...................	X360 Controller (device #0, SDL ID 0) is a game controller.
+Done!
+Create blending tables.......	Done!
+Save settings so far........	Done!
+
+
+
+************ Shutting Down ************
+
+OpenBOR v3.0 Build 7142 (commit hash: 7f6f175), Compile Date: Jun  5 2024
+Presented by the OpenBOR Team.
+www.chronocrash.com
+OpenBOR is the open source continuation of Beats of Rage by Senile Team.
+
+Special thanks to SEGA and SNK.
+
+Total Ram:  1002876928 Bytes (   956 MB )
+ Free Ram:   609316864 Bytes (   581 MB )
+ Used Ram:    64893952 Bytes (    61 MB )
+
+Release level data...........
+Done!
+
+Release graphics data........	Done!
+Release game data............
+
+Unload 'levelup' ............Done.
+Unload 'Flash' ............Done.
+Unload 'Blood' ............Done.
+Unload 'Guard' ............Done.
+Unload 'Cody' ............Done.
+Unload 'quake' ............Done.
+Unload 'tornado' ............Done.
+Unload 'ruffian' ............Done.
+Unload 'Guy' ............Done.
+Unload 'gokusa' ............Done.
+Unload 'izuna' ............Done.
+Unload 'hassou' ............Done.
+Unload 'Haggar' ............Done.
+Unload 'axe' ............Done.
+Unload 'driver' ............Done.
+Unload 'Carlos' ............Done.
+Unload 'slice01' ............Done.
+Unload 'slice02' ............Done.
+Unload 'slice12' ............Done.
+Unload 'slice03' ............Done.
+Unload 'Maki' ............Done.
+Unload 'reppu' ............Done.
+Unload 'daoshi' ............Done.
+Unload 'tengu' ............Done.
+Unload 'izuma1' ............Done.
+Unload 'izuma2' ............Done.
+Unload 'Lucia' ............Done.
+Unload 'Dean' ............Done.
+Unload 'wave' ............Done.
+Unload 'Ryu' ............Done.
+Unload 'hado2' ............Done.
+Unload 'hado3' ............Done.
+Unload 'hado4' ............Done.
+Unload 'Ken' ............Done.
+Unload 'hado1' ............Done.
+Unload 'E._Honda' ............Done.
+Unload 'Chun_Li' ............Done.
+Unload 'kiko' ............Done.
+Unload 'sho' ............Done.
+Unload 'Blanka' ............Done.
+Unload 'Zangief' ............Done.
+Unload 'Guile' ............Done.
+Unload 'boom' ............Done.
+Unload 'bazoo' ............Done.
+Unload 'sonic' ............Done.
+Unload 'Dhalsim' ............Done.
+Unload 'yoga1' ............Done.
+Unload 'yoga2' ............Done.
+Unload 'yoga3' ............Done.
+Unload 'T._Hawk' ............Done.
+Unload 'mex' ............Done.
+Unload 'Fei_Long' ............Done.
+Unload 'Deejay' ............Done.
+Unload 'maxo1' ............Done.
+Unload 'maxo2' ............Done.
+Unload 'Cammy' ............Done.
+Unload 'Balrog' ............Done.
+Unload 'elbow' ............Done.
+Unload 'Vega' ............Done.
+Unload 'claw' ............Done.
+Unload 'Sagat' ............Done.
+Unload 'shad' ............Done.
+Unload 'tiger1' ............Done.
+Unload 'tiger2' ............Done.
+Unload 'M._Bison' ............Done.
+Unload 'psycho' ............Done.
+Unload 'dust03' ............Done.
+Unload 'crush' ............Done.
+Unload 'Akuma' ............Done.
+Unload 'zanku' ............Done.
+Unload 'shaku' ............Done.
+Unload 'gouha' ............Done.
+Unload 'asura' ............Done.
+Unload 'kongo' ............Done.
+Unload 'satsu' ............Done.
+Unload 'dust01' ............Done.
+Unload 'dust02' ............Done.
+Unload 'Dust' ............Done.
+Unload 'Dust2' ............Done.
+Unload 'Sodprh' ............Done.
+Unload 'SUPER' ............Done.
+Unload 'DIAL01' ............Done.
+Unload 'DIAL02' ............Done.
+Unload 'DIAL03' ............Done.
+Unload 'DIAL04' ............Done.
+Unload 'DIAL05' ............Done.
+Unload 'DIAL06' ............Done.
+Unload 'DIAL07' ............Done.
+Unload 'DIAL08' ............Done.
+Unload 'DIAL09' ............Done.
+Unload 'DIAL10' ............Done.
+Unload 'DIAL11' ............Done.
+Unload 'DIAL12' ............Done.
+Unload 'DIAL13' ............Done.
+Unload 'DIAL14' ............Done.
+Unload 'DIAL15' ............Done.
+
+Release game data............	Done!
+Release timer................	Done!
+Release input hardware.......	Done!
+Release sound system.........	Done!
+Release FileCaching System...	Done!
+
+**************** Done *****************
+
+OpenBOR v3.0 Build 7142 (commit hash: 7f6f175), Compile Date: Jun  5 2024
+Presented by the OpenBOR Team.
+www.chronocrash.com
+OpenBOR is the open source continuation of Beats of Rage by Senile Team.
+
+Special thanks to SEGA and SNK.
+

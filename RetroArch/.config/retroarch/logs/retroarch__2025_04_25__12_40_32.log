@@ -1,0 +1,34 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/cores/prosystem_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/config/ProSystem/ATARI7800.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/config/ProSystem/ATARI7800.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/ProSystem/Rescue on Fractalus (USA) (Proto).srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/ProSystem/Rescue on Fractalus (USA) (Proto).state".
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_INTL.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CONTENT_INFO_OVERRIDE.
+[INFO] [Content Override]: File Extension: 'a78' - need_fullpath: FALSE, persistent_data: TRUE
+[INFO] [Content Override]: File Extension: 'bin' - need_fullpath: FALSE, persistent_data: TRUE
+[INFO] [Content Override]: File Extension: 'cdf' - need_fullpath: FALSE, persistent_data: TRUE
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V1, providing V3.
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/config/remaps/ProSystem/ProSystem.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 5.
+[INFO] [Content]: Cargando contenido: "/media/sdcard0/Emu/ATARI7800/../../Roms/ATARI7800/Rescue on Fractalus (USA) (Proto).7z".
+[ERROR] [Content]: No se puede leer el contenido "/media/sdcard0/Emu/ATARI7800/../../Roms/ATARI7800/Rescue on Fractalus (USA) (Proto).7z"
+
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/config/ProSystem/ProSystem.opt".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ATARI7800/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.

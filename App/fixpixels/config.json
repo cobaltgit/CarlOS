@@ -1,0 +1,6 @@
+{
+"label":"Pixel fixed",
+"icon":"icon.png",
+"launch":"launch.sh",
+"description":"Try repair dead pixels"
+}

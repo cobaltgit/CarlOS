@@ -1,0 +1,15 @@
+{
+"label":"WOLF3D",
+"icon":"ic-wolf3d.png",
+"iconsel":"ic-wolf3d-80-n.png",
+"iconsmall":"ic-wolf3d-80-n.png",
+"iconlist":"ic-wolf3d-32-n.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/WOLF3D",
+"imgpath":"../../Roms/WOLF3D/media/images",
+"gamelist":"../../Roms/WOLF3D/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist": "ecwolf|pk3|squashfs"
+}

@@ -1,0 +1,31 @@
+{
+    "label":"MD",
+    "icon":"ic-md.png",
+    "iconsmall":"ic-md-80-n.png",
+	"iconsel":"ic-md-80-n.png",
+    "iconlist":"ic-md-32-n.png",
+    "background":"bg.png",
+    "themecolor":"0088CF",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/MD",
+    "imgpath":"../../Roms/MD/media/images",
+	"gamelist":"../../Roms/MD/gamelist.xml",
+    "useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"bin|gen|md|smd|32x|zip|7z",
+    "launchlist": [
+        {
+            "name": "PICODRIVE",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "GENESIS PLUS GX",
+            "launch": "launch_genplus.sh"
+        },
+        {
+            "name": "GENESIS PLUS GX WIDE",
+            "launch": "launch_genplus_wide.sh"
+        }
+    ]
+}

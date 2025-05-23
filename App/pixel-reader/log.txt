@@ -1,0 +1,3 @@
+INFO: sdl12-compat 1.2.61, built on Feb  5 2023 at 19:25:36, talking to SDL2 2.0.22
+INFO: This app appears to be named 'reader'
+INFO: 2) RenderSetLogicalSize: 640 x 480 -> 640 x 480

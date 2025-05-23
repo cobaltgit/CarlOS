@@ -1,0 +1,15 @@
+{
+"label":"DOOM",
+"icon":"ic-doom.png",
+"iconsel":"ic-doom-80-n.png",
+"iconsmall":"ic-doom-80-n.png",
+"iconlist":"ic-doom-32-n.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/DOOM",
+"imgpath":"../../Roms/DOOM/media/images",
+"gamelist":"../../Roms/DOOM/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist": "wad|iwad|pwad|gzdoom"
+}

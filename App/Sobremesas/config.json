@@ -1,0 +1,6 @@
+{
+"label":"S.Overlays y Shader ON-OFF",
+"icon":"Sobremesas.png",
+"launch":"launch.sh",
+"description":"ON-OFF de Shader y Overlays para Sobremesas"
+}

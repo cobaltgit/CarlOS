@@ -1,0 +1,268 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/cores/fbneo_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/FinalBurn Neo/CPS2.cfg".
+[INFO] [Overrides]: Game-specific overrides found at "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/FinalBurn Neo/1944.cfg".
+[INFO] [Overrides]: Game-specific overrides stacking on top of previous overrides.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/FinalBurn Neo/CPS2.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/FinalBurn Neo/1944.cfg".
+[INFO] [Overrides]: Redirecting save file to "/mnt/SDCARD/Savefiles/CPS2/1944.srm".
+[INFO] [Overrides]: Redirecting save state to "/mnt/SDCARD/Savestates/CPS2/1944.state".
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/remaps/FinalBurn Neo/1944.rmp".
+[INFO] [Environ]: SET_SERIALIZATION_QUIRKS.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_LANGUAGE: "0".
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Content]: Content loading skipped. Implementation will load it on its own.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/CPS2".
+[libretro INFO] Setting save dir to /mnt/SDCARD/Savefiles/CPS2
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system".
+[libretro INFO] Setting system dir to /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] Initialize DIP switches.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[libretro INFO] [FBNeo] Searching all possible locations for romset 1944
+[libretro INFO] [FBNeo] Patched romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/arc/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/arcade/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/romdata/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/coleco/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/colecovision/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/gamegear/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/megadriv/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/megadrive/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/genesis/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/msx/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/msx1/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/pce/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/pcengine/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/sg1000/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/sgx/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/supergrafx/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/sms/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/mastersystem/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/snes/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/spectrum/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/zxspectrum/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/tg16/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/nes/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/fds/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/ngp/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/chf/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../Roms/CPS2/channelf/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/arc/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/arcade/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/romdata/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/coleco/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/colecovision/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/gamegear/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/megadriv/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/megadrive/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/genesis/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/msx/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/msx1/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/pce/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/pcengine/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/sg1000/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/sgx/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/supergrafx/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/sms/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/mastersystem/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/snes/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/spectrum/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/zxspectrum/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/tg16/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/nes/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/fds/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/ngp/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/chf/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/channelf/1944
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0xdba1c66e and name nff.04 from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0xc9fca741 and name nff.13m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0xf809d898 and name nff.15m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x15ba4507 and name nff.17m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x3dd41b8c and name nff.19m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x3fe3a54b and name nff.14m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x565cd231 and name nff.16m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x63ca5988 and name nff.18m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x21eb8f3b and name nff.20m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0xd2e44318 and name nff.01 from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x243e4e05 and name nff.11m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro INFO] [FBNeo] Using ROM with known crc 0x4fcf1600 and name nff.12m from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro WARN] [FBNeo] Using ROM with unknown crc 0x61734f5b and name 1944.key from archive /media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/system/fbneo/patched/1944
+[libretro ERROR] [FBNeo] ROM at index 0 with name nffe.03 and CRC 0x7544b926 is required
+[libretro ERROR] [FBNeo] ROM at index 2 with name nffe.05 and CRC 0xd78d31d3 is required
+[INFO] [Environ]: SET_PIXEL_FORMAT: XRGB8888.
+[INFO] [SRAM]: Skipping SRAM load.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[libretro INFO] [FBNeo] Timing set to 60.000000 Hz
+[INFO] [Core]: Geometry: 640x480, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fac0abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/FinalBurn Neo/CPS2.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[INFO] [Playlist]: Loading history file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Loading history file: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Loading history file: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Loading favorites file: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Environ]: SHUTDOWN.
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 02 seconds.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: No content, starting dummy core.
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/CPS2/../../RetroArch/.config/retroarch/config/FinalBurn Neo/FinalBurn Neo.opt".
+[INFO] [Autoconf]: Xbox 360 Controller disconnected from port 1.
+[INFO] Threaded video stats: Frames pushed: 139, Frames dropped: 6.
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f980a3560.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[INFO] [Playlist]: Loading history file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Loading history file: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Loading history file: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Loading favorites file: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Autoconf]: Xbox 360 Controller disconnected from port 1.
+[INFO] Threaded video stats: Frames pushed: 189, Frames dropped: 0.

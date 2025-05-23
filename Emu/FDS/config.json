@@ -1,0 +1,19 @@
+{
+    "label":"FDS",
+    "label.ch.lang":"FDS",
+    "icon":"ic-fds.png",
+	"iconsel":"ic-fds-80-n.png",
+    "iconsmall":"ic-fds-80-n.png",
+    "iconlist":"ic-fds-32-n.png",
+    "background":"bg.png",
+    "effectsh":"effect.sh",
+    "themecolor":"991615",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/FDS",
+    "imgpath":"../../Roms/FDS/media/images",
+    "gamelist":"../../Roms/FDS/gamelist.xml",
+	"useswap":0,
+    "shortname":0,
+    "hidebios":0,
+    "extlist":"nes|fds|unf|unif|zip|7z"
+}

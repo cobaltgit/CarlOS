@@ -1,0 +1,15 @@
+{
+"label":"ATARI 800",
+"icon":"ic-atari.png",
+"iconsel":"ic-atari-80-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/ATARI800",
+"imgpath":"../../Roms/ATARI800/media/images",
+"gamelist":"../../Roms/ATARI800/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"xfd|atr|dcm|cas|bin|a52|zip|atx|car|rom|com|xex|m3u|7z"
+}

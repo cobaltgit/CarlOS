@@ -1,0 +1,112 @@
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+Starting DraStic (version r2.5.0.4)
+
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.Checking directory /mnt/sdcard/Emu/NDS/drastic2/backup: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/savestates: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/config: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/profiles: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/unzip_cache: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/system: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/input_record: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/cheats: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/slot2: It's there.
+Checking directory /mnt/sdcard/Emu/NDS/drastic2/scripts: It's there.
+Setting default configuration.
+Joystick hasn't been opened yet
+SDL input: Setting default controls for Generic X-Box Pad
+Loading directory config file /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cf2
+Loading config file /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cfg
+  1 joystick(s) found.
+Got memory mapped buffer at 0xeefec000 (drastic_mapped_memory.dat)
+Using memory map offset 0
+Direct mapping main RAM to 2000000
+Direct mapping main RAM to 2400000
+Direct mapping main RAM to 2800000
+Direct mapping main RAM to 2c00000
+  Initializing ARM9 bus-level memory map.
+  Initializing ARM7 bus-level memory map.
+  Initializing CP15.
+  Initializing DMA.
+  video_3d render targets: 0xad3fcc0 0xad63d80 0xad87e40 0xadabf00
+ALSA output: requested rate of 44100, got 44100.
+ALSA output: requested buffer size of 8192, got 8192.
+ALSA output: requested period size of 2048, got 2048.
+ALSA output: Using synchronous engine.
+1524.326172 cycles per output sample (0.000656 samples per cycle)
+Loaded 6722 games in database file /mnt/sdcard/Emu/NDS/drastic2/game_database.xml.
+Loaded cheat directory from database file /mnt/sdcard/Emu/NDS/drastic2/usrcheat.dat. Loaded 3204 games.
+Processing command line options.
+OpenGL support is either not configured in SDL or not available in current SDL video driver (NDS) or platform
+OpenGL support is either not configured in SDL or not available in current SDL video driver (NDS) or platform
+Loading gamecard file /media/sdcard0/Emu/NDS/../../Roms/NDS/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).nds.
+Attempting to load lua script /mnt/sdcard/Emu/NDS/drastic2/scripts/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).lua
+Attempting to load lua script /mnt/sdcard/Emu/NDS/drastic2/scripts/default.lua
+Initializing screen: scale 1 orientation 0 depth 32
+Loading config file /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cfg
+Loading config file /mnt/sdcard/Emu/NDS/drastic2/config/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).cfg
+Config file /mnt/sdcard/Emu/NDS/drastic2/config/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).cfg does not exist.
+  Setting up ARM9 memory map.
+  Setting up ARM7 memory map.
+Remapping ITCM limit from 0 to 0
+Remapping DTCM from 0, 0 to 0, 0
+Remapping DTCM from 0, 0 to 27e0000, 4000
+Remapping ITCM limit from 0 to 2000000
+  1 joystick(s) found.
+Gamecard title:  'CASTLEVANIA2'
+Game code:       50424341
+Maker code:      3441
+Unit code:       0
+Chip size:       65536KB
+ROM version:     0
+Autostart:       0
+ROMCTRL          00416017
+ARM9 ROM offset: 4000
+ARM9 entry PC:   2000800
+ARM9 RAM offset: 2000000
+ARM9 size:       1010d8
+ARM7 ROM offset: 6d5800
+ARM7 entry PC:   2380000
+ARM7 RAM offset: 2380000
+ARM7 size:       286b0
+Found game in database: titled Castlevania - Portrait of Ruin. EEPROM backup: 10000 bytes
+Loading backup file /mnt/sdcard/Emu/NDS/drastic2/backup/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).dsv, 65658 bytes
+No custom cheat file at /mnt/sdcard/Emu/NDS/drastic2/cheats/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It).cht.
+Checking cycle hacks for gamecode 50424341
+Performing recompiler base block translation (2000800 2380000).
+Calling recompiler event update handler (@ 0x847f0e4).
+Remapping ITCM limit from 2000000 to 2000000
+Remapping DTCM from 27e0000, 4000 to 27c0000, 4000
+DTCM moved off of main RAM, remapping main RAM to it.
+Initializing screen: scale 1 orientation 0 depth 32
+Loading state /mnt/sdcard/Emu/NDS/drastic2/savestates/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It)_10.dss
+Error: savestate /mnt/sdcard/Emu/NDS/drastic2/savestates/Castlevania - Portrait of Ruin (Europe) (En,Fr,De,Es,It)_10.dss does not exist
+Saving backup data file.
+ Saving DeSmuME footer.
+0 mini hash hits out of 0 accesses (nan%)
+0 hash accesses:
+ nan% hit in one hop
+ nan% hit in two hops
+ nan% hit in three hops
+ nan% hit in four or more hops
+Saving directory config to file named /mnt/sdcard/Emu/NDS/drastic2/config/drastic.cf2
+[SDL] MMIYOO_VideoQuit
+[SDL] Wait for savestate complete
+[SDL] Free TTF resources
+[SDL] Free GFX resources
+[SDL] Wait for video_handler exit
+[SDL] Free FB resources
+[SDL] Free Event resources
+[SDL] Free Lang resources

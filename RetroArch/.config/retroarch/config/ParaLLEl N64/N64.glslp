@@ -1,0 +1,2 @@
+#reference "../../shaders/00_pixel.glslp"
+SCANLINE_SINE_COMP_B = "0.000000"

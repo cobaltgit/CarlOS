@@ -1,0 +1,40 @@
+{
+"label":"ARCADE",
+"icon":"ic-Arcade.png",
+"iconsel":"ic-Arcade-80-n.png",
+"iconsmall":"ic-Arcade-80-n.png",
+"iconlist":"ic-Arcade-32-n.png",
+"background":"bg.png",
+"themecolor":"CD6155",
+"launch":"launch.sh",
+"rompath":"../../Roms/ARCADE",
+"imgpath":"../../Roms/ARCADE/media/images",
+"gamelist":"../../Roms/ARCADE/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"zip|7z",
+"launchlist": [
+        {
+            "name": "AUTO-CORE SELECT (Default)",
+            "launch": "launch.sh"
+        },
+		{
+            "name": "FBNEO",
+            "launch": "launch0.sh"
+        },
+        {
+            "name": "FBA2012",
+            "launch": "launch1.sh"
+        },
+		{
+            "name": "MAME2003PLUS",
+            "launch": "launch2.sh"
+        },
+		{
+			"name": "MAME2010",
+			"launch": "launch3.sh"
+		}
+		
+	]
+}

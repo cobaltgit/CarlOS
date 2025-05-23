@@ -1,0 +1,9 @@
+{
+"package":"com.retroarch.dummy",
+"label":"RetroArch by Ninoh-FOX",
+"label.ch.lang":"启动 Ninoh-FOX 的完整模拟器",
+"icon":"icon.png",
+"iconsel":"icon.png",
+"launch":"launch.sh",
+"description":"Boot RetroArch v1.20.0 by Ninoh-FOX"
+}

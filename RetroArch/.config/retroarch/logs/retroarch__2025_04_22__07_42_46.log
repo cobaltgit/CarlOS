@@ -1,0 +1,396 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/cores/fbneo_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/FinalBurn Neo/nslashers.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/FinalBurn Neo/nslashers.state".
+[INFO] [Remaps]: Game-specific remap found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/remaps/FinalBurn Neo/nslashers.rmp".
+[INFO] [Environ]: SET_SERIALIZATION_QUIRKS.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/FinalBurn Neo".
+[libretro INFO] Setting save dir to /mnt/SDCARD/Savefiles/FinalBurn Neo
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system".
+[libretro INFO] Setting system dir to /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system
+[libretro INFO] DIP switches offset: 29.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] Initialize DIP switches.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/nslashers.opt".
+[libretro INFO] [FBNeo] Searching all possible locations for romset nslashers
+[libretro INFO] [FBNeo] No patched romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/patched/nslashers
+[libretro INFO] [FBNeo] Romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arc/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arcade/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/romdata/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/coleco/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/colecovision/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/gamegear/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadriv/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadrive/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/genesis/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx1/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pce/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pcengine/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sg1000/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sgx/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/supergrafx/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sms/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/mastersystem/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/snes/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/spectrum/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/zxspectrum/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/tg16/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nes/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/fds/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/ngp/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/chf/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/channelf/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arc/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arcade/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/romdata/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/coleco/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/colecovision/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/gamegear/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadriv/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadrive/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/genesis/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx1/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pce/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pcengine/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sg1000/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sgx/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/supergrafx/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sms/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/mastersystem/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/snes/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/spectrum/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/zxspectrum/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/tg16/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nes/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/fds/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/ngp/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/chf/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/channelf/nslashers
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/nslashers
+[libretro INFO] [FBNeo] Searching all possible locations for romset nslasher
+[libretro INFO] [FBNeo] No patched romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/patched/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arc/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/arcade/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/romdata/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/coleco/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/colecovision/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/gamegear/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadriv/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/megadrive/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/genesis/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/msx1/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pce/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/pcengine/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sg1000/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sgx/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/supergrafx/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/sms/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/mastersystem/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/snes/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/spectrum/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/zxspectrum/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/tg16/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nes/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/fds/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/ngp/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/chf/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/channelf/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arc/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/arcade/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/romdata/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/coleco/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/colecovision/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/gamegear/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadriv/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/megadrive/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/genesis/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/msx1/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pce/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/pcengine/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sg1000/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sgx/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/supergrafx/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/sms/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/mastersystem/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/snes/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/spectrum/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/zxspectrum/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/tg16/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/nes/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/fds/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/ngp/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/chf/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/fbneo/channelf/nslasher
+[libretro INFO] [FBNeo] No romset found at /media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/system/nslasher
+[libretro INFO] [FBNeo] Using ROM with known crc 0xfa0646f9 and name ly-00.1f from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xae508149 and name ly-01.2f from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x18939e92 and name sndprg.17l from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xa877f8a3 and name mbh-00.8c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x1853dafc and name mbh-01.9c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xb2f158a1 and name mbh-02.14c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xeecfe06d and name mbh-04.16c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x787787e3 and name mbh-03.15c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x1d2b7c17 and name mbh-05.17c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x038c2127 and name mbh-06.18c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xbbd22323 and name mbh-07.19c from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xcdd7f8cb and name mbh-08.16e from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x33fa2121 and name mbh-09.18e from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0xc4d6b116 and name mbh-10.14l from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x0ec40b6b and name mbh-11.16l from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x5e83eaf3 and name ln-00.j7 from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] Using ROM with known crc 0x53692426 and name vm-02.8j from archive /media/sdcard0/Emu/ARCADE/../../Roms/ARCADE/nslashers
+[libretro INFO] [FBNeo] No missing files, proceeding
+[libretro INFO] [FBNeo] Samplerate set to 44100
+[libretro INFO] [FBNeo] Applied dipswitches from core options
+[libretro INFO] [FBNeo] Initialized driver for nslashers
+[libretro INFO] [FBNeo] Adjusted audio buffer to match driver's refresh rate (58.460000 Hz)
+[libretro INFO] [Cheevos] System RAM set to 0x7fad90e018, size is 375552
+[INFO] [Environ]: SET_PIXEL_FORMAT: XRGB8888.
+[libretro INFO] [FBNeo] Driver nslashers was successfully started : game's full name is Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB)
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[libretro INFO] [FBNeo] Timing set to 58.460000 Hz
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.333, FPS: 58.46, Sample rate: 44078.84 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa40abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/ARCADE.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Video]: Frecuencia de actualización de vídeo cambiada a 59.940 Hz.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa4928198.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Autoconf]: Se ha desconectado sdl2 del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 0, Frames dropped: 0.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa4002180.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 45194.76 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Input]: Game Focus => OFF
+[INFO] [Audio]: Set audio input rate to: 45194.76 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[ERROR] [ALSA]: Failed to open PLAYBACK stream on device "default": Device or resource busy
+[ERROR] [ALSA]: Failed to initialize...
+[INFO] [Audio]: Started synchronous audio driver.
+[ERROR] Failed to initialize audio driver. Will continue without audio.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[libretro INFO] [FBNeo] Unknown device type for port 0, forcing "Classic" instead
+[libretro INFO] [FBNeo] Unknown device type for port 1, forcing "Classic" instead
+[libretro INFO] [FBNeo] Unknown device type for port 2, forcing "Classic" instead
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[INFO] [Environ]: Setting audio latency to 128 ms.
+[INFO] [Audio]: Set audio input rate to: 45194.76 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[ERROR] [ALSA]: Failed to open PLAYBACK stream on device "default": Device or resource busy
+[ERROR] [ALSA]: Failed to initialize...
+[INFO] [Audio]: Started synchronous audio driver.
+[ERROR] Failed to initialize audio driver. Will continue without audio.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[INFO] [Input]: Game Focus => OFF
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Core]: Reiniciar.
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [Video]: Frecuencia de actualización de vídeo cambiada a 60.000 Hz.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa48838d8.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 8301, Frames dropped: 2.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7fa4950360.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 45240.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[ERROR] [ALSA]: Failed to open PLAYBACK stream on device "default": Device or resource busy
+[ERROR] [ALSA]: Failed to initialize...
+[INFO] [Audio]: Started synchronous audio driver.
+[ERROR] Failed to initialize audio driver. Will continue without audio.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_SUBSYSTEM_INFO.
+[INFO] [Input]: Game Focus => OFF
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [Core]: Content ran for a total of: 00 hours, 02 minutes, 20 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/ARCADE/../../RetroArch/.config/retroarch/config/FinalBurn Neo/nslashers.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 0, Frames dropped: 0.

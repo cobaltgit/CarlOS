@@ -1,0 +1,15 @@
+{
+"label":"INTELL",
+"icon":"ic-intellivision.png",
+"iconsel":"ic-intellivision-80-n.png",
+"background":"BG.png",
+"themecolor":"00FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/INTELL",
+"imgpath":"../../Roms/INTELL/media/images",
+"gamelist":"../../Roms/INTELL/gamelist.xml",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"zip|int|bin|rom|7z"
+}

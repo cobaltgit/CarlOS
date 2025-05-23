@@ -1,0 +1,15 @@
+{
+"label":"MS-DOS",
+"icon":"ic-dos.png",
+"iconsel":"ic-dos-80-n.png",
+"iconsmall":"ic-dos-80-n.png",
+"iconlist":"ic-dos-32-n.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/DOS",
+"imgpath":"../../Roms/DOS/media/images",
+"gamelist":"../../Roms/DOS/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"pc|dos|squashfs|dosz|m3u|iso|cue|exe|bat|zip|7z"
+}

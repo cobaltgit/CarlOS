@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./abcop.zip</path>
+		<name>A.B. Cop (World) (FD1094 317-0169b)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224603</lastplayed>
+	</game>
+	<game>
+		<path>./airass.zip</path>
+		<name>Air Assault (World)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224614</lastplayed>
+	</game>
+</gameList>

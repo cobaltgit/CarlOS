@@ -1,0 +1,6 @@
+*.squashfs
+*.img
+RetroArch/.config/retroarch/cores/mame_libretro.so
+RetroArch/.config/retroarch/cores/mamearcade_libretro.so
+Emu/JAVA/jdk/lib/modules
+RetroArch/.config/retroarch/cores/scummvm_libretro.so

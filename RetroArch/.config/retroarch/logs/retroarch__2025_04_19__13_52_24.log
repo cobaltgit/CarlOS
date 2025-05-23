@@ -1,0 +1,132 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/cores/fuse_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/config/Fuse/ZX.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/config/Fuse/ZX.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/Fuse/ActionFighter.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/Fuse/ActionFighter.state".
+[INFO] [Environ]: SET_SUPPORT_NO_GAME: yes.
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/config/Fuse/ActionFighter.opt".
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[libretro INFO] port 0 device 00000101
+[libretro INFO] port 1 device 00000201
+[libretro INFO] port 2 device 00000103
+[INFO] [Content]: Cargando contenido: "/media/sdcard0/Emu/ZX/../../Roms/ZX/ActionFighter.zip#Action Fighter.tzx".
+[INFO] [Content]: CRC32: 0x25807f1e.
+[libretro INFO] 
++------------------------------------------+
+|              FUSE-LIBRETRO               |
+|    ____    _   _   ___   _      ____     |
+|   | __ )  | | | | |_ _| | |    |  _ \    |
+|   |  _ \  | | | |  | |  | |    | | | |   |
+|   | |_) | | |_| |  | |  | |__  | |_| |   |
+|   |____/   \___/  |___| |____| |____/    |
+|                                          |
+| 99df66eac096400d4d6d8fae2215192b6f03277e |
++------------------------------------------+
+
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] Checking if "/48.rom" exists
+[libretro INFO] Opened "/48.rom" from memory
+[libretro INFO] Opened "/48.rom" from memory
+[libretro INFO] Opened "*.tzx" from memory
+[libretro INFO] Checking if "/48.rom" exists
+[libretro INFO] Opened "/48.rom" from memory
+[libretro INFO] Opened "/48.rom" from memory
+[libretro INFO] Checking if "*.pok" exists
+[libretro INFO] Opened "*.pok" from memory
+[INFO] [Environ]: SET_MEMORY_MAPS.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 320x240, Aspect: 0.000, FPS: 50.00, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f9c0aab20.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/config/Fuse/ZX.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 60.00 Hz, Game = 50.00 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[libretro INFO] port 0 device 00000001
+[libretro INFO] port 1 device 00000001
+[libretro INFO] port 2 device 00000001
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[WARN] [Environ]: SET_MESSAGE_EXT: Port 1 configured as Cursor joystick
+[WARN] [Environ]: SET_MESSAGE_EXT: Port 2 configured as Kempston joystick
+[WARN] [Environ]: SET_MESSAGE_EXT: Emulation speed configured to 100%
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 01 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/ZX/../../RetroArch/.config/retroarch/config/Fuse/ActionFighter.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 94, Frames dropped: 3.

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Crash Bandicoot 3 - Warped.chd</path>
+		<name>Crash Bandicoot 3 - Warped</name>
+		<playcount>1</playcount>
+		<lastplayed>20250401T161307</lastplayed>
+	</game>
+	<game>
+		<path>./Metal Gear Solid.m3u</path>
+		<name>Metal Gear Solid</name>
+		<playcount>1</playcount>
+		<lastplayed>20250401T182802</lastplayed>
+	</game>
+</gameList>

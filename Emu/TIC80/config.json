@@ -1,0 +1,12 @@
+{
+"label":"TIC 80",
+"icon":"ic-tic.png",
+"iconsel":"ic-tic-80-n.png",
+"background":"BG.png",
+"themecolor":"00FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/TIC80",
+"imgpath":"../../Roms/TIC80/media/images",
+"gamelist":"../../Roms/TIC80/gamelist.xml",
+"extlist": "tic"
+}

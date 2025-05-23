@@ -1,0 +1,15 @@
+{
+"label":"ATARI 2600",
+"icon":"ic-atari.png",
+"iconsel":"ic-atari-80-n.png",
+"background":"bg.png",
+"themecolor":"A569BD",
+"launch":"launch.sh",
+"rompath":"../../Roms/ATARI2600",
+"imgpath":"../../Roms/ATARI2600/media/images",
+"gamelist":"../../Roms/ATARI2600/gamelist.xml",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"zip|7z|bin|a26"
+}

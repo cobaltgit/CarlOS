@@ -1,0 +1,217 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/cores/pcsx_rearmed_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PS.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PS.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/PCSX-ReARMed/Tekken.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/PCSX-ReARMed/Tekken.state".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Core]: Se han encontrado opciones personalizadas según juego en "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/Tekken.opt".
+[INFO] [Remaps]: Core-specific remap found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/remaps/PCSX-ReARMed/PCSX-ReARMed.rmp".
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[libretro INFO] Memcard 2: disabled
+[libretro INFO] Starting PCSX-ReARMed r25l-24-g6091efb4 (cc 8.3.0 64bit pic arm64v8 neon ari64 gpu=neon)
+[libretro INFO] build time: Mar 31 2025 00:42:34
+[libretro INFO] 2 cpu core(s) detected
+[libretro INFO] Init new dynarec, ndrc size 1001000, pgsize 4096
+[libretro INFO] ndrc config: mul=175, ha=0, pex=0
+[libretro INFO] (0x7f99f9ef30) testing if we can run recompiled code @0x7f9a3dc000...
+[libretro INFO] test passed.
+[libretro INFO] Mapped (RAM/scrp/ROM/LUTs/TC):
+[libretro INFO] 0x80000000/0x1f800000/0x1fc00000/(nil)/0x7f9a3dc000
+[libretro INFO] compiler thread enabled
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/system".
+[libretro INFO] found BIOS file: scph101.bin
+[INFO] [Environ]: GET_CAN_DUPE: true
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 6.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] Using PIXEL_FORMAT 2
+[libretro INFO] cdrom precache: 12 buffers
+[libretro INFO] plugin: plugins/builtin_gpu
+[libretro INFO] plugin: plugins/builtin_spu
+[libretro INFO] plugin: plugins/builtin_pad
+[libretro INFO] plugin: plugins/builtin_pad
+[libretro INFO] Plugins loaded.
+[libretro INFO] chd: TRACK:1 TYPE:MODE2_RAW SUBTYPE:NONE FRAMES:61356 PREGAP:0 PGTYPE:MODE1 PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:2 TYPE:AUDIO SUBTYPE:NONE FRAMES:3829 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:3 TYPE:AUDIO SUBTYPE:NONE FRAMES:12492 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:4 TYPE:AUDIO SUBTYPE:NONE FRAMES:11152 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:5 TYPE:AUDIO SUBTYPE:NONE FRAMES:19154 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:6 TYPE:AUDIO SUBTYPE:NONE FRAMES:13579 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:7 TYPE:AUDIO SUBTYPE:NONE FRAMES:13144 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:8 TYPE:AUDIO SUBTYPE:NONE FRAMES:14238 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:9 TYPE:AUDIO SUBTYPE:NONE FRAMES:12034 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:10 TYPE:AUDIO SUBTYPE:NONE FRAMES:12057 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:11 TYPE:AUDIO SUBTYPE:NONE FRAMES:10872 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:12 TYPE:AUDIO SUBTYPE:NONE FRAMES:14627 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:13 TYPE:AUDIO SUBTYPE:NONE FRAMES:12290 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:14 TYPE:AUDIO SUBTYPE:NONE FRAMES:7715 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:15 TYPE:AUDIO SUBTYPE:NONE FRAMES:3233 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:16 TYPE:AUDIO SUBTYPE:NONE FRAMES:3520 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:17 TYPE:AUDIO SUBTYPE:NONE FRAMES:6304 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:18 TYPE:AUDIO SUBTYPE:NONE FRAMES:5597 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:19 TYPE:AUDIO SUBTYPE:NONE FRAMES:7318 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:20 TYPE:AUDIO SUBTYPE:NONE FRAMES:8288 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:21 TYPE:AUDIO SUBTYPE:NONE FRAMES:7930 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:22 TYPE:AUDIO SUBTYPE:NONE FRAMES:7290 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:23 TYPE:AUDIO SUBTYPE:NONE FRAMES:7841 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:24 TYPE:AUDIO SUBTYPE:NONE FRAMES:7924 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:25 TYPE:AUDIO SUBTYPE:NONE FRAMES:6953 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:26 TYPE:AUDIO SUBTYPE:NONE FRAMES:5599 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:27 TYPE:AUDIO SUBTYPE:NONE FRAMES:8215 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] chd: TRACK:28 TYPE:AUDIO SUBTYPE:NONE FRAMES:14056 PREGAP:150 PGTYPE:VAUDIO PGSUB:NONE POSTGAP:0
+[libretro INFO] Loaded CD Image: /media/sdcard0/Emu/PS/../../Roms/PS/Tekken.chd[+chd] (456501515 bytes).
+[libretro INFO] Track 01 (DATA) - Start 00:02:00, Length 13:38:06
+[libretro INFO] Track 02 (AUDIO) - Start 13:42:06, Length 00:51:04
+[libretro INFO] Track 03 (AUDIO) - Start 14:33:10, Length 02:46:42
+[libretro INFO] Track 04 (AUDIO) - Start 17:19:52, Length 02:28:52
+[libretro INFO] Track 05 (AUDIO) - Start 19:48:29, Length 04:15:29
+[libretro INFO] Track 06 (AUDIO) - Start 24:03:58, Length 03:01:04
+[libretro INFO] Track 07 (AUDIO) - Start 27:04:62, Length 02:55:19
+[libretro INFO] Track 08 (AUDIO) - Start 30:00:06, Length 03:09:63
+[libretro INFO] Track 09 (AUDIO) - Start 33:09:69, Length 02:40:34
+[libretro INFO] Track 10 (AUDIO) - Start 35:50:28, Length 02:40:57
+[libretro INFO] Track 11 (AUDIO) - Start 38:31:10, Length 02:24:72
+[libretro INFO] Track 12 (AUDIO) - Start 40:56:07, Length 03:15:02
+[libretro INFO] Track 13 (AUDIO) - Start 44:11:09, Length 02:43:65
+[libretro INFO] Track 14 (AUDIO) - Start 46:54:74, Length 01:42:65
+[libretro INFO] Track 15 (AUDIO) - Start 48:37:64, Length 00:43:08
+[libretro INFO] Track 16 (AUDIO) - Start 49:20:72, Length 00:46:70
+[libretro INFO] Track 17 (AUDIO) - Start 50:07:67, Length 01:24:04
+[libretro INFO] Track 18 (AUDIO) - Start 51:31:71, Length 01:14:47
+[libretro INFO] Track 19 (AUDIO) - Start 52:46:43, Length 01:37:43
+[libretro INFO] Track 20 (AUDIO) - Start 54:24:11, Length 01:50:38
+[libretro INFO] Track 21 (AUDIO) - Start 56:14:49, Length 01:45:55
+[libretro INFO] Track 22 (AUDIO) - Start 58:00:29, Length 01:37:15
+[libretro INFO] Track 23 (AUDIO) - Start 59:37:44, Length 01:44:41
+[libretro INFO] Track 24 (AUDIO) - Start 61:22:10, Length 01:45:49
+[libretro INFO] Track 25 (AUDIO) - Start 63:07:59, Length 01:32:53
+[libretro INFO] Track 26 (AUDIO) - Start 64:40:37, Length 01:14:49
+[libretro INFO] Track 27 (AUDIO) - Start 65:55:11, Length 01:49:40
+[libretro INFO] Track 28 (AUDIO) - Start 67:44:51, Length 03:07:31
+[libretro INFO] cdrom precache: 12 buffers
+[libretro INFO] CD-ROM Label: TEKKEN                          
+[libretro INFO] CD-ROM ID: SLUS00006
+[libretro INFO] CD-ROM EXE Name: SLUS_000.06;1
+[libretro INFO] BIOS: 19951204, 'CEX-3000/1001/1002 by K.S.', 'A'
+[INFO] [Environ]: SET_MEMORY_MAPS.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 256x240, Aspect: 1.333, FPS: 60.00, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f8c0abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/PS.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[libretro INFO] port: 1  device: standard
+[libretro INFO] port: 2  device: standard
+[libretro INFO] port: 3  device: standard
+[libretro INFO] port: 4  device: standard
+[libretro INFO] port: 5  device: none
+[libretro INFO] port: 6  device: none
+[libretro INFO] port: 7  device: none
+[libretro INFO] port: 8  device: none
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Environ]: SET_GEOMETRY: 640x480, Aspect: 1.333.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[libretro INFO] vsync @80162ad0
+[INFO] [Environ]: SET_GEOMETRY: 256x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[libretro INFO] NI 00001770 @80166d1c (80166c00)
+[libretro INFO] NI 00001770 @80166d64 (80166c00)
+[libretro INFO] vsync @8008b7d4
+[INFO] [Environ]: SET_GEOMETRY: 512x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 512x240, Aspect: 1.333.
+[libretro INFO] NI 00001770 @80095560 (80095190)
+[libretro INFO] NI 00001770 @800955dc (80095190)
+[libretro INFO] NI 00001770 @800957ec (80095190)
+[libretro INFO] NI 00001770 @8008f13c (8008f020)
+[libretro INFO] NI 00001770 @8008f184 (8008f020)
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [SRAM]: Guardando tipo de RAM #0 en "/mnt/SDCARD/Savefiles/PCSX-ReARMed/Tekken.srm".
+[INFO] [SRAM]: Se han guardado los datos en "/mnt/SDCARD/Savefiles/PCSX-ReARMed/Tekken.srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 01 minutes, 27 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved game-specific core options to "/media/sdcard0/Emu/PS/../../RetroArch/.config/retroarch/config/PCSX-ReARMed/Tekken.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 5199, Frames dropped: 26.

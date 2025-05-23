@@ -1,0 +1,153 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/cores/atari800_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/config/Atari800/ATARI5200.cfg".
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/config/Atari800/ATARI5200.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/Atari800/Buck Rogers - Planet of Zoom (USA).srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/Atari800/Buck Rogers - Planet of Zoom (USA).state".
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "3".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: SET_SUPPORT_NO_GAME: yes.
+[INFO] [Remaps]: Content-dir-specific remap found at "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/config/remaps/Atari800/ATARI5200.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/system".
+[INFO] [Environ]: CORE_ASSETS_DIRECTORY: "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/downloads".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/Atari800".
+[libretro INFO] Retro SYSTEM_DIRECTORY /media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/system
+[libretro INFO] Retro SAVE_DIRECTORY /mnt/SDCARD/Savefiles/Atari800
+[libretro INFO] Retro CONTENT_DIRECTORY /media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/downloads
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Content]: Core requires uncompressed content - extracting archive to temporary directory.
+[INFO] [Content]: Content successfully extracted to: "/media/sdcard0/Roms/ATARI5200/Buck Rogers - Planet of Zoom (USA).a52".
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[INFO] [Environ]: SET_KEYBOARD_CALLBACK.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] WRAP EMU THD
+[libretro INFO]  0  prg
+[libretro INFO]  1  /media/sdcard0/Roms/ATARI5200/Buck Rogers - Planet of Zoom (USA).a52
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SET_MESSAGE_EXT: Atari800: Atari 5200 cart detected.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] [Atari800 CORE] Colours_setup changed
+[libretro INFO] AV_INFO: width=336 height=240
+[libretro INFO] AV_INFO: max_width=400 max_height=300
+[libretro INFO] AV_INFO: aspect_ratio = 1.333333
+[libretro INFO] AV_INFO: fps = 49.860760 sample_rate = 44100.000000
+[INFO] [Core]: Geometry: 336x240, Aspect: 1.333, FPS: 49.86, Sample rate: 44100.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f900aab20.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/config/Atari800/ATARI5200.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Timings deviate too much. Will not adjust. (Target = 59.94 Hz, Game = 49.86 Hz)
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/media/sdcard0/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/media/sdcard0/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/media/sdcard0/RetroArch/.config/retroarch/content_history.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] AV_INFO: width=336 height=240
+[libretro INFO] AV_INFO: max_width=400 max_height=300
+[libretro INFO] AV_INFO: aspect_ratio = 1.333333
+[libretro INFO] AV_INFO: fps = 59.922745 sample_rate = 44100.000000
+[INFO] [Environ]: SET_SYSTEM_AV_INFO: 336x240, Aspect: 1.333, FPS: 59.92, Sample rate: 44100.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 44112.70 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Input]: Game Focus => OFF
+[libretro INFO] ChangeAV: w:336 h:240 ra:1.333333.
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 02 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[libretro INFO] exit emu
+[libretro INFO] exit main
+[libretro INFO] Retro DeInit
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/ATARI5200/../../RetroArch/.config/retroarch/config/Atari800/Atari800.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 137, Frames dropped: 2.
+[INFO] [Content]: Eliminando el contenido temporal: "/media/sdcard0/Roms/ATARI5200/Buck Rogers - Planet of Zoom (USA).a52".

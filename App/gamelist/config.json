@@ -1,0 +1,6 @@
+{
+"label":"Gamelist Repair",
+"icon":"gamelist.png",
+"launch":"launch.sh",
+"description":"Reparación de listas de juegos: './' en <path> y etiquetas de codificación en encabezados"
+}

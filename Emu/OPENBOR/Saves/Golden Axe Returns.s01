@@ -1,0 +1,15 @@
+void main() {
+	setglobalvar("gilWeap",3);
+	setglobalvar("gilBag",0);
+	setglobalvar("gilMana",7);
+	changemodelproperty("Gilius",4,1);
+	changemodelproperty("Ax_Battler",4,1);
+	changemodelproperty("Tyris_Flare",4,1);
+	changemodelproperty("Little_Trix",4,1);
+	changemodelproperty("Dora",4,1);
+	changemodelproperty("Proud_Cragger",4,1);
+	changemodelproperty("Chronos",4,1);
+	changemodelproperty("Sara_Burn",4,1);
+	changemodelproperty("Kain_Grinder",4,1);
+	changemodelproperty("King_Eve",4,1);
+}

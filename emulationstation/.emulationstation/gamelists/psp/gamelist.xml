@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Bomberman (USA).cso</path>
+		<name>Bomberman (USA)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224657</lastplayed>
+	</game>
+	<game>
+		<path>./Crash of the Titans (Europe).cso</path>
+		<name>Crash of the Titans (Europe)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224702</lastplayed>
+	</game>
+	<game>
+		<path>./Darius burst.cso</path>
+		<name>Darius burst</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224707</lastplayed>
+	</game>
+	<game>
+		<path>./Doodle Pool (USA).cso</path>
+		<name>Doodle Pool (USA)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224711</lastplayed>
+	</game>
+	<game>
+		<path>./Ducati Challenge (USA).cso</path>
+		<name>Ducati Challenge (USA)</name>
+		<playcount>1</playcount>
+		<lastplayed>20250202T224717</lastplayed>
+	</game>
+</gameList>

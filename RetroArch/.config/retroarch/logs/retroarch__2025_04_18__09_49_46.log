@@ -1,0 +1,248 @@
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f940abb30.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/mnt/SDCARD/RetroArch/.config/retroarch/content_favorites.lpl".
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Playlist]: Written to playlist file: "/mnt/SDCARD/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Core]: Using content: "/mnt/sdcard/Roms/ARCADE/ichir.zip".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 626, Frames dropped: 0.
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Funcionalidades: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Core]: Loading dynamic libretro core from: "/mnt/SDCARD/RetroArch/.config/retroarch/cores/mame2003_plus_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2003-Plus/ARCADE.cfg".
+[INFO] [Config]: Loading config: "/mnt/SDCARD/RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2003-Plus/ARCADE.cfg".
+[INFO] [Overrides]: Redirigiendo archivo de guardado a "/mnt/SDCARD/Savefiles/MAME 2003-Plus/ichir.srm".
+[INFO] [Overrides]: Redirigiendo guardado rápido a "/mnt/SDCARD/Savestates/MAME 2003-Plus/ichir.state".
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V1, providing V3.
+[INFO] [Remaps]: Core-specific remap found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/remaps/MAME 2003-Plus/MAME 2003-Plus.rmp".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 10.
+[INFO] [Content]: Carga de contenido omitida. La implementación lo cargará por su cuenta.
+[libretro INFO] [MAME 2003+] Full content path /mnt/sdcard/Roms/ARCADE/ichir.zip
+[libretro INFO] [MAME 2003+] Git Version  9b359c8a
+[libretro INFO] [MAME 2003+] Content lookup name: ichir
+[libretro INFO] [MAME 2003+] Driver index counter: 2755. Matched game driver: ichir
+[libretro INFO] [MAME 2003+] ==== BEGIN DRIVER CONTENT ATTRIBUTES ====
+[libretro INFO] [MAME 2003+] * Supports 2 players with 2 distinct controls.
+[libretro INFO] [MAME 2003+] * Supports 2 distinct button controls.
+[libretro INFO] [MAME 2003+] * Uses a service button.
+[libretro INFO] [MAME 2003+] * Uses multiplayer control labels.
+[libretro INFO] [MAME 2003+] * Uses 8-way joystick controls.
+[libretro INFO] [MAME 2003+] ==== END DRIVER CONTENT ATTRIBUTES ====
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/mnt/SDCARD/RetroArch/.config/retroarch/system".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/SDCARD/Savefiles/MAME 2003-Plus".
+[libretro INFO] [MAME 2003+] content path: /mnt/sdcard/Roms/ARCADE
+[libretro INFO] [MAME 2003+]  system path: /mnt/SDCARD/RetroArch/.config/retroarch/system
+[libretro INFO] [MAME 2003+]    save path: /mnt/SDCARD/Savefiles/MAME 2003-Plus
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_nvram_bootstraps - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_four_way_emulation - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_crosshair_enabled - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_crosshair_appearance - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_dialsharexy - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_dial_swap_xy - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_cheat_input_ports - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_override_ad_stick - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_use_alt_sound - Invalid value.
+[libretro INFO] options.frameskip:0
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_resolution - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_antialias - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_beam_width - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_translucency - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_flicker - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_vector_intensity - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_neogeo_bios - Invalid value.
+[ERROR] [Environ]: GET_VARIABLE: mame2003-plus_stv_bios - Invalid value.
+[INFO] [Environ]: GET_LED_INTERFACE.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[libretro INFO] [MAME 2003+] Opening ROM file: pa2_32.bin
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: pa2_31.bin
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: epr16888
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: epr16887
+[libretro INFO] [MAME 2003+] read_rom_data: All done
+[libretro INFO] [MAME 2003+] Opening ROM file: pa2_02.bin
+[libretro INFO] [MAME 2003+] Succesfully loaded ROMs.
+[libretro INFO] [MAME 2003+] RetroArch will perform the rotation.
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [MAME 2003+] 
+
+CONTROLS: 
+
+GAMEINFO: Puzzle & Action: Ichidant-R (World)
+1994 Sega
+
+CPU:
+68000 7.670442 MHz
+
+Sound:
+1xYM2612 7.670442 MHz
+1xSN76496 3.579540 MHz
+uPD7759
+
+Screen Resolution:
+320 x 224 (H) 60.000000 Hz
+
+[libretro INFO] [MAME 2003+] Preparing emulated CPUs for execution.
+[INFO] [SRAM]: Omitiendo carga de SRAM.
+[INFO] [Core]: Versión de la API libretro: 1, API usada en la compilación: 1
+[INFO] [Core]: Geometry: 320x224, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: fullscreen.
+[INFO] [Video]: Starting threaded video driver..
+[WARN] [DRM]: Couldn't get device resources.
+[WARN] [DRM]: Couldn't get device resources.
+[INFO] [DRM]: Found 2 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 1 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Mode 0: (640x480) 640 x 480, 59.976761 Hz
+[INFO] [GL]: Found GL context: "kms".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [EGL]: Current context: 0x7f880a6760.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G52.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a.
+[INFO] [GL]: Using ARB_sync to reduce latency.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2003-Plus/ARCADE.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "adc-keys" (/dev/input/event3).
+[INFO] [udev]: Keyboard #1: "rk805 pwrkey" (/dev/input/event2).
+[INFO] [udev]: Keyboard #2: "hdmi_cec_key" (/dev/input/event4).
+[INFO] [udev]: Keyboard #3: "gpio-keys-polled" (/dev/input/event0).
+[INFO] [udev]: Keyboard #4: "hall wake key" (/dev/input/event1).
+[WARN] [SDL]: Couldn't open haptic device of the joypad #0: Haptic: There are 0 haptic devices available
+[INFO] [SDL]: Falling back to joystick rumble
+[INFO] [Joypad]: Found joypad driver: "sdl2".
+[INFO] [Video]: Found display server: "kms".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.2.7.2
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 4 periods per buffer (768 frames, 6144 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Cargando historial: "/mnt/SDCARD/RetroArch/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Cargando favoritos: "/mnt/SDCARD/RetroArch/.config/retroarch/content_favorites.lpl".
+[INFO] [Playlist]: Written to playlist file: "/mnt/SDCARD/RetroArch/.config/retroarch/content_history.lpl".
+[INFO] [Environ]: SET_GEOMETRY.
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [KMS]: New FB: 640x480 (stride: 2560).
+[INFO] [Config]: Loading config: "/mnt/SDCARD/RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 03 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/mnt/SDCARD/RetroArch/.config/retroarch/config/MAME 2003-Plus/MAME 2003-Plus.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 1.
+[INFO] Threaded video stats: Frames pushed: 238, Frames dropped: 2.

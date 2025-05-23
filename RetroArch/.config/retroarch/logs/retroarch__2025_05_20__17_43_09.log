@@ -1,0 +1,14 @@
+[INFO] [Config]: Loading config: "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[ERROR] Error al iniciar el controlador de audio. Se continuará en silencio.
+[INFO] [SRAM]: Guardando tipo de RAM #0 en "/mnt/SDCARD/Savefiles/GBA/Pokemon - Edicion Zafiro (Spain) (Rev 1).srm".
+[INFO] [SRAM]: Se han guardado los datos en "/mnt/SDCARD/Savefiles/GBA/Pokemon - Edicion Zafiro (Spain) (Rev 1).srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 17 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/media/sdcard0/Emu/GBA/../../RetroArch/.config/retroarch/config/gpSP/gpSP.opt".
+[INFO] [Autoconf]: Se ha desconectado Xbox One Wireless Controller del puerto 1.
+[INFO] [Autoconf]: Se ha desconectado Xbox 360 Controller del puerto 2.
+[INFO] Threaded video stats: Frames pushed: 2829, Frames dropped: 14.

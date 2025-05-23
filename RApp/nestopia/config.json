@@ -1,0 +1,13 @@
+{
+    "label": "Nintendo - FDS",
+    "icon": "nestopia.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/NES",
+    "imgpath": "../../Roms/NES/media/images",
+    "gamelist": "../../Roms/NES/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "fds|nes|zip"
+}

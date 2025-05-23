@@ -1,0 +1,13 @@
+{
+    "label": "Arcade - MAME 2003+",
+    "icon": "mame2003_plus.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/MAME",
+    "imgpath": "../../Roms/MAME/media/images",
+    "gamelist": "../../Roms/MAME/gamelist.xml",
+    "useswap": 1,
+    "shortname": 1,
+    "hidebios": 1,
+    "extlist": "zip"
+}

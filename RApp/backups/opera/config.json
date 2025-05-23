@@ -1,0 +1,13 @@
+{
+    "label": "Panasonic - 3DO",
+    "icon": "opera.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/PANASONIC",
+    "imgpath": "../../Roms/PANASONIC/media/images",
+    "gamelist": "../../Roms/PANASONIC/gamelist.xml",
+    "useswap": 1,
+    "shortname": 0,
+    "hidebios": 1,
+    "extlist": ""
+}

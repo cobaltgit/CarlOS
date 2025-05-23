@@ -1,0 +1,13 @@
+{
+    "label": "Bandai - WSC",
+    "icon": "mednafen_wswan.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/WS",
+    "imgpath": "../../Roms/WS/media/images",
+    "gamelist": "../../Roms/WS/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "wsc|ws|zip|7z"
+}

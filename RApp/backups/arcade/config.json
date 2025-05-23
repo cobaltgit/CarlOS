@@ -1,0 +1,13 @@
+{
+    "label": "ARCADE",
+    "icon": "arcade.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/ARCADE",
+    "imgpath": "../../Roms/ARCADE/media/images",
+    "gamelist": "../../Roms/ARCADE/gamelist.xml",
+    "useswap": 1,
+    "shortname": 1,
+    "hidebios": 1,
+    "extlist": "zip"
+}

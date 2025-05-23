@@ -1,0 +1,13 @@
+{
+    "label": "SONY - PS1",
+    "icon": "pcsx_rearmed.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/PS",
+    "imgpath": "../../Roms/PS/media/images",
+    "gamelist": "../../Roms/PS/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 1,
+    "extlist": "bin|cue|img|mdf|pbp|toc|cbn|m3u|chd|"
+}

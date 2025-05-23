@@ -1,0 +1,13 @@
+{
+    "label": "SEGA - GG/SMS",
+    "icon": "gearsystem.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/GG",
+    "imgpath": "../../Roms/GG/media/images",
+    "gamelist": "../../Roms/GG/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "gen|md|smd|32x|zip|bin|sms|rom|gg|sg|7z"
+}

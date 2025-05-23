@@ -1,0 +1,13 @@
+{
+    "label": "SNK - Neo CD",
+    "icon": "neocd.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/NEOCD",
+    "imgpath": "../../Roms/NEOCD/media/images",
+    "gamelist": "../../Roms/NEOCD/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "chd"
+}

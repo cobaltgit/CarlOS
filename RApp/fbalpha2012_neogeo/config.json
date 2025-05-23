@@ -1,0 +1,13 @@
+{
+    "label": "neogeo",
+    "icon": "fbalpha2012_neogeo.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/NEOGEO",
+    "imgpath": "../../Roms/NEOGEO/media/images",
+    "gamelist": "../../Roms/NEOGEO/gamelist.xml",
+    "useswap": 1,
+    "shortname": 1,
+    "hidebios": 1,
+    "extlist": "zip"
+}

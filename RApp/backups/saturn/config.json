@@ -1,0 +1,13 @@
+{
+    "label": "SATURN",
+    "icon": "saturn-japan.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/SS",
+    "imgpath": "../../Roms/SS/media/images",
+    "gamelist": "../../Roms/SS/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 1,
+    "extlist": "cue|chd"
+}

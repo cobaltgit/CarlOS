@@ -1,0 +1,76 @@
+[{
+		"label":	"Arcade - FBNEO",
+		"show":	0
+	}, {
+		"label":	"Arcade - MAME 2003+",
+		"show":	1
+	}, {
+		"label":	"Bandai - WSC",
+		"show":	1
+	}, {
+		"label":	"CPS1",
+		"show":	1
+	}, {
+		"label":	"CPS2",
+		"show":	1
+	}, {
+		"label":	"CPS3",
+		"show":	1
+	}, {
+		"label":	"Microsoft - DOS",
+		"show":	1
+	}, {
+		"label":	"NEC - PCE",
+		"show":	1
+	}, {
+		"label":	"Nintendo - FC",
+		"show":	1
+	}, {
+		"label":	"Nintendo - FDS",
+		"show":	1
+	}, {
+		"label":	"Nintendo - GB",
+		"show":	1
+	}, {
+		"label":	"Nintendo - GBA",
+		"show":	1
+	}, {
+		"label":	"Nintendo - SFC",
+		"show":	1
+	}, {
+		"label":	"Nintendo - mGBA",
+		"show":	1
+	}, {
+		"label":	"SEGA - GG/SMS",
+		"show":	1
+	}, {
+		"label":	"SEGA - MD",
+		"show":	1
+	}, {
+		"label":	"SEGA - MD-CD",
+		"show":	1
+	}, {
+		"label":	"SNK - NGPC",
+		"show":	1
+	}, {
+		"label":	"SNK - Neo CD",
+		"show":	1
+	}, {
+		"label":	"SONY - PS1",
+		"show":	1
+	}, {
+		"label":	"arduboy",
+		"show":	1
+	}, {
+		"label":	"neogeo",
+		"show":	1
+	}, {
+		"label":	"snes9x",
+		"show":	1
+	}, {
+		"label":	"snes9x2018",
+		"show":	1
+	}, {
+		"label":	"开放平台 - EasyRPG",
+		"show":	1
+	}]

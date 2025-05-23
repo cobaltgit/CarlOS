@@ -1,0 +1,13 @@
+{
+    "label": "Nintendo - PM",
+    "icon": "pokemini.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/POKE",
+    "imgpath": "../../Roms/POKE/media/images",
+    "gamelist": "../../Roms/POKE/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": ""
+}

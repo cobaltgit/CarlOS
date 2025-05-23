@@ -1,0 +1,13 @@
+{
+    "label": "Nintendo - NES",
+    "icon": "quicknes.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/FC",
+    "imgpath": "../../Roms/FC/media/images",
+    "gamelist": "../../Roms/FC/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": ""
+}

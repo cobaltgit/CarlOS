@@ -1,0 +1,13 @@
+{
+    "label": "Nintendo - mGBA",
+    "icon": "mgba.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/GBA",
+    "imgpath": "../../Roms/GBA/media/images",
+    "gamelist": "../../Roms/GBA/gamelist.xml",
+    "useswap": 0,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "gba|zip"
+}

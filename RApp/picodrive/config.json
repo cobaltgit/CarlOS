@@ -1,0 +1,13 @@
+{
+    "label": "SEGA - MD-CD",
+    "icon": "picodrive.png",
+    "iconsel": "",
+    "launch": "launch.sh",
+    "rompath": "../../Roms/SEGACD",
+    "imgpath": "../../Roms/SEGACD/media/images",
+    "gamelist": "../../Roms/SEGACD/gamelist.xml",
+    "useswap": 1,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "gen|md|smd|32x|zip|bin|chd|7z"
+}

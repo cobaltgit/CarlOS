@@ -4,7 +4,7 @@
 	"mute":	1,
 	"bgmvol":	10,
 	"brightness":	5,
-	"language":	"es.lang",
+	"language":	"en.lang",
 	"hibernate":	0,
 	"lumination":	7,
 	"hue":	10,
@@ -13,11 +13,11 @@
 	"theme":	"/media/sdcard0/Themes/Carl-OS/",
 	"fontsize":	24,
 	"audiofix":	1,
-	"wifi":	1,
+	"wifi":	0,
 	"usenetworktime":	1,
 	"24hourclock":	1,
-	"timezone":	"Europe/Madrid",
-	"bluetooth":	1,
+	"timezone":	"America/New_York",
+	"bluetooth":	0,
 	"runee":	0,
 	"turboA":	0,
 	"turboB":	0,
@@ -27,5 +27,5 @@
 	"turboR":	0,
 	"turboL2":	0,
 	"turboR2":	0,
-	"lcd_frequency":	3
+	"lcd_frequency":	0
 }

@@ -11,6 +11,7 @@
 
 # Set the virtual screen
 CUR_TTY="/dev/null"
+XDG_DATA_HOME=/mnt/SDCARD/Roms/PORTS
 
 # Use for Godot 2
 GODOT2_OPTS="-r ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT} -f"

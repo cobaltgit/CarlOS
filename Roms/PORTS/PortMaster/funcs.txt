@@ -10,17 +10,16 @@ fi
 
 export PM_FUNCS_VERSION=2
 
+export HOME="/mnt/SDCARD/Roms/PORTS"
+export controlfolder="/mnt/SDCARD/Roms/PORTS/PortMaster"
+export directory="/mnt/SDCARD/Roms/PORTS"
+export XDG_DATA_HOME="${HOME}"
 export PM_SCRIPTNAME="$(basename "${PM_SCRIPTNAME:-$0}")"
 export PM_PORTNAME="${PM_PORTNAME:-${PM_SCRIPTNAME%.sh}}"
 export PM_VERSION="$(cat "$controlfolder/version")"
 export PM_RESOURCE_DIR="$controlfolder/resources"
 export PM_CAN_MOUNT="${PM_CAN_MOUNT:-Y}"
-export HOME="/mnt/SDCARD/Roms/PORTS"
-export PATH="/mnt/SDCARD/miyoo355/bin:${PATH}"
-export LD_LIBRARY_PATH="/mnt/SDCARD/miyoo355/lib:${LD_LIBRARY_PATH}"
-export controlfolder="/mnt/SDCARD/Roms/PORTS/PortMaster"
-export directory="/mnt/SDCARD/Roms/PORTS"
-export XDG_DATA_HOME=${XDG_DATA_HOME:-$HOME/.local/share}
+
 
 # muOS stuff.
 if [[ "$CFW_NAME" == "muOS" ]]; then

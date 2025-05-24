@@ -60,6 +60,10 @@ If you choose not to use gamelist.xml, the game cover images must still be place
 
 ### Whether you use gamelists or not, the image files for each game must be placed inside the corresponding system folder under /media/images, with the exact same name as the game file for them to be recognized.
 
+## 3.3.- BIOS FILES (not included)
+### The BIOS must go in the root of the SDCARD/BIOS directory. 
+
+
 # 4.- PortMaster
 
 PortMaster must be launched from the Apps section, NOT from the Ports system folder.

@@ -65,10 +65,14 @@ If you choose not to use gamelist.xml, the game cover images must still be place
 PortMaster must be launched from the Apps section, NOT from the Ports system folder.
 ### It is very important NOT TO UPDATE PortMaster, as it may stop working.
 
+# 5.- PICO 8 Splore
 
-# 5.- Hotkeys
+You need download the oficial pico8 files for raspberry pi and put PICO_64 and PICO.DAT onto SDCARD/App/Pico8/bin
+https://www.lexaloffle.com/pico-8.php 
 
-### 5.1.- System Hotkeys:
+# 6.- Hotkeys
+
+### 6.1.- System Hotkeys:
 
 Menu + Dpad Up = Increase screen brightness
 
@@ -79,7 +83,7 @@ Select + Start + L1 + R1 = Force close process (if everything else fails)
 Menu + Start = Exit any application
 
 
-### 5.2.- RetroArch Hotkeys:
+### 6.2.- RetroArch Hotkeys:
 
 MENU + START = Exit games
 
@@ -103,10 +107,10 @@ L3 + DESIRED BUTTON = Enable button turbo
 
 
 
-# 6.- Complete systems list
+# 7.- Complete systems list
 Sega 32X, Commodore Amiga, Arcade, Arduboy, Atari 2600, Atari 5200, Atari 7800, Atari 800, Commodore 64, Amstrad CPC, Capcom Play System, Capcom Play System II, Capcom Play System III, Sega Dreamcast, Doom, DOS, EasyRPG, FinalBurn Neo, Nintendo Entertainment System, Famicom Disk System, Game Boy, Game Boy Advance, Game Boy Color, Sega Game Gear, Game & Watch, Intellivision, LowRes, Atari Lynx, MAME, Sega Mega Drive, Sega Master System, MSU-1, MSX, MUGEN, Nintendo 64, Nintendo DS, Neo Geo CD, Neo Geo, Nintendo Entertainment System, Neo Geo Pocket, Neo Geo Pocket Color, ONScripter, OpenBOR, PC Engine, PC Engine CD-ROM², PGM, PICO-8, Pokémon Mini, Port 32, Sony PlayStation, Sony PlayStation Portable, ScummVM, Sega CD, Super Famicom, SG-1000, Super Nintendo Entertainment System, Sega Pico, Sega Saturn, Watara Supervision, TIC-80, Virtual Boy, Wolfenstein 3D, WonderSwan, WonderSwan Color, Sharp X68000, ZX Spectrum
 
-# 7.- Credits
+# 8.- Credits
 
 ![ROGUE_TEAM](https://github.com/user-attachments/assets/b3bc6fac-a594-4495-8ce1-abf5a13f6066)
 

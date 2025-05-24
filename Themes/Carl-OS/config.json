@@ -14,7 +14,7 @@
     "title": {
         "font": "nunwen.ttf",
         "size": 28,
-        "color": "#ffffff"
+        "color": "#99b4bc"
     },
     "hint": {
         "font": "nunwen.ttf",
@@ -30,14 +30,17 @@
     },
     "grid": {
         "font": "nunwen.ttf",
+		"fontascii":"nunwen.ttf",
         "grid1x4": 23,
         "grid3x4": 19,
         "color": "#99b4bc",
-        "selectedcolor": "#357493"
+        "selectedcolor": "#2475a5"
     },
     "list": {
         "font": "nunwen.ttf",
+		"fontascii":"nunwen.ttf",
         "size": 23,
-        "color": "#99b4bc"
+        "color": "#99b4bc",
+		"selectedcolor":"#2475a5"
     }
 }

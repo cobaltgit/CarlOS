@@ -1,0 +1,6 @@
+{
+    "label":"Moonlight",
+    "icon":"moonlight.png",
+    "launch":"launch.sh",
+    "description":"Moonlight stream for Miyoo flip"
+}
